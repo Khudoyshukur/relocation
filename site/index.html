@@ -81,9 +81,10 @@
 <div class="wrap" id="app"></div>
 <div class="toast" id="toast"></div>
 
+<script src="config.js"></script>
 <script>
-// Data lives in the private repo, not on this page. The page reads and writes it
-// through the GitHub API with a personal token kept only in this browser.
+// Logging in decrypts a GitHub token and a notes key from config.js (built at deploy
+// time from repo secrets). Notes are stored encrypted in data/tracking.json.
 const OWNER = "Khudoyshukur";
 const REPO = "relocation";
 const BRANCH = "main";
@@ -104,7 +105,8 @@ const store = {
 };
 
 const state = {
-  token: store.get("gh_token"),
+  token: null,
+  dataKey: null,
   jobs: [],
   tracking: { jobs: {} },
   trackingSha: null,
@@ -133,17 +135,61 @@ function toast(msg) {
   clearTimeout(toast.t); toast.t = setTimeout(() => el.classList.remove("show"), 2200);
 }
 
-// ---------- GitHub API ----------
-function b64encode(str) {
-  const bytes = new TextEncoder().encode(str);
+// ---------- Encoding and encryption ----------
+const enc = new TextEncoder(), dec = new TextDecoder();
+function bytesToB64(bytes) {
   let bin = "";
   for (let i = 0; i < bytes.length; i += 0x8000) bin += String.fromCharCode.apply(null, bytes.subarray(i, i + 0x8000));
   return btoa(bin);
 }
-function b64decode(b64) {
-  const bin = atob(b64.replace(/\s/g, ""));
-  return new TextDecoder().decode(Uint8Array.from(bin, c => c.charCodeAt(0)));
+function b64ToBytes(b64) { return Uint8Array.from(atob(b64.replace(/\s/g, "")), c => c.charCodeAt(0)); }
+function b64encode(str) { return bytesToB64(enc.encode(str)); }
+function b64decode(b64) { return dec.decode(b64ToBytes(b64)); }
+
+// Must match scripts/build-config.mjs.
+async function passwordKey(username, password, salt, iterations) {
+  const material = await crypto.subtle.importKey(
+    "raw", enc.encode(`${username.trim().toLowerCase()}\n${password}`), "PBKDF2", false, ["deriveKey"]);
+  return crypto.subtle.deriveKey(
+    { name: "PBKDF2", salt, iterations, hash: "SHA-256" },
+    material, { name: "AES-GCM", length: 256 }, false, ["decrypt"]);
 }
+async function encryptJson(obj) {
+  const iv = crypto.getRandomValues(new Uint8Array(12));
+  const data = new Uint8Array(await crypto.subtle.encrypt({ name: "AES-GCM", iv }, state.dataKey, enc.encode(JSON.stringify(obj))));
+  return { encrypted: true, iv: bytesToB64(iv), data: bytesToB64(data) };
+}
+async function decryptJson(file) {
+  const plain = await crypto.subtle.decrypt({ name: "AES-GCM", iv: b64ToBytes(file.iv) }, state.dataKey, b64ToBytes(file.data));
+  return JSON.parse(dec.decode(plain));
+}
+
+// ---------- Login ----------
+async function startSession(session) {
+  state.token = session.token;
+  state.dataKey = await crypto.subtle.importKey("raw", b64ToBytes(session.dataKey), "AES-GCM", false, ["encrypt", "decrypt"]);
+}
+async function login(username, password) {
+  const cfg = window.SITE_CONFIG;
+  if (!cfg) throw new Error("The site isn't configured yet (missing login secrets).");
+  const key = await passwordKey(username, password, b64ToBytes(cfg.salt), cfg.iterations);
+  let session;
+  try {
+    const plain = await crypto.subtle.decrypt({ name: "AES-GCM", iv: b64ToBytes(cfg.iv) }, key, b64ToBytes(cfg.data));
+    session = JSON.parse(dec.decode(plain));
+  } catch {
+    throw new Error("Wrong username or password.");
+  }
+  await startSession(session);
+  store.set("session", JSON.stringify(session));
+}
+function logout(message) {
+  state.token = null; state.dataKey = null;
+  store.remove("session");
+  renderSetup(message);
+}
+
+// ---------- GitHub API ----------
 async function gh(path, opts = {}) {
   const res = await fetch(`https://api.github.com/repos/${OWNER}/${REPO}/contents/${path}?ref=${BRANCH}`, {
     cache: "no-store",
@@ -163,7 +209,13 @@ async function loadTracking() {
   const res = await gh(TRACKING_PATH);
   if (!res.ok) throw new Error(`Loading notes failed (${res.status})`);
   const file = await res.json();
-  const data = JSON.parse(b64decode(file.content));
+  const stored = JSON.parse(b64decode(file.content));
+  let data;
+  try {
+    data = stored.encrypted ? await decryptJson(stored) : stored; // plain only before the first save
+  } catch {
+    throw new Error("Couldn't decrypt your notes. The notes key (SITE_DATA_KEY secret) may have changed.");
+  }
   if (!data.jobs) data.jobs = {};
   return { data, sha: file.sha };
 }
@@ -171,17 +223,18 @@ async function loadTracking() {
 // Applies a change to the notes and saves it. If someone else saved in between
 // (another tab or device), it reloads the latest notes and applies the change again.
 let saveChain = Promise.resolve();
-function mutate(change, message) {
+function mutate(change) {
   change(state.tracking);
   render();
   saveChain = saveChain.then(async () => {
     for (let attempt = 0; attempt < 3; attempt++) {
+      const encrypted = await encryptJson(state.tracking);
       const res = await gh(TRACKING_PATH, {
         method: "PUT",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          message, branch: BRANCH, sha: state.trackingSha,
-          content: b64encode(JSON.stringify(state.tracking, null, 2) + "\n"),
+          message: "Update notes", branch: BRANCH, sha: state.trackingSha,
+          content: b64encode(JSON.stringify(encrypted, null, 2) + "\n"),
         }),
       });
       if (res.ok) { state.trackingSha = (await res.json()).content.sha; toast("Saved"); return; }
@@ -200,11 +253,11 @@ function track(tracking, id) {
 
 // ---------- Actions ----------
 function setStatus(id, status) {
-  mutate(t => { track(t, id).status = status; }, `Status: ${status} (${id})`);
+  mutate(t => { track(t, id).status = status; });
 }
 function toggleArchive(id) {
   const archived = !(state.tracking.jobs[id]?.archived);
-  mutate(t => { track(t, id).archived = archived; }, `${archived ? "Archive" : "Unarchive"} ${id}`);
+  mutate(t => { track(t, id).archived = archived; });
 }
 function addComment(id) {
   const text = (state.drafts[id] || "").trim();
@@ -214,11 +267,11 @@ function addComment(id) {
   mutate(t => {
     const c = track(t, id).comments;
     if (!c.some(x => x.id === comment.id)) c.push(comment);
-  }, `Comment on ${id}`);
+  });
 }
 function deleteComment(id, commentId) {
   if (!confirm("Delete this comment?")) return;
-  mutate(t => { const j = track(t, id); j.comments = j.comments.filter(c => c.id !== commentId); }, `Delete comment on ${id}`);
+  mutate(t => { const j = track(t, id); j.comments = j.comments.filter(c => c.id !== commentId); });
 }
 
 // ---------- Rendering ----------
@@ -353,19 +406,16 @@ function render() {
 
 function renderSetup(error) {
   app.innerHTML = `
-    <div class="setup">
+    <form class="setup" data-act="login">
       <h1>Relocation Jobs</h1>
-      <p>Your jobs and notes are stored in the private repo <b>${OWNER}/${REPO}</b>. Connect a GitHub token so this page can read and save them.</p>
-      <ol>
-        <li>Open <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">New fine-grained token</a>.</li>
-        <li>Repository access: <b>Only select repositories</b> → <b>${REPO}</b>.</li>
-        <li>Permissions → Repository → <b>Contents: Read and write</b>.</li>
-        <li>Generate, then paste it below. It stays in this browser only.</li>
-      </ol>
-      <input type="password" id="token" placeholder="github_pat_…" autocomplete="off">
-      <button class="btn primary" data-act="connect">Connect</button>
+      <label for="username">Username</label>
+      <input type="text" id="username" autocomplete="username" required>
+      <label for="password">Password</label>
+      <input type="password" id="password" autocomplete="current-password" required>
+      <button class="btn primary" type="submit" id="login-btn">Log in</button>
       ${error ? `<p class="error">${esc(error)}</p>` : ""}
-    </div>`;
+    </form>`;
+  document.getElementById("username").focus();
 }
 
 async function load() {
@@ -379,7 +429,7 @@ async function load() {
     render();
     store.set("last_visit", new Date().toISOString());
   } catch (err) {
-    if (err.auth) { state.token = null; store.remove("gh_token"); return renderSetup(err.message); }
+    if (err.auth) return logout(`${err.message} Ask for the SITE_GH_TOKEN secret to be renewed, then log in again.`);
     app.innerHTML = `<div class="empty error">${esc(err.message)} <a href="#" data-act="refresh">Retry</a></div>`;
   }
 }
@@ -389,12 +439,8 @@ app.addEventListener("click", e => {
   const el = e.target.closest("[data-act]");
   if (!el) return;
   const { act, id } = el.dataset;
-  if (act === "connect") {
-    const token = document.getElementById("token").value.trim();
-    if (!token) return;
-    state.token = token; store.set("gh_token", token); load();
-  } else if (act === "logout") {
-    e.preventDefault(); state.token = null; store.remove("gh_token"); renderSetup();
+  if (act === "logout") {
+    e.preventDefault(); logout();
   } else if (act === "refresh") {
     e.preventDefault(); load();
   } else if (act === "tab") {
@@ -423,12 +469,29 @@ app.addEventListener("input", e => {
   if (e.target.dataset.act === "draft") state.drafts[e.target.dataset.id] = e.target.value;
 });
 app.addEventListener("keydown", e => {
-  if (e.key !== "Enter") return;
-  if (e.target.dataset.act === "draft") addComment(e.target.dataset.id);
-  if (e.target.id === "token") app.querySelector('[data-act="connect"]').click();
+  if (e.key === "Enter" && e.target.dataset.act === "draft") addComment(e.target.dataset.id);
+});
+app.addEventListener("submit", async e => {
+  if (e.target.dataset.act !== "login") return;
+  e.preventDefault();
+  const button = document.getElementById("login-btn");
+  button.disabled = true; button.textContent = "Checking…";
+  try {
+    await login(document.getElementById("username").value, document.getElementById("password").value);
+    load();
+  } catch (err) {
+    renderSetup(err.message);
+  }
 });
 
-load();
+(async () => {
+  store.remove("gh_token"); // from the earlier token-based login
+  try {
+    const saved = JSON.parse(store.get("session") || "null");
+    if (saved) await startSession(saved);
+  } catch { store.remove("session"); }
+  load();
+})();
 </script>
 </body>
 </html>

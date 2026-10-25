@@ -1,5 +1,5 @@
-# Publishes only the site/ folder. Job data and notes are never published;
-# the page loads them from the private repo with your own token.
+# Publishes the site/ folder plus an encrypted login config built from secrets.
+# Re-run this workflow by hand after changing the username or password secrets.
 name: Deploy site
 
 on:
@@ -25,6 +25,13 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+      - name: Build encrypted login config
+        env:
+          SITE_USERNAME: ${{ secrets.SITE_USERNAME }}
+          SITE_PASSWORD: ${{ secrets.SITE_PASSWORD }}
+          SITE_GH_TOKEN: ${{ secrets.SITE_GH_TOKEN }}
+          SITE_DATA_KEY: ${{ secrets.SITE_DATA_KEY }}
+        run: node scripts/build-config.mjs
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
