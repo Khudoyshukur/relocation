@@ -1,0 +1,3187 @@
+[
+ {
+  "name": "ABN AMRO",
+  "careersUrl": "https://www.werkenbijabnamro.nl/en",
+  "locations": "Amsterdam",
+  "region": "Netherlands",
+  "category": "Bank",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Ada Health",
+  "careersUrl": "https://ada.com/careers/",
+  "locations": "Berlin",
+  "region": "Germany",
+  "category": "Health",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Adevinta",
+  "careersUrl": "https://adevinta.com/careers/",
+  "locations": "Barcelona",
+  "region": "Spain & Portugal",
+  "category": "Marketplace",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "adjoe",
+  "careersUrl": "https://adjoe.io/careers/open-positions/",
+  "locations": "Hamburg",
+  "region": "Germany",
+  "category": "Adtech",
+  "boards": [
+   {
+    "ats": "ashby",
+    "slug": "adjoe"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Admirals",
+  "careersUrl": "https://admirals.com",
+  "locations": "Limassol",
+  "region": "Cyprus, Malta & Greece",
+  "category": "Fintech",
+  "boards": [],
+  "searchHint": "Careers page unconfirmed; WebSearch `Admirals (Admiral Markets) Android developer`.",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Adyen",
+  "careersUrl": "https://careers.adyen.com",
+  "locations": "Amsterdam, Madrid",
+  "region": "Netherlands",
+  "category": "Fintech",
+  "boards": [
+   {
+    "ats": "greenhouse",
+    "slug": "adyen"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Agoda",
+  "careersUrl": "https://careersatagoda.com",
+  "locations": "Bangkok",
+  "region": "Asia",
+  "category": "Travel",
+  "boards": [
+   {
+    "ats": "greenhouse",
+    "slug": "agoda"
+   }
+  ],
+  "searchHint": "Greenhouse board is scanned; careersatagoda.com may block bots.",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Airtasker",
+  "careersUrl": "https://www.airtasker.com/careers/",
+  "locations": "Sydney",
+  "region": "Canada & Australia",
+  "category": "Marketplace",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Airwallex",
+  "careersUrl": "https://www.airwallex.com/careers",
+  "locations": "Singapore, Melbourne",
+  "region": "Asia",
+  "category": "Fintech",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Alan",
+  "careersUrl": "https://alan.com/en/careers",
+  "locations": "Paris, Madrid",
+  "region": "France & Belgium",
+  "category": "Insurtech",
+  "boards": [
+   {
+    "ats": "ashby",
+    "slug": "alan"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Allegro",
+  "careersUrl": "https://allegro.tech/jobs",
+  "locations": "Warsaw, Poznań, Kraków",
+  "region": "Poland, Czechia & Central Europe",
+  "category": "E-commerce",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Amazon (Europe)",
+  "careersUrl": "https://www.amazon.jobs/en/search?base_query=android",
+  "locations": "Berlin, Luxembourg, London, Dublin",
+  "region": "Poland, Czechia & Central Europe",
+  "category": "Big tech",
+  "boards": [],
+  "searchHint": "Search amazon.jobs for Android roles in Berlin, London, Dublin, Luxembourg.",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Anghami",
+  "careersUrl": "https://www.anghami.com/careers",
+  "locations": "Abu Dhabi, Beirut",
+  "region": "UAE & Saudi Arabia",
+  "category": "Media",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Apple (Europe)",
+  "careersUrl": "https://jobs.apple.com/en-us/search?search=android",
+  "locations": "Munich, London, Cork",
+  "region": "Poland, Czechia & Central Europe",
+  "category": "Big tech",
+  "boards": [],
+  "searchHint": "Search for Android roles (e.g. Apple Music / Apple TV for Android).",
+  "addedBy": "seed"
+ },
+ {
+  "name": "ASOS",
+  "careersUrl": "https://www.asoscareers.com",
+  "locations": "London",
+  "region": "UK & Ireland",
+  "category": "E-commerce",
+  "boards": [
+   {
+    "ats": "smartrecruiters",
+    "slug": "asos"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Atlassian",
+  "careersUrl": "https://www.atlassian.com/company/careers/all-jobs?search=android",
+  "locations": "Sydney, Amsterdam",
+  "region": "Canada & Australia",
+  "category": "SaaS",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "AUTO1 Group",
+  "careersUrl": "https://www.auto1-group.com/jobs",
+  "locations": "Berlin",
+  "region": "Germany",
+  "category": "Marketplace",
+  "boards": [
+   {
+    "ats": "smartrecruiters",
+    "slug": "auto1"
+   },
+   {
+    "ats": "greenhouse",
+    "slug": "auto1group"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Babbel",
+  "careersUrl": "https://jobs.babbel.com",
+  "locations": "Berlin",
+  "region": "Germany",
+  "category": "Edtech",
+  "boards": [
+   {
+    "ats": "ashby",
+    "slug": "babbel"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Babylon / eMed",
+  "careersUrl": "https://www.emed.com/careers",
+  "locations": "London",
+  "region": "UK & Ireland",
+  "category": "Health",
+  "boards": [
+   {
+    "ats": "greenhouse",
+    "slug": "emed"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Back Market",
+  "careersUrl": "https://www.backmarket.com/en-us/careers",
+  "locations": "Paris",
+  "region": "France & Belgium",
+  "category": "Marketplace",
+  "boards": [
+   {
+    "ats": "ashby",
+    "slug": "backmarket"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Backbase",
+  "careersUrl": "https://www.backbase.com/careers",
+  "locations": "Amsterdam, Kraków",
+  "region": "Netherlands",
+  "category": "Fintech",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "BandLab",
+  "careersUrl": "https://www.bandlab.com/careers",
+  "locations": "Singapore",
+  "region": "Asia",
+  "category": "Media",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Bank of Georgia",
+  "careersUrl": "https://bankofgeorgia.ge/en/careers",
+  "locations": "Tbilisi",
+  "region": "Georgia & Central Asia",
+  "category": "Bank",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "BBC",
+  "careersUrl": "https://careers.bbc.co.uk",
+  "locations": "London, Salford",
+  "region": "UK & Ireland",
+  "category": "Media",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Bending Spoons (Komoot, WeTransfer, Evernote)",
+  "careersUrl": "https://jobs.bendingspoons.com",
+  "locations": "Milan",
+  "region": "Italy, Türkiye & Caucasus",
+  "category": "Consumer",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Binance",
+  "careersUrl": "https://job-boards.greenhouse.io/binance",
+  "locations": "Dubai (remote)",
+  "region": "UAE & Saudi Arabia",
+  "category": "Crypto",
+  "boards": [
+   {
+    "ats": "greenhouse",
+    "slug": "binance"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Bitpanda",
+  "careersUrl": "https://www.bitpanda.com/en/career",
+  "locations": "Vienna, Berlin, Barcelona",
+  "region": "Germany",
+  "category": "Fintech",
+  "boards": [
+   {
+    "ats": "greenhouse",
+    "slug": "bitpanda"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Bitvavo",
+  "careersUrl": "https://jobs.ashbyhq.com/bitvavo",
+  "locations": "Amsterdam",
+  "region": "Netherlands",
+  "category": "Fintech",
+  "boards": [
+   {
+    "ats": "ashby",
+    "slug": "bitvavo"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "BlaBlaCar",
+  "careersUrl": "https://blablacar.welcomekit.co",
+  "locations": "Paris",
+  "region": "France & Belgium",
+  "category": "Mobility",
+  "boards": [
+   {
+    "ats": "lever",
+    "slug": "blablacar"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Blinkist",
+  "careersUrl": "https://www.blinkist.com/en/jobs",
+  "locations": "Berlin",
+  "region": "Germany",
+  "category": "Edtech",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Bloom & Wild",
+  "careersUrl": "https://www.bloomandwild.com/careers",
+  "locations": "London",
+  "region": "UK & Ireland",
+  "category": "E-commerce",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Bohemia Interactive",
+  "careersUrl": "https://careers.bohemia.net/en/open-positions",
+  "locations": "Prague",
+  "region": "Poland, Czechia & Central Europe",
+  "category": "Games",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "bol",
+  "careersUrl": "https://careers.bol.com",
+  "locations": "Utrecht",
+  "region": "Netherlands",
+  "category": "E-commerce",
+  "boards": [
+   {
+    "ats": "greenhouse",
+    "slug": "bolcom"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Bolt",
+  "careersUrl": "https://bolt.eu/en/careers/",
+  "locations": "Tallinn, Berlin, Warsaw",
+  "region": "Nordics & Baltics",
+  "category": "Mobility",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Booking.com",
+  "careersUrl": "https://jobs.booking.com",
+  "locations": "Amsterdam",
+  "region": "Netherlands",
+  "category": "Travel",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Booksy",
+  "careersUrl": "https://booksy.com/careers",
+  "locations": "Warsaw",
+  "region": "Poland, Czechia & Central Europe",
+  "category": "Marketplace",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Brainly",
+  "careersUrl": "https://careers.brainly.com",
+  "locations": "Kraków",
+  "region": "Poland, Czechia & Central Europe",
+  "category": "Edtech",
+  "boards": [
+   {
+    "ats": "ashby",
+    "slug": "brainly"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Bumble",
+  "careersUrl": "https://bumble.com/en/jobs",
+  "locations": "London, Barcelona",
+  "region": "UK & Ireland",
+  "category": "Consumer",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "bunq",
+  "careersUrl": "https://www.bunq.com/careers",
+  "locations": "Amsterdam",
+  "region": "Netherlands",
+  "category": "Fintech",
+  "boards": [
+   {
+    "ats": "recruitee",
+    "slug": "bunq"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Bybit",
+  "careersUrl": "https://job-boards.greenhouse.io/bybit",
+  "locations": "Dubai",
+  "region": "UAE & Saudi Arabia",
+  "category": "Crypto",
+  "boards": [
+   {
+    "ats": "greenhouse",
+    "slug": "bybit"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Cabify",
+  "careersUrl": "https://cabify.careers",
+  "locations": "Madrid",
+  "region": "Spain & Portugal",
+  "category": "Mobility",
+  "boards": [
+   {
+    "ats": "greenhouse",
+    "slug": "cabify"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Canva",
+  "careersUrl": "https://www.lifeatcanva.com/en/jobs/",
+  "locations": "Sydney",
+  "region": "Canada & Australia",
+  "category": "SaaS",
+  "boards": [
+   {
+    "ats": "smartrecruiters",
+    "slug": "canva"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Careem",
+  "careersUrl": "https://jobs.careem.com",
+  "locations": "Dubai, Berlin, Karachi",
+  "region": "UAE & Saudi Arabia",
+  "category": "Super app",
+  "boards": [
+   {
+    "ats": "greenhouse",
+    "slug": "careem"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Carousell",
+  "careersUrl": "https://careers.carousell.com",
+  "locations": "Singapore",
+  "region": "Asia",
+  "category": "Marketplace",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Catawiki",
+  "careersUrl": "https://www.catawiki.com/en/careers",
+  "locations": "Amsterdam",
+  "region": "Netherlands",
+  "category": "Marketplace",
+  "boards": [
+   {
+    "ats": "greenhouse",
+    "slug": "catawiki"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "CHECK24",
+  "careersUrl": "https://jobs.check24.de",
+  "locations": "Munich, Berlin",
+  "region": "Germany",
+  "category": "E-commerce",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Checkout.com",
+  "careersUrl": "https://www.checkout.com/careers",
+  "locations": "London",
+  "region": "UK & Ireland",
+  "category": "Fintech",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Citymapper",
+  "careersUrl": "https://citymapper.com/jobs",
+  "locations": "London",
+  "region": "UK & Ireland",
+  "category": "Mobility",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Clark",
+  "careersUrl": "https://clark.jobs.personio.de",
+  "locations": "Frankfurt, Berlin",
+  "region": "Germany",
+  "category": "Insurtech",
+  "boards": [
+   {
+    "ats": "personio",
+    "slug": "clark"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "ClearScore",
+  "careersUrl": "https://www.clearscore.com/careers",
+  "locations": "London",
+  "region": "UK & Ireland",
+  "category": "Fintech",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Cleo",
+  "careersUrl": "https://web.meetcleo.com/careers",
+  "locations": "London",
+  "region": "UK & Ireland",
+  "category": "Fintech",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Clio",
+  "careersUrl": "https://www.clio.com/about/careers/",
+  "locations": "Vancouver, Toronto",
+  "region": "Canada & Australia",
+  "category": "SaaS",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Commerzbank",
+  "careersUrl": "https://jobs.commerzbank.com",
+  "locations": "Frankfurt",
+  "region": "Germany",
+  "category": "Bank",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Coolblue",
+  "careersUrl": "https://careers.smartrecruiters.com/coolblue",
+  "locations": "Rotterdam",
+  "region": "Netherlands",
+  "category": "E-commerce",
+  "boards": [
+   {
+    "ats": "smartrecruiters",
+    "slug": "coolblue"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Coupang",
+  "careersUrl": "https://www.coupang.jobs",
+  "locations": "Seoul, Singapore, Taipei",
+  "region": "Asia",
+  "category": "E-commerce",
+  "boards": [
+   {
+    "ats": "greenhouse",
+    "slug": "coupang"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Curve",
+  "careersUrl": "https://www.curve.com/careers",
+  "locations": "London",
+  "region": "UK & Ireland",
+  "category": "Fintech",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Dashlane",
+  "careersUrl": "https://www.dashlane.com/careers",
+  "locations": "Paris, Lisbon",
+  "region": "France & Belgium",
+  "category": "Security",
+  "boards": [
+   {
+    "ats": "greenhouse",
+    "slug": "dashlane"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Deezer",
+  "careersUrl": "https://www.deezerjobs.com",
+  "locations": "Paris",
+  "region": "France & Belgium",
+  "category": "Media",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Deliveroo",
+  "careersUrl": "https://careers.deliveroo.co.uk",
+  "locations": "London",
+  "region": "UK & Ireland",
+  "category": "Delivery",
+  "boards": [
+   {
+    "ats": "greenhouse",
+    "slug": "deliveroo"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Delivery Hero",
+  "careersUrl": "https://careers.deliveryhero.com",
+  "locations": "Berlin",
+  "region": "Germany",
+  "category": "Delivery",
+  "boards": [
+   {
+    "ats": "smartrecruiters",
+    "slug": "deliveryhero"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Depop",
+  "careersUrl": "https://www.depop.com/careers",
+  "locations": "London",
+  "region": "UK & Ireland",
+  "category": "Marketplace",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Deriv",
+  "careersUrl": "https://deriv.com/careers",
+  "locations": "Malta, Dubai, Cyberjaya",
+  "region": "Cyprus, Malta & Greece",
+  "category": "Fintech",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "DKB",
+  "careersUrl": "https://www.dkb.de/karriere",
+  "locations": "Berlin",
+  "region": "Germany",
+  "category": "Bank",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Docplanner (Doctoralia)",
+  "careersUrl": "https://jobs.ashbyhq.com/docplanner",
+  "locations": "Barcelona, Warsaw",
+  "region": "Spain & Portugal",
+  "category": "Health",
+  "boards": [
+   {
+    "ats": "ashby",
+    "slug": "docplanner"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Doctolib",
+  "careersUrl": "https://careers.doctolib.com",
+  "locations": "Paris, Berlin",
+  "region": "France & Belgium",
+  "category": "Health",
+  "boards": [
+   {
+    "ats": "greenhouse",
+    "slug": "doctolib"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Dream Games",
+  "careersUrl": "https://dreamgames.com/careers/",
+  "locations": "Istanbul",
+  "region": "Italy, Türkiye & Caucasus",
+  "category": "Games",
+  "boards": [
+   {
+    "ats": "greenhouse",
+    "slug": "dreamgames"
+   },
+   {
+    "ats": "lever",
+    "slug": "dreamgames"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Dubizzle Group",
+  "careersUrl": "https://dubizzlegroup.com/careers",
+  "locations": "Dubai",
+  "region": "UAE & Saudi Arabia",
+  "category": "Marketplace",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Duolingo",
+  "careersUrl": "https://careers.duolingo.com",
+  "locations": "London (some roles)",
+  "region": "UK & Ireland",
+  "category": "Edtech",
+  "boards": [
+   {
+    "ats": "greenhouse",
+    "slug": "duolingo"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "eDreams ODIGEO",
+  "careersUrl": "https://www.edreamsodigeocareers.com",
+  "locations": "Barcelona, Porto",
+  "region": "Spain & Portugal",
+  "category": "Travel",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Emirates NBD (Liv)",
+  "careersUrl": "https://www.emiratesnbd.com/en/careers",
+  "locations": "Dubai",
+  "region": "UAE & Saudi Arabia",
+  "category": "Bank",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Employment Hero",
+  "careersUrl": "https://employmenthero.com/careers/",
+  "locations": "Sydney",
+  "region": "Canada & Australia",
+  "category": "SaaS",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "EPAM Systems",
+  "careersUrl": "https://www.epam.com/careers",
+  "locations": "Many (relocation programs)",
+  "region": "Italy, Türkiye & Caucasus",
+  "category": "IT services",
+  "boards": [],
+  "searchHint": "Look for Android roles that mention relocation programs.",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Epidemic Sound",
+  "careersUrl": "https://www.epidemicsound.com/careers/",
+  "locations": "Stockholm",
+  "region": "Nordics & Baltics",
+  "category": "Media",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Etsy (Dublin)",
+  "careersUrl": "https://careers.etsy.com",
+  "locations": "Dublin",
+  "region": "UK & Ireland",
+  "category": "E-commerce",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Exness",
+  "careersUrl": "https://exness.com/careers/",
+  "locations": "Limassol",
+  "region": "Cyprus, Malta & Greece",
+  "category": "Fintech",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Factorial",
+  "careersUrl": "https://careers.factorial.com/",
+  "locations": "Barcelona",
+  "region": "Spain & Portugal",
+  "category": "SaaS",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Farfetch",
+  "careersUrl": "https://jobs.lever.co/farfetch",
+  "locations": "Porto, Lisbon, London",
+  "region": "Spain & Portugal",
+  "category": "E-commerce",
+  "boards": [
+   {
+    "ats": "lever",
+    "slug": "farfetch"
+   },
+   {
+    "ats": "ashby",
+    "slug": "farfetch"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Feedzai",
+  "careersUrl": "https://feedzai.com/careers/",
+  "locations": "Lisbon, Coimbra",
+  "region": "Spain & Portugal",
+  "category": "Fintech",
+  "boards": [
+   {
+    "ats": "greenhouse",
+    "slug": "feedzai"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Fever",
+  "careersUrl": "https://careers.feverup.com",
+  "locations": "Madrid",
+  "region": "Spain & Portugal",
+  "category": "Consumer",
+  "boards": [
+   {
+    "ats": "greenhouse",
+    "slug": "feverup"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Flink",
+  "careersUrl": "https://www.goflink.com/careers",
+  "locations": "Berlin",
+  "region": "Germany",
+  "category": "Delivery",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Flipdish",
+  "careersUrl": "https://www.flipdish.com/careers",
+  "locations": "Dublin",
+  "region": "UK & Ireland",
+  "category": "SaaS",
+  "boards": [
+   {
+    "ats": "greenhouse",
+    "slug": "flipdish"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "FlixBus (Flix)",
+  "careersUrl": "https://www.flix.careers",
+  "locations": "Munich, Berlin",
+  "region": "Germany",
+  "category": "Travel",
+  "boards": [
+   {
+    "ats": "greenhouse",
+    "slug": "flix"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Foodics",
+  "careersUrl": "https://www.foodics.com/careers/",
+  "locations": "Riyadh",
+  "region": "UAE & Saudi Arabia",
+  "category": "SaaS",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Foodpanda",
+  "careersUrl": "https://careers.foodpanda.com",
+  "locations": "Singapore",
+  "region": "Asia",
+  "category": "Delivery",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "FREE NOW",
+  "careersUrl": "https://www.free-now.com/careers/",
+  "locations": "Hamburg, Berlin",
+  "region": "Germany",
+  "category": "Mobility",
+  "boards": [
+   {
+    "ats": "greenhouse",
+    "slug": "freenow"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Freedom Holding",
+  "careersUrl": "https://ffin.global/careers",
+  "locations": "Limassol, Almaty",
+  "region": "Cyprus, Malta & Greece",
+  "category": "Fintech",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Freeletics",
+  "careersUrl": "https://www.freeletics.com/en/corporate/jobs/",
+  "locations": "Munich",
+  "region": "Germany",
+  "category": "Health",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Gen Digital (Avast)",
+  "careersUrl": "https://www.gendigital.com/careers",
+  "locations": "Prague, Brno",
+  "region": "Poland, Czechia & Central Europe",
+  "category": "Security",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Getir",
+  "careersUrl": "https://getir.com/en/careers/",
+  "locations": "Istanbul, London",
+  "region": "Italy, Türkiye & Caucasus",
+  "category": "Delivery",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "GetYourGuide",
+  "careersUrl": "https://careers.getyourguide.com",
+  "locations": "Berlin, Zurich",
+  "region": "Germany",
+  "category": "Travel",
+  "boards": [
+   {
+    "ats": "greenhouse",
+    "slug": "getyourguide"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Glovo",
+  "careersUrl": "https://jobs.glovoapp.com",
+  "locations": "Barcelona",
+  "region": "Spain & Portugal",
+  "category": "Delivery",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Google (Europe)",
+  "careersUrl": "https://www.google.com/about/careers/applications/jobs/results?q=android",
+  "locations": "Zurich, Munich, London, Warsaw, Dublin",
+  "region": "Poland, Czechia & Central Europe",
+  "category": "Big tech",
+  "boards": [],
+  "searchHint": "Search careers page for Android roles in European offices.",
+  "addedBy": "seed"
+ },
+ {
+  "name": "GoStudent",
+  "careersUrl": "https://www.gostudent.org/en/careers",
+  "locations": "Vienna",
+  "region": "Poland, Czechia & Central Europe",
+  "category": "Edtech",
+  "boards": [
+   {
+    "ats": "greenhouse",
+    "slug": "gostudent"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "GoTo (Gojek)",
+  "careersUrl": "https://www.gotocompany.com/en/careers",
+  "locations": "Jakarta, Singapore",
+  "region": "Asia",
+  "category": "Super app",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Grab",
+  "careersUrl": "https://www.grab.careers",
+  "locations": "Singapore, Kuala Lumpur",
+  "region": "Asia",
+  "category": "Super app",
+  "boards": [
+   {
+    "ats": "smartrecruiters",
+    "slug": "grab"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Grammarly",
+  "careersUrl": "https://www.grammarly.com/jobs",
+  "locations": "Vancouver, Berlin, Kyiv",
+  "region": "Canada & Australia",
+  "category": "SaaS",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Grover",
+  "careersUrl": "https://www.grover.com/de-en/g-about/grover-careers",
+  "locations": "Berlin",
+  "region": "Germany",
+  "category": "E-commerce",
+  "boards": [
+   {
+    "ats": "greenhouse",
+    "slug": "grover"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "HelloFresh",
+  "careersUrl": "https://careers.hellofresh.com",
+  "locations": "Berlin",
+  "region": "Germany",
+  "category": "Food",
+  "boards": [
+   {
+    "ats": "greenhouse",
+    "slug": "hellofresh"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Hepsiburada",
+  "careersUrl": "https://kariyer.hepsiburada.com",
+  "locations": "Istanbul",
+  "region": "Italy, Türkiye & Caucasus",
+  "category": "E-commerce",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "hfm",
+  "careersUrl": "https://www.hfm.com/int/en/careers",
+  "locations": "Malaysia",
+  "region": "Asia",
+  "category": "Fintech",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Holded",
+  "careersUrl": "https://www.holded.com/careers",
+  "locations": "Barcelona",
+  "region": "Spain & Portugal",
+  "category": "SaaS",
+  "boards": [
+   {
+    "ats": "recruitee",
+    "slug": "holded"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Hootsuite",
+  "careersUrl": "https://careers.hootsuite.com",
+  "locations": "Vancouver",
+  "region": "Canada & Australia",
+  "category": "SaaS",
+  "boards": [
+   {
+    "ats": "greenhouse",
+    "slug": "hootsuite"
+   },
+   {
+    "ats": "smartrecruiters",
+    "slug": "hootsuite"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "HungerStation",
+  "careersUrl": "https://careers.deliveryhero.com",
+  "locations": "Riyadh",
+  "region": "UAE & Saudi Arabia",
+  "category": "Delivery",
+  "boards": [],
+  "searchHint": "Its jobs are on Delivery Hero's SmartRecruiters board, which is scanned under Delivery Hero. Skip 'Saudi National' roles.",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Huuuge Games",
+  "careersUrl": "https://huuugegames.com/careers",
+  "locations": "Szczecin, Warsaw",
+  "region": "Poland, Czechia & Central Europe",
+  "category": "Games",
+  "boards": [
+   {
+    "ats": "recruitee",
+    "slug": "huuuge"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "idealista",
+  "careersUrl": "https://www.idealista.com/en/info/trabaja-con-nosotros",
+  "locations": "Madrid",
+  "region": "Spain & Portugal",
+  "category": "Marketplace",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "idealo",
+  "careersUrl": "https://jobs.idealo.de",
+  "locations": "Berlin",
+  "region": "Germany",
+  "category": "E-commerce",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "ImmoScout24",
+  "careersUrl": "https://www.scout24.com/en/career",
+  "locations": "Berlin",
+  "region": "Germany",
+  "category": "Marketplace",
+  "boards": [
+   {
+    "ats": "greenhouse",
+    "slug": "scout24"
+   },
+   {
+    "ats": "greenhouse",
+    "slug": "immoscout24"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Indeed Tokyo",
+  "careersUrl": "https://www.indeed.jobs",
+  "locations": "Tokyo",
+  "region": "Asia",
+  "category": "Marketplace",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "inDrive",
+  "careersUrl": "https://careers.indrive.com",
+  "locations": "Limassol, Almaty",
+  "region": "Cyprus, Malta & Greece",
+  "category": "Mobility",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "ING",
+  "careersUrl": "https://www.ing.jobs/netherlands",
+  "locations": "Amsterdam",
+  "region": "Netherlands",
+  "category": "Bank",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Insider",
+  "careersUrl": "https://useinsider.com/careers/",
+  "locations": "Istanbul, Warsaw",
+  "region": "Italy, Türkiye & Caucasus",
+  "category": "SaaS",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Instashop",
+  "careersUrl": "https://instashop.com/en-ae/careers",
+  "locations": "Dubai",
+  "region": "UAE & Saudi Arabia",
+  "category": "Delivery",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Intercom",
+  "careersUrl": "https://www.intercom.com/careers",
+  "locations": "Dublin, London",
+  "region": "UK & Ireland",
+  "category": "SaaS",
+  "boards": [
+   {
+    "ats": "greenhouse",
+    "slug": "intercom"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Jahez",
+  "careersUrl": "https://www.jahez.net/careers",
+  "locations": "Riyadh",
+  "region": "UAE & Saudi Arabia",
+  "category": "Delivery",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "JetBrains",
+  "careersUrl": "https://www.jetbrains.com/careers/jobs/",
+  "locations": "Amsterdam, Munich, Berlin, Prague, Limassol",
+  "region": "Poland, Czechia & Central Europe",
+  "category": "Developer tools",
+  "boards": [
+   {
+    "ats": "greenhouse",
+    "slug": "jetbrains"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Jobandtalent",
+  "careersUrl": "https://jobandtalent.com/careers",
+  "locations": "Madrid",
+  "region": "Spain & Portugal",
+  "category": "Marketplace",
+  "boards": [
+   {
+    "ats": "lever",
+    "slug": "jobandtalent"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Kahoot!",
+  "careersUrl": "https://kahoot.com/jobs/",
+  "locations": "Oslo",
+  "region": "Nordics & Baltics",
+  "category": "Edtech",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "King",
+  "careersUrl": "https://careers.king.com",
+  "locations": "Barcelona, Stockholm, London",
+  "region": "Spain & Portugal",
+  "category": "Games",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Kitopi",
+  "careersUrl": "https://www.kitopi.com/careers",
+  "locations": "Dubai",
+  "region": "UAE & Saudi Arabia",
+  "category": "Food",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Kiwi.com",
+  "careersUrl": "https://jobs.kiwi.com",
+  "locations": "Brno, Prague",
+  "region": "Poland, Czechia & Central Europe",
+  "category": "Travel",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Klarna",
+  "careersUrl": "https://www.klarna.com/careers/",
+  "locations": "Stockholm, Berlin",
+  "region": "Nordics & Baltics",
+  "category": "Fintech",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Kleinanzeigen",
+  "careersUrl": "https://themen.kleinanzeigen.de/careers/",
+  "locations": "Berlin",
+  "region": "Germany",
+  "category": "Marketplace",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Krisp",
+  "careersUrl": "https://krisp.ai/careers/",
+  "locations": "Yerevan, Berlin",
+  "region": "Italy, Türkiye & Caucasus",
+  "category": "Consumer",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Lazada",
+  "careersUrl": "https://www.lazada.com/en/careers/",
+  "locations": "Singapore",
+  "region": "Asia",
+  "category": "E-commerce",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Lean Technologies",
+  "careersUrl": "https://www.leantech.me/careers",
+  "locations": "Riyadh, Dubai",
+  "region": "UAE & Saudi Arabia",
+  "category": "Fintech",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Ledger",
+  "careersUrl": "https://careers.ledger.com/",
+  "locations": "Paris",
+  "region": "France & Belgium",
+  "category": "Crypto",
+  "boards": [
+   {
+    "ats": "ashby",
+    "slug": "ledger"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Lieferando / Just Eat Takeaway",
+  "careersUrl": "https://careers.justeattakeaway.com",
+  "locations": "Amsterdam, Berlin, London",
+  "region": "Germany",
+  "category": "Delivery",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Lightspeed",
+  "careersUrl": "https://www.lightspeedhq.com/careers/",
+  "locations": "Montreal",
+  "region": "Canada & Australia",
+  "category": "SaaS",
+  "boards": [
+   {
+    "ats": "ashby",
+    "slug": "lightspeedhq"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "LINE MAN Wongnai",
+  "careersUrl": "https://careers.lmwn.com",
+  "locations": "Bangkok",
+  "region": "Asia",
+  "category": "Delivery",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Linktree",
+  "careersUrl": "https://linktr.ee/s/about/careers",
+  "locations": "Melbourne, Sydney",
+  "region": "Canada & Australia",
+  "category": "Consumer",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "LiveChat (Text)",
+  "careersUrl": "https://www.text.com/careers",
+  "locations": "Wrocław",
+  "region": "Poland, Czechia & Central Europe",
+  "category": "SaaS",
+  "boards": [
+   {
+    "ats": "lever",
+    "slug": "text"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Lodgify",
+  "careersUrl": "https://www.lodgify.com/careers/",
+  "locations": "Barcelona",
+  "region": "Spain & Portugal",
+  "category": "Travel",
+  "boards": [
+   {
+    "ats": "lever",
+    "slug": "lodgify"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Lunar",
+  "careersUrl": "https://www.lunar.app/en/personal/jobs-and-career",
+  "locations": "Copenhagen",
+  "region": "Nordics & Baltics",
+  "category": "Fintech",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "LY Corporation (LINE Yahoo)",
+  "careersUrl": "https://www.lycorp.co.jp/en/recruit/",
+  "locations": "Tokyo",
+  "region": "Asia",
+  "category": "Super app",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Lydia (Sumeria)",
+  "careersUrl": "https://lydia-app.com/en/jobs",
+  "locations": "Paris",
+  "region": "France & Belgium",
+  "category": "Fintech",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Lyst",
+  "careersUrl": "https://www.lyst.com/careers/",
+  "locations": "London",
+  "region": "UK & Ireland",
+  "category": "E-commerce",
+  "boards": [
+   {
+    "ats": "smartrecruiters",
+    "slug": "lyst"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Marshmallow",
+  "careersUrl": "https://www.marshmallow.com/jobs",
+  "locations": "London",
+  "region": "UK & Ireland",
+  "category": "Insurtech",
+  "boards": [
+   {
+    "ats": "ashby",
+    "slug": "marshmallow"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Mentimeter",
+  "careersUrl": "https://www.mentimeter.com/jobs",
+  "locations": "Stockholm",
+  "region": "Nordics & Baltics",
+  "category": "SaaS",
+  "boards": [
+   {
+    "ats": "greenhouse",
+    "slug": "mentimeter"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Mercari",
+  "careersUrl": "https://careers.mercari.com",
+  "locations": "Tokyo",
+  "region": "Asia",
+  "category": "Marketplace",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Meta (London)",
+  "careersUrl": "https://www.metacareers.com/jobs?q=android",
+  "locations": "London",
+  "region": "Poland, Czechia & Central Europe",
+  "category": "Big tech",
+  "boards": [],
+  "searchHint": "Search metacareers.com for Android roles in London.",
+  "addedBy": "seed"
+ },
+ {
+  "name": "MetaQuotes",
+  "careersUrl": "https://www.metaquotes.net/en/company/vacancies",
+  "locations": "Limassol",
+  "region": "Cyprus, Malta & Greece",
+  "category": "Fintech",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Microsoft (Europe)",
+  "careersUrl": "https://jobs.careers.microsoft.com/global/en/search?q=android",
+  "locations": "Prague, Dublin, Belgrade",
+  "region": "Poland, Czechia & Central Europe",
+  "category": "Big tech",
+  "boards": [],
+  "searchHint": "Search for Android roles in European offices.",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Miles Mobility",
+  "careersUrl": "https://miles-mobility.com/en/jobs",
+  "locations": "Berlin",
+  "region": "Germany",
+  "category": "Mobility",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Miro",
+  "careersUrl": "https://miro.com/careers/",
+  "locations": "Amsterdam, Berlin",
+  "region": "Netherlands",
+  "category": "SaaS",
+  "boards": [
+   {
+    "ats": "ashby",
+    "slug": "miro"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Mister Spex",
+  "careersUrl": "https://corporate.misterspex.com/en/career/",
+  "locations": "Berlin",
+  "region": "Germany",
+  "category": "E-commerce",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Mobimeo",
+  "careersUrl": "https://mobimeo.jobs.personio.de",
+  "locations": "Berlin",
+  "region": "Germany",
+  "category": "Mobility",
+  "boards": [
+   {
+    "ats": "personio",
+    "slug": "mobimeo"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "MOIA",
+  "careersUrl": "https://job-boards.greenhouse.io/moia",
+  "locations": "Hamburg, Berlin",
+  "region": "Germany",
+  "category": "Mobility",
+  "boards": [
+   {
+    "ats": "greenhouse",
+    "slug": "moia"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Mollie",
+  "careersUrl": "https://jobs.mollie.com",
+  "locations": "Amsterdam, Lisbon",
+  "region": "Netherlands",
+  "category": "Fintech",
+  "boards": [
+   {
+    "ats": "ashby",
+    "slug": "mollie"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Money Forward",
+  "careersUrl": "https://corp.moneyforward.com/en/recruit/",
+  "locations": "Tokyo",
+  "region": "Asia",
+  "category": "Fintech",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Moneybox",
+  "careersUrl": "https://www.moneyboxapp.com/careers/",
+  "locations": "London",
+  "region": "UK & Ireland",
+  "category": "Fintech",
+  "boards": [
+   {
+    "ats": "ashby",
+    "slug": "moneybox"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Monzo",
+  "careersUrl": "https://monzo.com/careers",
+  "locations": "London, Barcelona",
+  "region": "UK & Ireland",
+  "category": "Fintech",
+  "boards": [
+   {
+    "ats": "greenhouse",
+    "slug": "monzo"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Motorola Solutions (Kraków)",
+  "careersUrl": "https://www.motorolasolutions.com/en_us/about/careers.html",
+  "locations": "Kraków",
+  "region": "Poland, Czechia & Central Europe",
+  "category": "Telecom",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Mytheresa",
+  "careersUrl": "https://www.mytheresa.com/en-de/careers",
+  "locations": "Munich",
+  "region": "Germany",
+  "category": "E-commerce",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "N26",
+  "careersUrl": "https://n26.com/en/careers",
+  "locations": "Berlin, Barcelona",
+  "region": "Germany",
+  "category": "Fintech",
+  "boards": [
+   {
+    "ats": "greenhouse",
+    "slug": "n26"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Netflix",
+  "careersUrl": "https://explore.jobs.netflix.net/careers?query=android",
+  "locations": "Amsterdam, London",
+  "region": "Poland, Czechia & Central Europe",
+  "category": "Big tech",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Netguru",
+  "careersUrl": "https://www.netguru.com/career",
+  "locations": "Poznań, Warsaw",
+  "region": "Poland, Czechia & Central Europe",
+  "category": "Agency",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Ninja (Saudi)",
+  "careersUrl": "https://ananinja.com",
+  "locations": "Riyadh",
+  "region": "UAE & Saudi Arabia",
+  "category": "Delivery",
+  "boards": [],
+  "searchHint": "Official careers page unknown; WebSearch `Ninja Saudi Android engineer` (jobs appear on LinkedIn, sabbar.com, naukrigulf).",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Ninja Van",
+  "careersUrl": "https://www.ninjavan.co/en-sg/careers",
+  "locations": "Singapore",
+  "region": "Asia",
+  "category": "Logistics",
+  "boards": [
+   {
+    "ats": "lever",
+    "slug": "ninjavan"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Noon",
+  "careersUrl": "https://www.noon.com",
+  "locations": "Dubai, Riyadh",
+  "region": "UAE & Saudi Arabia",
+  "category": "E-commerce",
+  "boards": [],
+  "searchHint": "Official careers page unconfirmed (possibly noon.jobs); WebSearch `noon Android engineer Dubai`.",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Nord Security",
+  "careersUrl": "https://nordsecurity.com/careers",
+  "locations": "Vilnius",
+  "region": "Nordics & Baltics",
+  "category": "Security",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Ocado Technology",
+  "careersUrl": "https://careers.ocadogroup.com",
+  "locations": "Barcelona, Kraków, Hatfield",
+  "region": "Spain & Portugal",
+  "category": "E-commerce",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "OKX",
+  "careersUrl": "https://job-boards.greenhouse.io/okx",
+  "locations": "Dubai, Singapore",
+  "region": "UAE & Saudi Arabia",
+  "category": "Crypto",
+  "boards": [
+   {
+    "ats": "greenhouse",
+    "slug": "okx"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Omio",
+  "careersUrl": "https://www.omio.com/careers",
+  "locations": "Berlin",
+  "region": "Germany",
+  "category": "Travel",
+  "boards": [
+   {
+    "ats": "smartrecruiters",
+    "slug": "omio"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Oura",
+  "careersUrl": "https://ouraring.com/careers",
+  "locations": "Helsinki, Oulu",
+  "region": "Nordics & Baltics",
+  "category": "Health",
+  "boards": [
+   {
+    "ats": "greenhouse",
+    "slug": "oura"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Paidy",
+  "careersUrl": "https://corp.paidy.com/recruit/",
+  "locations": "Tokyo",
+  "region": "Asia",
+  "category": "Fintech",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Papara",
+  "careersUrl": "https://www.papara.com/en/career",
+  "locations": "Istanbul",
+  "region": "Italy, Türkiye & Caucasus",
+  "category": "Fintech",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "PayPay",
+  "careersUrl": "https://about.paypay.ne.jp/career/",
+  "locations": "Tokyo",
+  "region": "Asia",
+  "category": "Fintech",
+  "boards": [
+   {
+    "ats": "greenhouse",
+    "slug": "paypay"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Picnic",
+  "careersUrl": "https://jobs.picnic.app",
+  "locations": "Amsterdam",
+  "region": "Netherlands",
+  "category": "Delivery",
+  "boards": [
+   {
+    "ats": "smartrecruiters",
+    "slug": "picnic"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Picsart",
+  "careersUrl": "https://picsart.com/careers",
+  "locations": "Yerevan, Miami",
+  "region": "Italy, Türkiye & Caucasus",
+  "category": "Consumer",
+  "boards": [
+   {
+    "ats": "greenhouse",
+    "slug": "picsart"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Pipedrive",
+  "careersUrl": "https://www.pipedrive.com/en/jobs",
+  "locations": "Tallinn, Lisbon",
+  "region": "Nordics & Baltics",
+  "category": "SaaS",
+  "boards": [
+   {
+    "ats": "lever",
+    "slug": "pipedrive"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Plarium",
+  "careersUrl": "https://company.plarium.com/en/career/",
+  "locations": "Limassol",
+  "region": "Cyprus, Malta & Greece",
+  "category": "Games",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Pleo",
+  "careersUrl": "https://www.pleo.io/en/careers",
+  "locations": "Copenhagen",
+  "region": "Nordics & Baltics",
+  "category": "Fintech",
+  "boards": [
+   {
+    "ats": "ashby",
+    "slug": "pleo"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Polestar",
+  "careersUrl": "https://www.polestar.com/global/about/careers/",
+  "locations": "Gothenburg",
+  "region": "Nordics & Baltics",
+  "category": "Automotive (Android Automotive)",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Preply",
+  "careersUrl": "https://preply.com/en/careers",
+  "locations": "Barcelona",
+  "region": "Spain & Portugal",
+  "category": "Edtech",
+  "boards": [
+   {
+    "ats": "ashby",
+    "slug": "preply"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Property Finder",
+  "careersUrl": "https://www.propertyfinder.ae/en/careers",
+  "locations": "Dubai",
+  "region": "UAE & Saudi Arabia",
+  "category": "Marketplace",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Qonto",
+  "careersUrl": "https://qonto.com/en/careers",
+  "locations": "Paris, Berlin, Barcelona",
+  "region": "Germany",
+  "category": "Fintech",
+  "boards": [
+   {
+    "ats": "ashby",
+    "slug": "qonto"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Raisin",
+  "careersUrl": "https://www.raisin.com/en-de/careers/",
+  "locations": "Berlin",
+  "region": "Germany",
+  "category": "Fintech",
+  "boards": [
+   {
+    "ats": "greenhouse",
+    "slug": "raisin"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Rakuten",
+  "careersUrl": "https://global.rakuten.com/corp/careers/",
+  "locations": "Tokyo",
+  "region": "Asia",
+  "category": "E-commerce",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Rapyuta Robotics",
+  "careersUrl": "https://www.rapyuta-robotics.com/careers/",
+  "locations": "Tokyo",
+  "region": "Asia",
+  "category": "Robotics",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "REA Group",
+  "careersUrl": "https://www.rea-group.com/careers/",
+  "locations": "Melbourne",
+  "region": "Canada & Australia",
+  "category": "Marketplace",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Revolut",
+  "careersUrl": "https://www.revolut.com/careers/",
+  "locations": "Kraków, Madrid, Barcelona, Lisbon, Vilnius, Dubai, London",
+  "region": "Nordics & Baltics",
+  "category": "Fintech",
+  "boards": [],
+  "searchHint": "Careers site blocks bots. WebSearch `site:revolut.com/careers/position android` and read titles/snippets; LinkedIn and justjoin.it copies too. Skip Graduate/Internship roles.",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Rewaa",
+  "careersUrl": "https://www.rewaatech.com/careers",
+  "locations": "Riyadh",
+  "region": "UAE & Saudi Arabia",
+  "category": "SaaS",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Rohlik Group",
+  "careersUrl": "https://www.rohlik.group/careers",
+  "locations": "Prague",
+  "region": "Poland, Czechia & Central Europe",
+  "category": "Delivery",
+  "boards": [
+   {
+    "ats": "ashby",
+    "slug": "rohlik"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Rovio",
+  "careersUrl": "https://www.rovio.com/careers/",
+  "locations": "Espoo, Stockholm",
+  "region": "Nordics & Baltics",
+  "category": "Games",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Sabre (Kraków)",
+  "careersUrl": "https://www.sabre.com/careers/",
+  "locations": "Kraków",
+  "region": "Poland, Czechia & Central Europe",
+  "category": "Travel",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "SafetyCulture",
+  "careersUrl": "https://safetyculture.com/careers/",
+  "locations": "Sydney",
+  "region": "Canada & Australia",
+  "category": "SaaS",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Salla",
+  "careersUrl": "https://salla.com/careers",
+  "locations": "Mecca, Riyadh",
+  "region": "UAE & Saudi Arabia",
+  "category": "E-commerce",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Scalable Capital",
+  "careersUrl": "https://scalable.capital/en/careers",
+  "locations": "Munich, Berlin",
+  "region": "Germany",
+  "category": "Fintech",
+  "boards": [
+   {
+    "ats": "smartrecruiters",
+    "slug": "scalablegmbh"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Scandit",
+  "careersUrl": "https://job-boards.greenhouse.io/scandit",
+  "locations": "Zurich",
+  "region": "Poland, Czechia & Central Europe",
+  "category": "Developer tools",
+  "boards": [
+   {
+    "ats": "greenhouse",
+    "slug": "scandit"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Schibsted",
+  "careersUrl": "https://schibsted.com/career/",
+  "locations": "Oslo, Stockholm",
+  "region": "Nordics & Baltics",
+  "category": "Media",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Seedtag",
+  "careersUrl": "https://jobs.seedtag.com/",
+  "locations": "Madrid",
+  "region": "Spain & Portugal",
+  "category": "Adtech",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Seek",
+  "careersUrl": "https://www.seek.com.au/careers",
+  "locations": "Melbourne",
+  "region": "Canada & Australia",
+  "category": "Marketplace",
+  "boards": [
+   {
+    "ats": "smartrecruiters",
+    "slug": "seek"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Shopee / Sea",
+  "careersUrl": "https://careers.shopee.sg",
+  "locations": "Singapore",
+  "region": "Asia",
+  "category": "E-commerce",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Shopify",
+  "careersUrl": "https://www.shopify.com/careers",
+  "locations": "Toronto, Ottawa (remote)",
+  "region": "Canada & Australia",
+  "category": "E-commerce",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Shpock",
+  "careersUrl": "https://www.shpock.com/en-gb/careers",
+  "locations": "Vienna",
+  "region": "Poland, Czechia & Central Europe",
+  "category": "Marketplace",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "SIXT",
+  "careersUrl": "https://www.sixt.jobs/en",
+  "locations": "Munich, Berlin",
+  "region": "Germany",
+  "category": "Mobility",
+  "boards": [
+   {
+    "ats": "smartrecruiters",
+    "slug": "sixt"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Skroutz",
+  "careersUrl": "https://careers.skroutz.gr",
+  "locations": "Athens",
+  "region": "Cyprus, Malta & Greece",
+  "category": "E-commerce",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Sky",
+  "careersUrl": "https://careers.sky.com",
+  "locations": "London",
+  "region": "UK & Ireland",
+  "category": "Media",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Skyscanner",
+  "careersUrl": "https://www.skyscanner.net/jobs",
+  "locations": "Barcelona, Edinburgh, London",
+  "region": "Spain & Portugal",
+  "category": "Travel",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "SmartNews",
+  "careersUrl": "https://about.smartnews.com/en/careers/",
+  "locations": "Tokyo",
+  "region": "Asia",
+  "category": "Media",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Snap",
+  "careersUrl": "https://careers.snap.com/jobs?query=android",
+  "locations": "London, Vienna, Zurich",
+  "region": "Poland, Czechia & Central Europe",
+  "category": "Big tech",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Solaris",
+  "careersUrl": "https://www.solarisgroup.com/en/careers/",
+  "locations": "Berlin",
+  "region": "Germany",
+  "category": "Fintech",
+  "boards": [
+   {
+    "ats": "greenhouse",
+    "slug": "solarisbank"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Sportsbet",
+  "careersUrl": "https://sportsbetcareers.com.au",
+  "locations": "Melbourne",
+  "region": "Canada & Australia",
+  "category": "Gaming",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Spotify",
+  "careersUrl": "https://www.lifeatspotify.com/jobs",
+  "locations": "Stockholm, London",
+  "region": "Nordics & Baltics",
+  "category": "Media",
+  "boards": [
+   {
+    "ats": "lever",
+    "slug": "spotify"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Starling Bank",
+  "careersUrl": "https://www.starlingbank.com/careers/",
+  "locations": "London",
+  "region": "UK & Ireland",
+  "category": "Fintech",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Starship Technologies",
+  "careersUrl": "https://www.starship.xyz/careers/",
+  "locations": "Tallinn",
+  "region": "Nordics & Baltics",
+  "category": "Robotics",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "stc bank",
+  "careersUrl": "https://www.stcbank.com.sa",
+  "locations": "Riyadh",
+  "region": "UAE & Saudi Arabia",
+  "category": "Bank",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Stripe",
+  "careersUrl": "https://stripe.com/jobs",
+  "locations": "Dublin, London",
+  "region": "UK & Ireland",
+  "category": "Fintech",
+  "boards": [
+   {
+    "ats": "greenhouse",
+    "slug": "stripe"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "SumUp",
+  "careersUrl": "https://www.sumup.com/careers/",
+  "locations": "Berlin, Barcelona, London",
+  "region": "Germany",
+  "category": "Fintech",
+  "boards": [
+   {
+    "ats": "greenhouse",
+    "slug": "sumup"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Supercell",
+  "careersUrl": "https://supercell.com/en/careers/",
+  "locations": "Helsinki",
+  "region": "Nordics & Baltics",
+  "category": "Games",
+  "boards": [
+   {
+    "ats": "ashby",
+    "slug": "supercell"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Swile",
+  "careersUrl": "https://www.swile.co/en/careers",
+  "locations": "Paris",
+  "region": "France & Belgium",
+  "category": "Fintech",
+  "boards": [
+   {
+    "ats": "lever",
+    "slug": "swile"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Sword Health",
+  "careersUrl": "https://swordhealth.com/careers",
+  "locations": "Porto, Lisbon",
+  "region": "Spain & Portugal",
+  "category": "Health",
+  "boards": [
+   {
+    "ats": "greenhouse",
+    "slug": "swordhealth"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Tabby",
+  "careersUrl": "https://tabby.ai/careers",
+  "locations": "Dubai, Riyadh",
+  "region": "UAE & Saudi Arabia",
+  "category": "Fintech",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "tado°",
+  "careersUrl": "https://www.tado.com/en/jobs",
+  "locations": "Munich",
+  "region": "Germany",
+  "category": "IoT",
+  "boards": [
+   {
+    "ats": "personio",
+    "slug": "tado"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Talabat",
+  "careersUrl": "https://careers.talabat.com",
+  "locations": "Dubai",
+  "region": "UAE & Saudi Arabia",
+  "category": "Delivery",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Tamara",
+  "careersUrl": "https://tamara.co/careers",
+  "locations": "Riyadh, Dubai",
+  "region": "UAE & Saudi Arabia",
+  "category": "Fintech",
+  "boards": [
+   {
+    "ats": "greenhouse",
+    "slug": "tamara"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Taxfix",
+  "careersUrl": "https://taxfix.de/en/careers/",
+  "locations": "Berlin",
+  "region": "Germany",
+  "category": "Fintech",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "TBC Bank",
+  "careersUrl": "https://tbcbank.ge/web/en/careers",
+  "locations": "Tbilisi, Tashkent",
+  "region": "Georgia & Central Asia",
+  "category": "Bank",
+  "boards": [
+   {
+    "ats": "smartrecruiters",
+    "slug": "tbcbank"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "TikTok / ByteDance",
+  "careersUrl": "https://lifeattiktok.com/search?keyword=android",
+  "locations": "London, Berlin, Dubai, Singapore",
+  "region": "Poland, Czechia & Central Europe",
+  "category": "Big tech",
+  "boards": [],
+  "searchHint": "Search lifeattiktok.com for Android roles outside the US/China.",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Tink",
+  "careersUrl": "https://tink.com/careers/",
+  "locations": "Stockholm",
+  "region": "Nordics & Baltics",
+  "category": "Fintech",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Tiqets",
+  "careersUrl": "https://www.tiqets.com/careers",
+  "locations": "Amsterdam",
+  "region": "Netherlands",
+  "category": "Travel",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "TomTom",
+  "careersUrl": "https://www.tomtom.com/careers/",
+  "locations": "Amsterdam",
+  "region": "Netherlands",
+  "category": "Mobility",
+  "boards": [
+   {
+    "ats": "lever-eu",
+    "slug": "tomtom"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Too Good To Go",
+  "careersUrl": "https://www.toogoodtogo.com/en/careers",
+  "locations": "Copenhagen",
+  "region": "Nordics & Baltics",
+  "category": "Consumer",
+  "boards": [
+   {
+    "ats": "ashby",
+    "slug": "toogoodtogo"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "TourRadar",
+  "careersUrl": "https://www.tourradar.com/careers",
+  "locations": "Vienna",
+  "region": "Poland, Czechia & Central Europe",
+  "category": "Travel",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Trade Republic",
+  "careersUrl": "https://traderepublic.com/careers",
+  "locations": "Berlin",
+  "region": "Germany",
+  "category": "Fintech",
+  "boards": [
+   {
+    "ats": "greenhouse",
+    "slug": "traderepublicbank"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Trainline",
+  "careersUrl": "https://www.trainlinegroup.com/careers/",
+  "locations": "London",
+  "region": "UK & Ireland",
+  "category": "Travel",
+  "boards": [
+   {
+    "ats": "ashby",
+    "slug": "trainline"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Traveloka",
+  "careersUrl": "https://www.traveloka.com/en-en/careers",
+  "locations": "Jakarta, Singapore",
+  "region": "Asia",
+  "category": "Travel",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "TravelPerk",
+  "careersUrl": "https://www.travelperk.com/careers/",
+  "locations": "Barcelona",
+  "region": "Spain & Portugal",
+  "category": "Travel",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Trendyol",
+  "careersUrl": "https://careers.trendyol.com",
+  "locations": "Istanbul, Amsterdam, Berlin",
+  "region": "Italy, Türkiye & Caucasus",
+  "category": "E-commerce",
+  "boards": [
+   {
+    "ats": "lever",
+    "slug": "trendyol"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Trivago",
+  "careersUrl": "https://job-boards.greenhouse.io/trivago",
+  "locations": "Düsseldorf",
+  "region": "Germany",
+  "category": "Travel",
+  "boards": [
+   {
+    "ats": "greenhouse",
+    "slug": "trivago"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Truecaller",
+  "careersUrl": "https://job-boards.greenhouse.io/truecaller",
+  "locations": "Stockholm",
+  "region": "Nordics & Baltics",
+  "category": "Consumer",
+  "boards": [
+   {
+    "ats": "greenhouse",
+    "slug": "truecaller"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Typeform",
+  "careersUrl": "https://www.typeform.com/careers/",
+  "locations": "Barcelona",
+  "region": "Spain & Portugal",
+  "category": "SaaS",
+  "boards": [
+   {
+    "ats": "greenhouse",
+    "slug": "typeform"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Uber (Amsterdam)",
+  "careersUrl": "https://www.uber.com/careers/",
+  "locations": "Amsterdam",
+  "region": "Netherlands",
+  "category": "Mobility",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Uphold",
+  "careersUrl": "https://uphold.com/en/careers",
+  "locations": "Porto, Braga",
+  "region": "Spain & Portugal",
+  "category": "Fintech",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Veriff",
+  "careersUrl": "https://www.veriff.com/careers",
+  "locations": "Tallinn",
+  "region": "Nordics & Baltics",
+  "category": "Security",
+  "boards": [
+   {
+    "ats": "greenhouse",
+    "slug": "veriff"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Vestiaire Collective",
+  "careersUrl": "https://careers.vestiairecollective.com",
+  "locations": "Paris",
+  "region": "France & Belgium",
+  "category": "Marketplace",
+  "boards": [
+   {
+    "ats": "lever",
+    "slug": "vestiairecollective"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Vinted",
+  "careersUrl": "https://careers.vinted.com",
+  "locations": "Vilnius, Berlin",
+  "region": "Nordics & Baltics",
+  "category": "Marketplace",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Vipps MobilePay",
+  "careersUrl": "https://vippsmobilepay.com/careers",
+  "locations": "Oslo, Copenhagen",
+  "region": "Nordics & Baltics",
+  "category": "Fintech",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Viva Wallet",
+  "careersUrl": "https://www.viva.com/en-eu/about/careers",
+  "locations": "Athens",
+  "region": "Cyprus, Malta & Greece",
+  "category": "Fintech",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Vivid Money",
+  "careersUrl": "https://careers.vivid.money",
+  "locations": "Berlin",
+  "region": "Germany",
+  "category": "Fintech",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Voi",
+  "careersUrl": "https://www.voi.com/careers",
+  "locations": "Stockholm",
+  "region": "Nordics & Baltics",
+  "category": "Mobility",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Volvo Cars",
+  "careersUrl": "https://jobs.volvocars.com",
+  "locations": "Gothenburg, Stockholm",
+  "region": "Nordics & Baltics",
+  "category": "Automotive (Android Automotive)",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Wallapop",
+  "careersUrl": "https://job-boards.greenhouse.io/wallapop",
+  "locations": "Barcelona",
+  "region": "Spain & Portugal",
+  "category": "Marketplace",
+  "boards": [
+   {
+    "ats": "greenhouse",
+    "slug": "wallapop"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Wargaming",
+  "careersUrl": "https://wargaming.com/en/careers/",
+  "locations": "Nicosia",
+  "region": "Cyprus, Malta & Greece",
+  "category": "Games",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Wealthsimple",
+  "careersUrl": "https://www.wealthsimple.com/en-ca/careers",
+  "locations": "Toronto",
+  "region": "Canada & Australia",
+  "category": "Fintech",
+  "boards": [
+   {
+    "ats": "ashby",
+    "slug": "wealthsimple"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Wio Bank",
+  "careersUrl": "https://www.wio.io/careers",
+  "locations": "Abu Dhabi",
+  "region": "UAE & Saudi Arabia",
+  "category": "Bank",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Wise",
+  "careersUrl": "https://wise.jobs",
+  "locations": "London, Tallinn, Budapest",
+  "region": "Nordics & Baltics",
+  "category": "Fintech",
+  "boards": [
+   {
+    "ats": "smartrecruiters",
+    "slug": "wise"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Wix",
+  "careersUrl": "https://careers.wix.com",
+  "locations": "Vilnius, Kraków, Tel Aviv",
+  "region": "Italy, Türkiye & Caucasus",
+  "category": "SaaS",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Wolt",
+  "careersUrl": "https://careers.wolt.com",
+  "locations": "Helsinki, Berlin, Stockholm",
+  "region": "Germany",
+  "category": "Delivery",
+  "boards": [
+   {
+    "ats": "greenhouse",
+    "slug": "wolt"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Workhuman",
+  "careersUrl": "https://www.workhuman.com/careers",
+  "locations": "Dublin",
+  "region": "UK & Ireland",
+  "category": "SaaS",
+  "boards": [
+   {
+    "ats": "ashby",
+    "slug": "workhuman"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Woven by Toyota",
+  "careersUrl": "https://woven.toyota/en/careers",
+  "locations": "Tokyo",
+  "region": "Asia",
+  "category": "Automotive",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Xendit",
+  "careersUrl": "https://www.xendit.co/en/careers/",
+  "locations": "Jakarta, Manila",
+  "region": "Asia",
+  "category": "Fintech",
+  "boards": [
+   {
+    "ats": "greenhouse",
+    "slug": "xendit"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "XING / New Work",
+  "careersUrl": "https://www.new-work.se/en/career",
+  "locations": "Hamburg",
+  "region": "Germany",
+  "category": "Consumer",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "XM",
+  "careersUrl": "https://jobs.eu.lever.co/xm",
+  "locations": "Limassol",
+  "region": "Cyprus, Malta & Greece",
+  "category": "Fintech",
+  "boards": [
+   {
+    "ats": "lever-eu",
+    "slug": "xm"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Yango Group",
+  "careersUrl": "https://yango.com/career",
+  "locations": "Dubai",
+  "region": "UAE & Saudi Arabia",
+  "category": "Super app",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Yassir",
+  "careersUrl": "https://yassir.com/careers",
+  "locations": "Algiers, Paris",
+  "region": "Italy, Türkiye & Caucasus",
+  "category": "Super app",
+  "boards": [
+   {
+    "ats": "smartrecruiters",
+    "slug": "yassir"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Yelp",
+  "careersUrl": "https://www.yelp.careers",
+  "locations": "Hamburg, London",
+  "region": "Germany",
+  "category": "Consumer",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Zalando",
+  "careersUrl": "https://jobs.zalando.com/en/jobs",
+  "locations": "Berlin, Dublin, Helsinki",
+  "region": "Germany",
+  "category": "E-commerce",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Zattoo",
+  "careersUrl": "https://zattoo.com/company/en/jobs",
+  "locations": "Berlin, Zurich",
+  "region": "Germany",
+  "category": "Media",
+  "boards": [
+   {
+    "ats": "greenhouse",
+    "slug": "zattoo"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Ziina",
+  "careersUrl": "https://www.ziina.com/careers",
+  "locations": "Dubai",
+  "region": "UAE & Saudi Arabia",
+  "category": "Fintech",
+  "boards": [
+   {
+    "ats": "ashby",
+    "slug": "ziina"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ },
+ {
+  "name": "Zopa",
+  "careersUrl": "https://www.zopa.com/careers",
+  "locations": "London",
+  "region": "UK & Ireland",
+  "category": "Fintech",
+  "boards": [
+   {
+    "ats": "lever",
+    "slug": "zopa"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "seed"
+ }
+]

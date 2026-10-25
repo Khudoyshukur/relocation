@@ -1,0 +1,964 @@
+{
+ "scannedAt": "2026-10-25T13:31:13Z",
+ "companies": {
+  "adjoe": {
+   "jobs": [
+    {
+     "title": "Senior Android Developer (f/m/d)",
+     "location": "Hamburg",
+     "url": "https://jobs.ashbyhq.com/adjoe/eafc53f1-a5ef-421f-b554-a861e55c0bed"
+    },
+    {
+     "title": "Product Owner - Mobile Integrations (f/m/d)",
+     "location": "Hamburg",
+     "url": "https://jobs.ashbyhq.com/adjoe/8ccbd87a-fb80-41cc-a5ec-da85671bc36c"
+    }
+   ],
+   "errors": []
+  },
+  "Adyen": {
+   "jobs": [
+    {
+     "title": "Engineering Manager - Android",
+     "location": "Amsterdam",
+     "url": "https://job-boards.greenhouse.io/adyen/jobs/8167155"
+    },
+    {
+     "title": "Senior Software Engineer (Android - Kotlin Expert)",
+     "location": "Bengaluru",
+     "url": "https://job-boards.greenhouse.io/adyen/jobs/8098671"
+    },
+    {
+     "title": "Staff Engineer - Payments (Mobile & Terminal Experiences)",
+     "location": "Chicago",
+     "url": "https://job-boards.greenhouse.io/adyen/jobs/8103468"
+    }
+   ],
+   "errors": []
+  },
+  "Agoda": {
+   "jobs": [],
+   "errors": []
+  },
+  "Alan": {
+   "jobs": [],
+   "errors": []
+  },
+  "ASOS": {
+   "jobs": [
+    {
+     "title": "Android Engineer",
+     "location": "London, GB",
+     "url": "https://jobs.smartrecruiters.com/asos/744000136154689"
+    }
+   ],
+   "errors": []
+  },
+  "AUTO1 Group": {
+   "jobs": [],
+   "errors": []
+  },
+  "Babbel": {
+   "jobs": [],
+   "errors": []
+  },
+  "Babylon / eMed": {
+   "jobs": [],
+   "errors": []
+  },
+  "Back Market": {
+   "jobs": [],
+   "errors": []
+  },
+  "Binance": {
+   "jobs": [
+    {
+     "title": "Android Engineer - Risk Control",
+     "location": "Hong Kong; Singapore; Taiwan",
+     "url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002705101"
+    },
+    {
+     "title": "Client Full-Stack Engineer — IM Chat Platform, Android Focus",
+     "location": "Australia; Hong Kong; Taiwan",
+     "url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002461101"
+    },
+    {
+     "title": "Senior Android Developer - Cryptographic",
+     "location": "Hong Kong; Singapore; Taiwan",
+     "url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002707101"
+    },
+    {
+     "title": "Senior Android Engineer, Futures",
+     "location": "Hong Kong; Taiwan",
+     "url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002677101"
+    }
+   ],
+   "errors": []
+  },
+  "Bitpanda": {
+   "jobs": [],
+   "errors": []
+  },
+  "Bitvavo": {
+   "jobs": [],
+   "errors": []
+  },
+  "BlaBlaCar": {
+   "jobs": [],
+   "errors": []
+  },
+  "bol": {
+   "jobs": [],
+   "errors": []
+  },
+  "Brainly": {
+   "jobs": [],
+   "errors": []
+  },
+  "bunq": {
+   "jobs": [],
+   "errors": []
+  },
+  "Bybit": {
+   "jobs": [],
+   "errors": []
+  },
+  "Cabify": {
+   "jobs": [],
+   "errors": []
+  },
+  "Canva": {
+   "jobs": [],
+   "errors": []
+  },
+  "Careem": {
+   "jobs": [],
+   "errors": []
+  },
+  "Catawiki": {
+   "jobs": [],
+   "errors": []
+  },
+  "Clark": {
+   "jobs": [],
+   "errors": []
+  },
+  "Coolblue": {
+   "jobs": [],
+   "errors": []
+  },
+  "Coupang": {
+   "jobs": [
+    {
+     "title": "[Coupang Pay Tech] Staff Mobile Engineer",
+     "location": "Seoul, South Korea",
+     "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8194393"
+    },
+    {
+     "title": "Senior Android Engineer",
+     "location": "Bengaluru",
+     "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8275812"
+    },
+    {
+     "title": "Senior Staff Security Engineer, Mobile Security (Digital Trust)",
+     "location": "Seoul, South Korea",
+     "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8203471"
+    }
+   ],
+   "errors": []
+  },
+  "Dashlane": {
+   "jobs": [],
+   "errors": []
+  },
+  "Deliveroo": {
+   "jobs": [
+    {
+     "title": "Senior Software Engineer - Android",
+     "location": "London, United Kingdom - Deliveroo",
+     "url": "https://job-boards.greenhouse.io/deliveroo/jobs/8202417"
+    },
+    {
+     "title": "Senior Software Engineer, Android SDUI",
+     "location": "London, United Kingdom - Deliveroo",
+     "url": "https://job-boards.greenhouse.io/deliveroo/jobs/8206363"
+    },
+    {
+     "title": "Software Engineer II - Android",
+     "location": "London, United Kingdom - Deliveroo",
+     "url": "https://job-boards.greenhouse.io/deliveroo/jobs/8202481"
+    }
+   ],
+   "errors": []
+  },
+  "Delivery Hero": {
+   "jobs": [
+    {
+     "title": "Software Engineer Android ",
+     "location": "Montevideo, UY",
+     "url": "https://jobs.smartrecruiters.com/deliveryhero/744000156405716"
+    },
+    {
+     "title": "Software Engineer Android",
+     "location": "Buenos Aires, AR",
+     "url": "https://jobs.smartrecruiters.com/deliveryhero/744000156404943"
+    },
+    {
+     "title": "Android Engineer I, Local Shops - Quick Commerce",
+     "location": "Barcelona, ES",
+     "url": "https://jobs.smartrecruiters.com/deliveryhero/744000155965149"
+    },
+    {
+     "title": "Senior Android Engineer (Saudi National)",
+     "location": "Riyadh, SA",
+     "url": "https://jobs.smartrecruiters.com/deliveryhero/744000147889859"
+    },
+    {
+     "title": "Software Engineer II - Android (Saudi National)",
+     "location": "Riyadh, SA",
+     "url": "https://jobs.smartrecruiters.com/deliveryhero/744000144248503"
+    }
+   ],
+   "errors": []
+  },
+  "Docplanner (Doctoralia)": {
+   "jobs": [],
+   "errors": []
+  },
+  "Doctolib": {
+   "jobs": [
+    {
+     "title": "Senior Software Engineer FullStack Kotlin / React - Berlin (f/m/d)",
+     "location": "Berlin, Berlin, Germany",
+     "url": "https://job-boards.greenhouse.io/doctolib/jobs/7792246003"
+    },
+    {
+     "title": "Software Engineer Fullstack Kotlin / React (x/f/m)",
+     "location": "Paris, Paris, France",
+     "url": "https://job-boards.greenhouse.io/doctolib/jobs/7809464003"
+    },
+    {
+     "title": "Staff Mobile Engineer - React Native (x/f/m)",
+     "location": "Paris, Paris, France",
+     "url": "https://job-boards.greenhouse.io/doctolib/jobs/7512129003"
+    }
+   ],
+   "errors": []
+  },
+  "Dream Games": {
+   "jobs": [],
+   "errors": []
+  },
+  "Duolingo": {
+   "jobs": [
+    {
+     "title": "Senior Software Engineer, Android, Monetization",
+     "location": "Beijing, China",
+     "url": "https://careers.duolingo.com/jobs/8702391002?gh_jid=8702391002"
+    },
+    {
+     "title": "Senior/Software Engineer II, Android",
+     "location": "New York, NY; Pittsburgh, PA",
+     "url": "https://careers.duolingo.com/jobs/8628658002?gh_jid=8628658002"
+    }
+   ],
+   "errors": []
+  },
+  "Farfetch": {
+   "jobs": [],
+   "errors": []
+  },
+  "Feedzai": {
+   "jobs": [],
+   "errors": []
+  },
+  "Fever": {
+   "jobs": [
+    {
+     "title": "Senior Android Product Engineer - Data Team",
+     "location": "Spain",
+     "url": "https://job-boards.eu.greenhouse.io/feverup/jobs/4923726101"
+    }
+   ],
+   "errors": []
+  },
+  "Flipdish": {
+   "jobs": [],
+   "errors": []
+  },
+  "FlixBus (Flix)": {
+   "jobs": [
+    {
+     "title": "Senior Software Engineer - Mobile/Android (m/f/d) ",
+     "location": "Berlin",
+     "url": "https://flix.careers/job/8522735002?gh_jid=8522735002"
+    },
+    {
+     "title": "Software Engineer (Android) - Service Agreement",
+     "location": "Warsaw",
+     "url": "https://flix.careers/job/8873997002?gh_jid=8873997002"
+    }
+   ],
+   "errors": []
+  },
+  "FREE NOW": {
+   "jobs": [],
+   "errors": []
+  },
+  "GetYourGuide": {
+   "jobs": [],
+   "errors": []
+  },
+  "GoStudent": {
+   "jobs": [],
+   "errors": []
+  },
+  "Grab": {
+   "jobs": [
+    {
+     "title": "Lead Software Engineer in Test (Mobile)",
+     "location": "Singapore, SG",
+     "url": "https://jobs.smartrecruiters.com/grab/744000156843879"
+    },
+    {
+     "title": "Senior Software Engineer, Mobile (Android)",
+     "location": "Bangalore, IN",
+     "url": "https://jobs.smartrecruiters.com/grab/744000155910704"
+    },
+    {
+     "title": "Senior Software Engineer, Mobile (Android) - Consumer Experience",
+     "location": "Jakarta, ID",
+     "url": "https://jobs.smartrecruiters.com/grab/744000154380299"
+    },
+    {
+     "title": "Senior Software Engineer, Mobile (Android)",
+     "location": "HCMC, VN",
+     "url": "https://jobs.smartrecruiters.com/grab/744000127795765"
+    },
+    {
+     "title": "Head of Engineering, Mobile Backend Frameworks",
+     "location": "Singapore, SG",
+     "url": "https://jobs.smartrecruiters.com/grab/744000111016385"
+    },
+    {
+     "title": "Lead Software Engineer, Mobile (Android) - Fulfilment",
+     "location": "Jakarta, ID",
+     "url": "https://jobs.smartrecruiters.com/grab/744000105787030"
+    },
+    {
+     "title": "Senior Software Engineer, Mobile (Android) - Fulfilment",
+     "location": "Jakarta, ID",
+     "url": "https://jobs.smartrecruiters.com/grab/744000105787405"
+    }
+   ],
+   "errors": []
+  },
+  "Grover": {
+   "jobs": [],
+   "errors": []
+  },
+  "HelloFresh": {
+   "jobs": [
+    {
+     "title": "Mobile Staff Product Engineer, Platform/Infrastructure (all genders)",
+     "location": "Warszawa, Masovian Voivodeship, Poland",
+     "url": "https://careers.hellofresh.com/global/en/job/8028117?gh_jid=8028117"
+    },
+    {
+     "title": "Senior Mobile Engineer - React Native, Platform/Infrastructure (all genders)",
+     "location": "Warszawa, Masovian Voivodeship, Poland",
+     "url": "https://careers.hellofresh.com/global/en/job/8164248?gh_jid=8164248"
+    },
+    {
+     "title": "Senior Mobile Product Engineer, Intelligent Platforms (all genders)",
+     "location": "Warszawa, Masovian Voivodeship, Poland",
+     "url": "https://careers.hellofresh.com/global/en/job/8173865?gh_jid=8173865"
+    },
+    {
+     "title": "Senior Mobile Product Engineer, Menu Discovery",
+     "location": "Warszawa, Masovian Voivodeship, Poland",
+     "url": "https://careers.hellofresh.com/global/en/job/8278820?gh_jid=8278820"
+    }
+   ],
+   "errors": []
+  },
+  "Holded": {
+   "jobs": [],
+   "errors": []
+  },
+  "Hootsuite": {
+   "jobs": [],
+   "errors": []
+  },
+  "Huuuge Games": {
+   "jobs": [],
+   "errors": []
+  },
+  "ImmoScout24": {
+   "jobs": [],
+   "errors": []
+  },
+  "Intercom": {
+   "jobs": [],
+   "errors": []
+  },
+  "JetBrains": {
+   "jobs": [
+    {
+     "title": "Team Lead Kotlin Infrastructure",
+     "location": "Amsterdam, Netherlands; Belgrade, Serbia; Berlin, Germany; Limassol, Cyprus; Prague, Czech Republic; Remote, Germany; Warsaw, Poland",
+     "url": "https://job-boards.eu.greenhouse.io/jetbrains/jobs/4937064101"
+    }
+   ],
+   "errors": []
+  },
+  "Jobandtalent": {
+   "jobs": [],
+   "errors": []
+  },
+  "Ledger": {
+   "jobs": [],
+   "errors": []
+  },
+  "Lightspeed": {
+   "jobs": [],
+   "errors": []
+  },
+  "LiveChat (Text)": {
+   "jobs": [],
+   "errors": []
+  },
+  "Lodgify": {
+   "jobs": [],
+   "errors": []
+  },
+  "Lyst": {
+   "jobs": [],
+   "errors": []
+  },
+  "Marshmallow": {
+   "jobs": [],
+   "errors": []
+  },
+  "Mentimeter": {
+   "jobs": [],
+   "errors": []
+  },
+  "Miro": {
+   "jobs": [],
+   "errors": []
+  },
+  "Mobimeo": {
+   "jobs": [],
+   "errors": []
+  },
+  "MOIA": {
+   "jobs": [],
+   "errors": []
+  },
+  "Mollie": {
+   "jobs": [],
+   "errors": []
+  },
+  "Moneybox": {
+   "jobs": [],
+   "errors": []
+  },
+  "Monzo": {
+   "jobs": [
+    {
+     "title": "Android Engineer",
+     "location": "Barcelona",
+     "url": "https://job-boards.greenhouse.io/monzo/jobs/7343996"
+    }
+   ],
+   "errors": []
+  },
+  "N26": {
+   "jobs": [],
+   "errors": []
+  },
+  "Ninja Van": {
+   "jobs": [],
+   "errors": []
+  },
+  "OKX": {
+   "jobs": [
+    {
+     "title": "Engineering Director, Mobile Infrastructure",
+     "location": "Singapore, Singapore",
+     "url": "https://job-boards.greenhouse.io/okx/jobs/7777037003"
+    },
+    {
+     "title": "Engineering Director, Mobile, Infrastructure",
+     "location": "Hong Kong, Hong Kong SAR",
+     "url": "https://job-boards.greenhouse.io/okx/jobs/7777038003"
+    },
+    {
+     "title": "Engineering Director, Mobile (iOS/Android)",
+     "location": "Hong Kong, Hong Kong SAR",
+     "url": "https://job-boards.greenhouse.io/okx/jobs/7777138003"
+    },
+    {
+     "title": "Engineering Director, Mobile (iOS/Android)",
+     "location": "Singapore, Singapore",
+     "url": "https://job-boards.greenhouse.io/okx/jobs/7777137003"
+    },
+    {
+     "title": "Engineering Director, Mobile, Web3",
+     "location": "Hong Kong, Hong Kong SAR",
+     "url": "https://job-boards.greenhouse.io/okx/jobs/7778748003"
+    },
+    {
+     "title": "Engineering Director, Mobile, Web3",
+     "location": "Singapore, Singapore",
+     "url": "https://job-boards.greenhouse.io/okx/jobs/7778747003"
+    },
+    {
+     "title": "Principal/Senior Mobile Engineer, Trading Strategies, CEX",
+     "location": "Singapore, Singapore",
+     "url": "https://job-boards.greenhouse.io/okx/jobs/7789825003"
+    },
+    {
+     "title": "Principal/Senior Software Engineer, Mobile, CEX",
+     "location": "Hong Kong, Hong Kong SAR",
+     "url": "https://job-boards.greenhouse.io/okx/jobs/7768122003"
+    },
+    {
+     "title": "Principal/Senior Software Engineer, Mobile, CEX",
+     "location": "Singapore, Singapore",
+     "url": "https://job-boards.greenhouse.io/okx/jobs/7768121003"
+    },
+    {
+     "title": "Senior Mobile Engineer (Card & Payment)",
+     "location": "San Jose, California, United States",
+     "url": "https://job-boards.greenhouse.io/okx/jobs/7850427003"
+    },
+    {
+     "title": "Senior Staff Software Engineer, Mobile",
+     "location": "Singapore, Singapore",
+     "url": "https://job-boards.greenhouse.io/okx/jobs/7777048003"
+    },
+    {
+     "title": "Senior / Staff Software Engineer, Mobile — Core (Account & Risk)",
+     "location": "Hong Kong, Hong Kong SAR",
+     "url": "https://job-boards.greenhouse.io/okx/jobs/7805494003"
+    },
+    {
+     "title": "Senior / Staff Software Engineer, Mobile — Core (Messaging)",
+     "location": "Hong Kong, Hong Kong SAR",
+     "url": "https://job-boards.greenhouse.io/okx/jobs/7804806003"
+    },
+    {
+     "title": "Senior Staff Software Engineer, Mobile Infrastructure",
+     "location": "Singapore, Singapore",
+     "url": "https://job-boards.greenhouse.io/okx/jobs/7777031003"
+    },
+    {
+     "title": "Senior Staff Software Engineer, Mobile Infrastructure",
+     "location": "Hong Kong, Hong Kong SAR",
+     "url": "https://job-boards.greenhouse.io/okx/jobs/7777032003"
+    },
+    {
+     "title": "Senior/Staff Software Engineer, Mobile Trading",
+     "location": "San Jose, California, United States",
+     "url": "https://job-boards.greenhouse.io/okx/jobs/7786381003"
+    },
+    {
+     "title": "Software Engineer, Mobile",
+     "location": "Hong Kong, Hong Kong SAR",
+     "url": "https://job-boards.greenhouse.io/okx/jobs/8004167003"
+    },
+    {
+     "title": "Software Engineer, Mobile Core (Compliance)",
+     "location": "Singapore, Singapore",
+     "url": "https://job-boards.greenhouse.io/okx/jobs/8026443003"
+    },
+    {
+     "title": "Software Engineer, Mobile, Web3",
+     "location": "Hong Kong, Hong Kong SAR",
+     "url": "https://job-boards.greenhouse.io/okx/jobs/7777044003"
+    },
+    {
+     "title": "Software Engineer, Mobile, Web3",
+     "location": "Singapore, Singapore",
+     "url": "https://job-boards.greenhouse.io/okx/jobs/7777043003"
+    },
+    {
+     "title": "Software / Senior Software Engineer, Mobile",
+     "location": "Singapore, Singapore",
+     "url": "https://job-boards.greenhouse.io/okx/jobs/7978927003"
+    },
+    {
+     "title": "Staff / Senior Staff Software Engineer, Mobile",
+     "location": "Hong Kong, Hong Kong SAR",
+     "url": "https://job-boards.greenhouse.io/okx/jobs/7788717003"
+    },
+    {
+     "title": "Staff / Senior Staff Software Engineer, Mobile Growth",
+     "location": "Hong Kong, Hong Kong SAR",
+     "url": "https://job-boards.greenhouse.io/okx/jobs/7788716003"
+    },
+    {
+     "title": "Staff Software Engineer, Mobile Security",
+     "location": "Hong Kong, Hong Kong SAR",
+     "url": "https://job-boards.greenhouse.io/okx/jobs/7795766003"
+    },
+    {
+     "title": "Staff Software Engineer, Mobile Security",
+     "location": "Singapore, Singapore",
+     "url": "https://job-boards.greenhouse.io/okx/jobs/7795765003"
+    }
+   ],
+   "errors": []
+  },
+  "Omio": {
+   "jobs": [],
+   "errors": []
+  },
+  "Oura": {
+   "jobs": [],
+   "errors": []
+  },
+  "PayPay": {
+   "jobs": [],
+   "errors": []
+  },
+  "Picnic": {
+   "jobs": [],
+   "errors": []
+  },
+  "Picsart": {
+   "jobs": [],
+   "errors": []
+  },
+  "Pipedrive": {
+   "jobs": [],
+   "errors": []
+  },
+  "Pleo": {
+   "jobs": [],
+   "errors": []
+  },
+  "Preply": {
+   "jobs": [],
+   "errors": []
+  },
+  "Qonto": {
+   "jobs": [
+    {
+     "title": "Senior Android Engineer - AI Product",
+     "location": "Paris, France",
+     "url": "https://jobs.ashbyhq.com/qonto/f0e01524-39cd-4353-b26e-a7044f95dcdf"
+    }
+   ],
+   "errors": []
+  },
+  "Raisin": {
+   "jobs": [],
+   "errors": []
+  },
+  "Rohlik Group": {
+   "jobs": [],
+   "errors": []
+  },
+  "Scalable Capital": {
+   "jobs": [
+    {
+     "title": "(Senior) Android Engineer (m/f/x) ",
+     "location": "Wien, AT",
+     "url": "https://jobs.smartrecruiters.com/scalablegmbh/744000153732559"
+    },
+    {
+     "title": "(Senior) Technical Product Manager - Mobile Platform (m/f/x)",
+     "location": "Berlin, DE",
+     "url": "https://jobs.smartrecruiters.com/scalablegmbh/744000149285874"
+    },
+    {
+     "title": "(Senior) Technical Product Manager - Mobile Platform (m/f/x)",
+     "location": "München, DE",
+     "url": "https://jobs.smartrecruiters.com/scalablegmbh/744000149287089"
+    },
+    {
+     "title": "Senior Android Engineer (m/f/x) ",
+     "location": "Berlin, DE",
+     "url": "https://jobs.smartrecruiters.com/scalablegmbh/744000140460262"
+    },
+    {
+     "title": "Senior Android Engineer (m/f/x) ",
+     "location": "München, DE",
+     "url": "https://jobs.smartrecruiters.com/scalablegmbh/744000140461409"
+    },
+    {
+     "title": "Android Engineer (m/f/x)",
+     "location": "Berlin, DE",
+     "url": "https://jobs.smartrecruiters.com/scalablegmbh/744000140447119"
+    },
+    {
+     "title": "Android Engineer (m/f/x)",
+     "location": "München, DE",
+     "url": "https://jobs.smartrecruiters.com/scalablegmbh/744000140446900"
+    }
+   ],
+   "errors": []
+  },
+  "Scandit": {
+   "jobs": [],
+   "errors": []
+  },
+  "Seek": {
+   "jobs": [],
+   "errors": []
+  },
+  "SIXT": {
+   "jobs": [],
+   "errors": []
+  },
+  "Solaris": {
+   "jobs": [],
+   "errors": []
+  },
+  "Spotify": {
+   "jobs": [],
+   "errors": []
+  },
+  "Stripe": {
+   "jobs": [
+    {
+     "title": "Android BSP Engineer",
+     "location": "Taipei, Taiwan",
+     "url": "https://stripe.com/jobs/search?gh_jid=8239006"
+    },
+    {
+     "title": "Android Engineer, Terminal - CA",
+     "location": "Toronto, CA",
+     "url": "https://stripe.com/jobs/search?gh_jid=8274893"
+    },
+    {
+     "title": "Android Engineer, Terminal OS Platform",
+     "location": "San Francisco, Seattle",
+     "url": "https://stripe.com/jobs/search?gh_jid=7557403"
+    },
+    {
+     "title": "Engineering Manager, Mobile Development Productivity",
+     "location": "US-Remote",
+     "url": "https://stripe.com/jobs/search?gh_jid=8229361"
+    },
+    {
+     "title": "Mobile Engineer, Treasury",
+     "location": "United Kingdom",
+     "url": "https://stripe.com/jobs/search?gh_jid=7978915"
+    },
+    {
+     "title": "Staff Product Manager, Mobile",
+     "location": "New York City, Toronto, Chicago, or Remote",
+     "url": "https://stripe.com/jobs/search?gh_jid=8140438"
+    }
+   ],
+   "errors": []
+  },
+  "SumUp": {
+   "jobs": [
+    {
+     "title": "Android Engineer",
+     "location": "São Paulo, São Paulo, Brazil",
+     "url": "https://sumup.com/careers/positions/8348937002?gh_jid=8348937002"
+    },
+    {
+     "title": "Senior Android Engineer- Hardware",
+     "location": "Berlin, Germany",
+     "url": "https://sumup.com/careers/positions/8794602002?gh_jid=8794602002"
+    },
+    {
+     "title": "Senior Android Engineer - KMP",
+     "location": "Berlin, Germany",
+     "url": "https://sumup.com/careers/positions/8003469002?gh_jid=8003469002"
+    },
+    {
+     "title": "Senior Backend Engineer (Kotlin) - Cards",
+     "location": "Sofia, Bulgaria",
+     "url": "https://sumup.com/careers/positions/8881640002?gh_jid=8881640002"
+    }
+   ],
+   "errors": []
+  },
+  "Supercell": {
+   "jobs": [],
+   "errors": []
+  },
+  "Swile": {
+   "jobs": [],
+   "errors": []
+  },
+  "Sword Health": {
+   "jobs": [],
+   "errors": []
+  },
+  "tado°": {
+   "jobs": [],
+   "errors": []
+  },
+  "Tamara": {
+   "jobs": [],
+   "errors": []
+  },
+  "TBC Bank": {
+   "jobs": [],
+   "errors": []
+  },
+  "TomTom": {
+   "jobs": [],
+   "errors": []
+  },
+  "Too Good To Go": {
+   "jobs": [],
+   "errors": []
+  },
+  "Trade Republic": {
+   "jobs": [
+    {
+     "title": "Android Engineer  (Berlin)",
+     "location": "Berlin",
+     "url": "https://traderepublic.com/en-de/about?jobId=7518558003&gh_jid=7518558003"
+    },
+    {
+     "title": "Android Engineer (Paris)",
+     "location": "Paris",
+     "url": "https://traderepublic.com/en-de/about?jobId=7623536003&gh_jid=7623536003"
+    }
+   ],
+   "errors": []
+  },
+  "Trainline": {
+   "jobs": [
+    {
+     "title": "Android Engineer",
+     "location": "London",
+     "url": "https://jobs.ashbyhq.com/trainline/23fb0d68-f4fe-487d-86d0-093650405932"
+    }
+   ],
+   "errors": []
+  },
+  "Trendyol": {
+   "jobs": [],
+   "errors": []
+  },
+  "Trivago": {
+   "jobs": [],
+   "errors": []
+  },
+  "Truecaller": {
+   "jobs": [
+    {
+     "title": "Senior Software Engineer, Android",
+     "location": "Stockholm, Sweden",
+     "url": "https://job-boards.greenhouse.io/truecaller/jobs/8012372"
+    },
+    {
+     "title": "Software Engineer, Android",
+     "location": "Stockholm, Sweden",
+     "url": "https://job-boards.greenhouse.io/truecaller/jobs/8042990"
+    },
+    {
+     "title": "Staff Android Engineer",
+     "location": "Bangalore",
+     "url": "https://job-boards.greenhouse.io/truecaller/jobs/8168827"
+    }
+   ],
+   "errors": []
+  },
+  "Typeform": {
+   "jobs": [],
+   "errors": []
+  },
+  "Veriff": {
+   "jobs": [],
+   "errors": []
+  },
+  "Vestiaire Collective": {
+   "jobs": [],
+   "errors": []
+  },
+  "Wallapop": {
+   "jobs": [],
+   "errors": []
+  },
+  "Wealthsimple": {
+   "jobs": [],
+   "errors": []
+  },
+  "Wise": {
+   "jobs": [
+    {
+     "title": "Android Engineer - Spend",
+     "location": "Singapore, SG",
+     "url": "https://jobs.smartrecruiters.com/wise/744000145649689"
+    },
+    {
+     "title": "Senior Android Engineer - Design Systems",
+     "location": "London, GB",
+     "url": "https://jobs.smartrecruiters.com/wise/744000143775470"
+    }
+   ],
+   "errors": []
+  },
+  "Wolt": {
+   "jobs": [],
+   "errors": []
+  },
+  "Workhuman": {
+   "jobs": [],
+   "errors": []
+  },
+  "Xendit": {
+   "jobs": [],
+   "errors": []
+  },
+  "XM": {
+   "jobs": [],
+   "errors": []
+  },
+  "Yassir": {
+   "jobs": [],
+   "errors": []
+  },
+  "Zattoo": {
+   "jobs": [],
+   "errors": []
+  },
+  "Ziina": {
+   "jobs": [],
+   "errors": []
+  },
+  "Zopa": {
+   "jobs": [
+    {
+     "title": "Android Engineer",
+     "location": "London",
+     "url": "https://jobs.lever.co/zopa/b7c4f329-9bbc-4bfc-b90d-d0fee58d30fb"
+    },
+    {
+     "title": "Java/Kotlin Software Engineer - London",
+     "location": "London",
+     "url": "https://jobs.lever.co/zopa/37193ff4-2050-407e-ae17-79aa956d444c"
+    },
+    {
+     "title": "Java/Kotlin Software Engineer - Manchester",
+     "location": "Manchester",
+     "url": "https://jobs.lever.co/zopa/fd815001-859f-447f-96e1-6f38026636e5"
+    },
+    {
+     "title": "Mobile Engineering Manager",
+     "location": "London",
+     "url": "https://jobs.lever.co/zopa/1f3c8eea-7402-4a10-aa32-82ea400a4131"
+    },
+    {
+     "title": "Senior Java/Kotlin Software Engineer - London",
+     "location": "London",
+     "url": "https://jobs.lever.co/zopa/8ee00aac-59e0-49a4-afc5-2e8a33a0f665"
+    }
+   ],
+   "errors": []
+  }
+ }
+}

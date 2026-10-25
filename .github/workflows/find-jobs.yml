@@ -15,9 +15,15 @@ concurrency:
 jobs:
   search:
     runs-on: ubuntu-latest
-    timeout-minutes: 20 # caps Actions minutes: 90 runs/month x 20 min max = 1,800
+    timeout-minutes: 25 # caps Actions minutes: 90 runs/month x 25 min max = 2,250
     steps:
       - uses: actions/checkout@v4
+
+      - name: Scan company job boards for Android roles
+        run: python3 scripts/scan_boards.py
+
+      - name: Pick this run's companies to check by hand
+        run: python3 scripts/pick_companies.py
 
       - name: Search with Claude (uses your Claude subscription)
         uses: anthropics/claude-code-action@v1
@@ -37,8 +43,8 @@ jobs:
         run: |
           git config user.name "relocation-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/jobs.json
-          if git diff --cached --quiet; then echo "no new jobs"; exit 0; fi
-          git commit -m "Add new relocation jobs"
+          git add data/jobs.json data/companies.json data/board_scan.json
+          if git diff --cached --quiet; then echo "nothing changed"; exit 0; fi
+          git commit -m "Update relocation jobs"
           git pull --rebase
           git push

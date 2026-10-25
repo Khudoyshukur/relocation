@@ -18,6 +18,7 @@ from urllib.parse import urlsplit, urlunsplit
 ROOT = Path(__file__).resolve().parent.parent
 JOBS = ROOT / "data" / "jobs.json"
 NEW = ROOT / "data" / "new_jobs.json"
+COMPANIES = ROOT / "data" / "companies.json"
 
 FIELDS = ["title", "company", "location", "url", "relocation", "fit", "summary", "salary", "postedAt"]
 CHOICES = {"relocation": {"confirmed", "likely", "unknown"}, "fit": {"high", "medium", "low"}}
@@ -54,6 +55,36 @@ def clean(job: dict) -> dict | None:
     return out
 
 
+ATS = {"greenhouse", "lever", "lever-eu", "ashby", "smartrecruiters", "workable", "recruitee", "personio"}
+
+
+def merge_companies(new: list) -> int:
+    """Add companies Claude discovered (it found a fitting job there) to the watch list."""
+    if not isinstance(new, list) or not new:
+        return 0
+    companies = json.loads(COMPANIES.read_text())
+    known = {re.sub(r"[^a-z0-9]", "", c["name"].lower()) for c in companies}
+    added = 0
+    for c in new:
+        if not isinstance(c, dict):
+            continue
+        name = str(c.get("name") or "").strip()
+        url = str(c.get("careersUrl") or "").strip()
+        key = re.sub(r"[^a-z0-9]", "", name.lower())
+        if not name or not key or key in known or not url.startswith(("http://", "https://")):
+            continue
+        boards = [{"ats": b["ats"], "slug": str(b["slug"])} for b in (c.get("boards") or [])
+                  if isinstance(b, dict) and b.get("ats") in ATS and b.get("slug")]
+        companies.append({"name": name, "careersUrl": url, "locations": str(c.get("locations") or ""),
+                          "region": "Found by search", "category": str(c.get("category") or ""),
+                          "boards": boards, "searchHint": "", "addedBy": "search"})
+        known.add(key)
+        added += 1
+    if added:
+        COMPANIES.write_text(json.dumps(companies, indent=1, ensure_ascii=False) + "\n")
+    return added
+
+
 def main() -> int:
     jobs = json.loads(JOBS.read_text())
     if not NEW.exists():
@@ -85,6 +116,9 @@ def main() -> int:
         if job["id"] in closed_ids and not job.get("closedAt"):
             job["closedAt"] = now
             closed += 1
+
+    added_companies = merge_companies(result.get("new_companies", []) if isinstance(result, dict) else [])
+    print(f"added {added_companies} new compan{'y' if added_companies == 1 else 'ies'} to data/companies.json")
 
     checked = result.get("checked", []) if isinstance(result, dict) else []
     print(f"companies checked ({len(checked)}):")
