@@ -68,5 +68,47 @@
     "postedAt": "2026-10-21",
     "foundAt": "2026-10-25T12:58:40Z",
     "closedAt": null
+  },
+  {
+    "id": "revolut-software-engineer-android-ae0342",
+    "title": "Software Engineer (Android)",
+    "company": "Revolut",
+    "location": "Kraków / Madrid / Vilnius / Dubai",
+    "url": "https://www.revolut.com/careers/position/software-engineer-android-8d4b9dfa-d4b4-46a1-8e7e-f9a6d526271d/",
+    "relocation": "likely",
+    "fit": "high",
+    "summary": "Couldn't open the posting (site blocks bots); check it's still open. Standing Android role in a fintech with offices in Kraków, Madrid, Vilnius and Dubai; Revolut is known to relocate hires and sponsor visas. Matches the banking and Android background.",
+    "salary": null,
+    "postedAt": null,
+    "foundAt": "2026-10-25T13:11:47Z",
+    "closedAt": null
+  },
+  {
+    "id": "scalable-capital-senior-android-engineer-m-f-x-b5721d",
+    "title": "Senior Android Engineer (m/f/x)",
+    "company": "Scalable Capital",
+    "location": "Munich, Germany",
+    "url": "https://www.efinancialcareers.com/jobs-Germany-Munich-Senior_Android_Engineer_mfx.id24579138",
+    "relocation": "likely",
+    "fit": "high",
+    "summary": "Couldn't open the posting (site blocks bots); check it's still open. Search snippets for the Scalable Capital Android listings mention relocation support and free German classes; Kotlin stack, English working language, fintech.",
+    "salary": null,
+    "postedAt": null,
+    "foundAt": "2026-10-25T13:11:47Z",
+    "closedAt": null
+  },
+  {
+    "id": "agoda-senior-software-engineer-android-bd6482",
+    "title": "Senior Software Engineer - Android",
+    "company": "Agoda",
+    "location": "Bangkok, Thailand",
+    "url": "https://relocate.me/thailand/bangkok/agoda/senior-software-engineer-android-6170",
+    "relocation": "likely",
+    "fit": "medium",
+    "summary": "Agoda Android app role in Bangkok. Relocate.me lists it as an unverified relocation package; search snippets mention full visa sponsorship and relocation help. Posting date unclear, so confirm it is still open.",
+    "salary": null,
+    "postedAt": null,
+    "foundAt": "2026-10-25T13:11:47Z",
+    "closedAt": null
   }
 ]
