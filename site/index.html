@@ -67,6 +67,14 @@
   .add input { flex: 1; min-width: 0; }
   .chips { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 6px; }
   .chip { font-size: 12px; border: 1px dashed var(--border); background: none; border-radius: 999px; padding: 2px 8px; cursor: pointer; color: var(--muted); }
+  .pages { display: flex; gap: 4px; margin: 16px 0 8px; border-bottom: 1px solid var(--border); }
+  .pages a { padding: 8px 14px; text-decoration: none; color: var(--muted); border-bottom: 2px solid transparent; margin-bottom: -1px; }
+  .pages a.on { color: var(--text); border-bottom-color: var(--accent); font-weight: 600; }
+  .pages .count { font-size: 12px; background: var(--gray-bg); border-radius: 999px; padding: 0 7px; margin-left: 4px; }
+  .new-note { display: flex; flex-direction: column; gap: 8px; margin-top: 16px; }
+  .new-note input, .new-note textarea { width: 100%; background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 6px 10px; resize: vertical; }
+  .hint { font-size: 13px; padding: 6px 10px; border-radius: 8px; background: var(--blue-bg); color: var(--blue); }
+  .hint.warn { background: var(--amber-bg); color: var(--amber); }
   .empty { text-align: center; color: var(--muted); padding: 40px 0; }
   .setup { max-width: 560px; margin: 60px auto; background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 24px; }
   .setup ol { padding-left: 20px; }
@@ -116,6 +124,10 @@ const state = {
   sort: "newest",
   lastVisit: store.get("last_visit"),
   drafts: {},
+  page: location.hash === "#notes" ? "notes" : "jobs",
+  noteTab: "active",
+  noteQuery: "",
+  newNote: { url: "", title: "", text: "" },
 };
 
 const app = document.getElementById("app");
@@ -217,6 +229,7 @@ async function loadTracking() {
     throw new Error("Couldn't decrypt your notes. The notes key (SITE_DATA_KEY secret) may have changed.");
   }
   if (!data.jobs) data.jobs = {};
+  if (!Array.isArray(data.notes)) data.notes = [];
   return { data, sha: file.sha };
 }
 
@@ -250,28 +263,100 @@ function mutate(change) {
 function track(tracking, id) {
   return tracking.jobs[id] ||= { status: "new", archived: false, comments: [] };
 }
+// A job's tracking entry, or one of your notes. Both have `archived` and `comments`.
+function item(tracking, kind, id) {
+  if (kind === "note") return (tracking.notes ||= []).find(n => n.id === id);
+  return track(tracking, id);
+}
+function newId() { return Date.now().toString(36) + Math.random().toString(36).slice(2, 6); }
+
+// Same posting, different link: ignores www, tracking params, locale prefixes and trailing slashes.
+function normalizeUrl(raw) {
+  const text = (raw || "").trim();
+  try {
+    const u = new URL(text);
+    let host = u.hostname.toLowerCase().replace(/^www\./, "").replace(/^[a-z]{2}\.linkedin\.com$/, "linkedin.com");
+    if (host === "linkedin.com") {
+      const id = u.searchParams.get("currentJobId") || (u.pathname.match(/\/jobs\/view\/(?:[^/]*-)?(\d+)/) || [])[1];
+      if (id) return `linkedin.com/jobs/view/${id}`;
+    }
+    const path = u.pathname.replace(/^\/[a-z]{2}-[a-z]{2}(?=\/)/i, "").replace(/\/+$/, "");
+    const params = [...u.searchParams]
+      .filter(([k]) => !/^(utm_|ref|source|src|trk|tracking|fbclid|gclid|lang|locale)/i.test(k))
+      .map(([k, v]) => `${k}=${v}`).sort().join("&");
+    return host + path + (params ? `?${params}` : "");
+  } catch {
+    return text.toLowerCase().replace(/\/+$/, "");
+  }
+}
+function notesWithUrl(url) {
+  const key = normalizeUrl(url);
+  return key ? (state.tracking.notes || []).filter(n => n.url && normalizeUrl(n.url) === key) : [];
+}
+function jobWithUrl(url) {
+  const key = normalizeUrl(url);
+  return key ? state.jobs.find(j => normalizeUrl(j.url) === key) : null;
+}
+function titleFromUrl(url) {
+  const job = jobWithUrl(url);
+  if (job) return `${job.company} – ${job.title}`;
+  try {
+    const u = new URL(url);
+    const last = u.pathname.split("/").filter(Boolean).pop() || "";
+    const words = decodeURIComponent(last).replace(/[-_]+/g, " ").replace(/\b[0-9a-f]{8,}\b|\b\d{5,}\b/gi, "").trim();
+    return [u.hostname.replace(/^www\./, ""), words].filter(Boolean).join(" – ");
+  } catch { return url; }
+}
 
 // ---------- Actions ----------
 function setStatus(id, status) {
   mutate(t => { track(t, id).status = status; });
 }
-function toggleArchive(id) {
-  const archived = !(state.tracking.jobs[id]?.archived);
-  mutate(t => { track(t, id).archived = archived; });
+function toggleArchive(kind, id) {
+  const archived = !item(state.tracking, kind, id)?.archived;
+  mutate(t => { const x = item(t, kind, id); if (x) x.archived = archived; });
 }
-function addComment(id) {
-  const text = (state.drafts[id] || "").trim();
+function addComment(kind, id) {
+  const key = `${kind}:${id}`;
+  const text = (state.drafts[key] || "").trim();
   if (!text) return;
-  const comment = { id: Date.now().toString(36) + Math.random().toString(36).slice(2, 6), text, at: new Date().toISOString() };
-  state.drafts[id] = "";
+  const comment = { id: newId(), text, at: new Date().toISOString() };
+  state.drafts[key] = "";
   mutate(t => {
-    const c = track(t, id).comments;
-    if (!c.some(x => x.id === comment.id)) c.push(comment);
+    const x = item(t, kind, id);
+    if (!x) return;
+    x.comments ||= [];
+    if (!x.comments.some(c => c.id === comment.id)) x.comments.push(comment);
   });
 }
-function deleteComment(id, commentId) {
+function deleteComment(kind, id, commentId) {
   if (!confirm("Delete this comment?")) return;
-  mutate(t => { const j = track(t, id); j.comments = j.comments.filter(c => c.id !== commentId); });
+  mutate(t => { const x = item(t, kind, id); if (x) x.comments = x.comments.filter(c => c.id !== commentId); });
+}
+function createNote() {
+  const url = state.newNote.url.trim();
+  const text = state.newNote.text.trim();
+  if (url && !/^https?:\/\//i.test(url)) return toast("The link should start with https://");
+  const title = state.newNote.title.trim() || (url ? titleFromUrl(url) : text.split("\n")[0].slice(0, 80));
+  if (!title) return toast("Add a link or a title");
+
+  const dupes = url ? notesWithUrl(url) : [];
+  if (dupes.length) {
+    const list = dupes.map(n => `• "${n.title}" (${n.archived ? "archived" : "active"}, created ${fmtDate(n.createdAt)})`).join("\n");
+    if (!confirm(`You already have a note with this link:\n${list}\n\nCreate another one anyway?`)) return;
+  }
+
+  const now = new Date().toISOString();
+  const note = { id: newId(), title, url: url || null, createdAt: now, archived: false,
+    comments: text ? [{ id: newId(), text, at: now }] : [] };
+  state.newNote = { url: "", title: "", text: "" };
+  state.noteTab = "active";
+  mutate(t => { (t.notes ||= []); if (!t.notes.some(n => n.id === note.id)) t.notes.push(note); });
+}
+function deleteNote(id) {
+  const note = item(state.tracking, "note", id);
+  if (!note || !confirm(`Delete the note "${note.title}" and all its comments?`)) return;
+  mutate(t => { t.notes = (t.notes || []).filter(n => n.id !== id); });
 }
 
 // ---------- Rendering ----------
@@ -305,15 +390,31 @@ function visibleJobs() {
   return list;
 }
 
-function jobCard(job) {
-  const t = state.tracking.jobs[job.id] || { status: "new", archived: false, comments: [] };
-  const isNew = state.lastVisit && job.foundAt && job.foundAt > state.lastVisit;
-  const comments = (t.comments || []).map(c => `
+function commentsBlock(kind, id, comments) {
+  const key = `${kind}:${id}`;
+  const attrs = `data-kind="${kind}" data-id="${esc(id)}"`;
+  const list = (comments || []).map(c => `
     <div class="comment">
       <span class="when">${fmtDate(c.at)}</span>
       <span class="text">${esc(c.text)}</span>
-      <button class="del" title="Delete" data-act="del" data-id="${esc(job.id)}" data-cid="${esc(c.id)}">✕</button>
+      <button class="del" title="Delete" data-act="del" ${attrs} data-cid="${esc(c.id)}">✕</button>
     </div>`).join("");
+  return `
+    <div class="comments">
+      ${list || `<div class="meta">No comments yet.</div>`}
+      <div class="add">
+        <input type="text" id="draft-${kind}-${esc(id)}" placeholder="Add a comment…" data-act="draft" ${attrs} value="${esc(state.drafts[key] || "")}">
+        <button class="btn primary" data-act="comment" ${attrs}>Add</button>
+      </div>
+      <div class="chips">
+        ${QUICK_NOTES.map(n => `<button class="chip" data-act="chip" ${attrs} data-text="${esc(n)}">${esc(n.trim())}</button>`).join("")}
+      </div>
+    </div>`;
+}
+
+function jobCard(job) {
+  const t = state.tracking.jobs[job.id] || { status: "new", archived: false, comments: [] };
+  const isNew = state.lastVisit && job.foundAt && job.foundAt > state.lastVisit;
   return `
   <article class="card ${t.archived ? "archived" : ""}">
     <div class="top">
@@ -325,7 +426,7 @@ function jobCard(job) {
         <select data-act="status" data-id="${esc(job.id)}" aria-label="Status">
           ${STATUSES.map(([v, l]) => `<option value="${v}" ${(t.status || "new") === v ? "selected" : ""}>${l}</option>`).join("")}
         </select>
-        <button class="btn" data-act="archive" data-id="${esc(job.id)}">${t.archived ? "Unarchive" : "Archive"}</button>
+        <button class="btn" data-act="archive" data-kind="job" data-id="${esc(job.id)}">${t.archived ? "Unarchive" : "Archive"}</button>
       </div>
     </div>
     <div class="badges">
@@ -337,25 +438,118 @@ function jobCard(job) {
     </div>
     ${job.summary ? `<p class="summary">${esc(job.summary)}</p>` : ""}
     <div class="meta">Found ${fmtDate(job.foundAt)}${job.postedAt ? ` · Posted ${fmtDate(job.postedAt)}` : ""}</div>
-    <div class="comments">
-      ${comments || `<div class="meta">No notes yet.</div>`}
-      <div class="add">
-        <input type="text" placeholder="Add a note…" data-act="draft" data-id="${esc(job.id)}" value="${esc(state.drafts[job.id] || "")}">
-        <button class="btn primary" data-act="comment" data-id="${esc(job.id)}">Add</button>
+    ${commentsBlock("job", job.id, t.comments)}
+  </article>`;
+}
+
+function noteCard(note) {
+  let host = "";
+  try { host = note.url ? new URL(note.url).hostname.replace(/^www\./, "") : ""; } catch {}
+  const job = note.url ? jobWithUrl(note.url) : null;
+  const titleHtml = note.url
+    ? `<a href="${esc(safeUrl(note.url))}" target="_blank" rel="noopener noreferrer">${esc(note.title)}</a>`
+    : esc(note.title);
+  return `
+  <article class="card ${note.archived ? "archived" : ""}">
+    <div class="top">
+      <div>
+        <h2 class="title">${titleHtml}</h2>
+        <div class="meta">${host ? `${esc(host)} · ` : ""}Created ${fmtDate(note.createdAt)}</div>
       </div>
-      <div class="chips">
-        ${QUICK_NOTES.map(n => `<button class="chip" data-act="chip" data-id="${esc(job.id)}" data-text="${esc(n)}">${esc(n.trim())}</button>`).join("")}
+      <div class="controls">
+        <button class="btn" data-act="archive" data-kind="note" data-id="${esc(note.id)}">${note.archived ? "Unarchive" : "Archive"}</button>
+        <button class="btn" data-act="note-delete" data-id="${esc(note.id)}" title="Delete note">Delete</button>
       </div>
     </div>
+    ${note.archived || job ? `<div class="badges">
+      ${note.archived ? `<span class="badge">Archived</span>` : ""}
+      ${job ? `<span class="badge b-blue">Also in Jobs list</span>` : ""}
+    </div>` : ""}
+    ${commentsBlock("note", note.id, note.comments)}
   </article>`;
+}
+
+function lastActivity(note) {
+  const times = [note.createdAt, ...(note.comments || []).map(c => c.at)].filter(Boolean).sort();
+  return times[times.length - 1] || "";
+}
+
+function headerHtml() {
+  const notes = state.tracking.notes || [];
+  const activeNotes = notes.filter(n => !n.archived).length;
+  return `
+    <header>
+      <h1>Relocation Jobs</h1>
+      <span class="sub"><a href="#" data-act="refresh">Refresh</a> · <a href="#" data-act="logout">Sign out</a></span>
+    </header>
+    <nav class="pages">
+      <a href="#jobs" class="${state.page === "jobs" ? "on" : ""}">Jobs <span class="count">${state.jobs.length}</span></a>
+      <a href="#notes" class="${state.page === "notes" ? "on" : ""}">My notes <span class="count">${activeNotes}</span></a>
+    </nav>`;
 }
 
 function render() {
   if (!state.token) return renderSetup();
+  // Re-rendering replaces the page, so remember which field had focus and where the cursor was.
   const focused = document.activeElement;
-  const focusId = focused?.dataset?.act === "draft" ? focused.dataset.id : null;
-  const focusSearch = focused?.id === "search";
+  const focusId = focused?.id || null;
+  const caret = focused && typeof focused.selectionStart === "number" ? [focused.selectionStart, focused.selectionEnd] : null;
 
+  if (state.page === "notes") renderNotes(); else renderJobs();
+
+  if (focusId) {
+    const el = document.getElementById(focusId);
+    if (el && app.contains(el)) {
+      el.focus();
+      if (caret && typeof el.setSelectionRange === "function") {
+        try { el.setSelectionRange(caret[0], caret[1]); } catch {}
+      }
+    }
+  }
+}
+
+function renderNotes() {
+  const q = state.noteQuery.toLowerCase();
+  const notes = (state.tracking.notes || []).filter(n => {
+    if (state.noteTab === "active" && n.archived) return false;
+    if (state.noteTab === "archived" && !n.archived) return false;
+    if (q) {
+      const hay = [n.title, n.url, ...(n.comments || []).map(c => c.text)].join(" ").toLowerCase();
+      if (!hay.includes(q)) return false;
+    }
+    return true;
+  }).sort((a, b) => lastActivity(b).localeCompare(lastActivity(a)));
+
+  const url = state.newNote.url.trim();
+  const dupes = url ? notesWithUrl(url) : [];
+  const job = url ? jobWithUrl(url) : null;
+  const hints = [
+    ...dupes.map(n => `<div class="hint warn">You already have a note for this link: <b>${esc(n.title)}</b> (${n.archived ? "archived" : "active"}, created ${fmtDate(n.createdAt)})</div>`),
+    job ? `<div class="hint">This job is in the Jobs list: ${esc(job.company)} – ${esc(job.title)}</div>` : "",
+  ].join("");
+
+  app.innerHTML = `
+    ${headerHtml()}
+    <form class="card new-note" data-act="note-create">
+      <h2 class="title">New note</h2>
+      <input type="url" id="note-url" placeholder="Job link (https://…)" value="${esc(state.newNote.url)}" data-field="url">
+      ${hints}
+      <input type="text" id="note-title" placeholder="Title (optional, e.g. Revolut – Android Engineer)" value="${esc(state.newNote.title)}" data-field="title">
+      <textarea id="note-text" rows="2" placeholder="First comment (optional)" data-field="text">${esc(state.newNote.text)}</textarea>
+      <div><button class="btn primary" type="submit">Create note</button></div>
+    </form>
+    <div class="toolbar">
+      <div class="tabs">
+        ${[["active", "Active"], ["archived", "Archived"], ["all", "All"]].map(([v, l]) =>
+          `<button class="${state.noteTab === v ? "on" : ""}" data-act="note-tab" data-v="${v}">${l}</button>`).join("")}
+      </div>
+      <input type="search" id="note-search" placeholder="Search notes" value="${esc(state.noteQuery)}">
+    </div>
+    ${notes.length ? notes.map(noteCard).join("") : `<div class="empty">No notes here.</div>`}
+  `;
+}
+
+function renderJobs() {
   const counts = { total: 0, archived: 0 };
   const byStatus = {};
   for (const job of state.jobs) {
@@ -368,11 +562,8 @@ function render() {
   const list = visibleJobs();
 
   app.innerHTML = `
-    <header>
-      <h1>Relocation Jobs</h1>
-      <span class="sub">${counts.total} found · updated automatically every 8 hours ·
-        <a href="#" data-act="refresh">Refresh</a> · <a href="#" data-act="logout">Sign out</a></span>
-    </header>
+    ${headerHtml()}
+    <p class="sub">${counts.total} found · updated automatically every 8 hours</p>
     <div class="stats">
       ${STATUSES.filter(([v]) => byStatus[v]).map(([v, l]) => `<span class="stat"><b>${byStatus[v]}</b>${l}</span>`).join("")}
       <span class="stat"><b>${counts.archived}</b>Archived</span>
@@ -394,14 +585,6 @@ function render() {
     </div>
     ${list.length ? list.map(jobCard).join("") : `<div class="empty">No jobs here.</div>`}
   `;
-
-  if (focusId) {
-    const el = app.querySelector(`input[data-act="draft"][data-id="${CSS.escape(focusId)}"]`);
-    if (el) { el.focus(); el.setSelectionRange(el.value.length, el.value.length); }
-  } else if (focusSearch) {
-    const el = document.getElementById("search");
-    el.focus(); el.setSelectionRange(el.value.length, el.value.length);
-  }
 }
 
 function renderSetup(error) {
@@ -438,23 +621,27 @@ async function load() {
 app.addEventListener("click", e => {
   const el = e.target.closest("[data-act]");
   if (!el) return;
-  const { act, id } = el.dataset;
+  const { act, id, kind } = el.dataset;
   if (act === "logout") {
     e.preventDefault(); logout();
   } else if (act === "refresh") {
     e.preventDefault(); load();
   } else if (act === "tab") {
     state.tab = el.dataset.v; render();
+  } else if (act === "note-tab") {
+    state.noteTab = el.dataset.v; render();
   } else if (act === "archive") {
-    toggleArchive(id);
+    toggleArchive(kind, id);
+  } else if (act === "note-delete") {
+    deleteNote(id);
   } else if (act === "comment") {
-    addComment(id);
+    addComment(kind, id);
   } else if (act === "del") {
-    deleteComment(id, el.dataset.cid);
+    deleteComment(kind, id, el.dataset.cid);
   } else if (act === "chip") {
-    state.drafts[id] = el.dataset.text;
+    state.drafts[`${kind}:${id}`] = el.dataset.text;
     render();
-    const input = app.querySelector(`input[data-act="draft"][data-id="${CSS.escape(id)}"]`);
+    const input = document.getElementById(`draft-${kind}-${id}`);
     if (input) { input.focus(); input.setSelectionRange(input.value.length, input.value.length); }
   }
 });
@@ -465,13 +652,24 @@ app.addEventListener("change", e => {
   if (act === "sort") { state.sort = e.target.value; render(); }
 });
 app.addEventListener("input", e => {
-  if (e.target.id === "search") { state.query = e.target.value; render(); }
-  if (e.target.dataset.act === "draft") state.drafts[e.target.dataset.id] = e.target.value;
+  const t = e.target;
+  if (t.id === "search") { state.query = t.value; render(); }
+  if (t.id === "note-search") { state.noteQuery = t.value; render(); }
+  if (t.dataset.act === "draft") state.drafts[`${t.dataset.kind}:${t.dataset.id}`] = t.value;
+  if (t.dataset.field) {
+    state.newNote[t.dataset.field] = t.value;
+    if (t.dataset.field === "url") render(); // refresh the "already have a note" hint
+  }
 });
 app.addEventListener("keydown", e => {
-  if (e.key === "Enter" && e.target.dataset.act === "draft") addComment(e.target.dataset.id);
+  if (e.key === "Enter" && e.target.dataset.act === "draft") addComment(e.target.dataset.kind, e.target.dataset.id);
+});
+window.addEventListener("hashchange", () => {
+  state.page = location.hash === "#notes" ? "notes" : "jobs";
+  if (state.token) render();
 });
 app.addEventListener("submit", async e => {
+  if (e.target.dataset.act === "note-create") { e.preventDefault(); createNote(); return; }
   if (e.target.dataset.act !== "login") return;
   e.preventDefault();
   const button = document.getElementById("login-btn");
