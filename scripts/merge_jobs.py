@@ -86,6 +86,11 @@ def main() -> int:
             job["closedAt"] = now
             closed += 1
 
+    checked = result.get("checked", []) if isinstance(result, dict) else []
+    print(f"companies checked ({len(checked)}):")
+    for line in checked:
+        print(f"  {line}")
+
     JOBS.write_text(json.dumps(jobs, indent=2, ensure_ascii=False) + "\n")
     NEW.unlink()
     print(f"added {added} job(s), marked {closed} closed")

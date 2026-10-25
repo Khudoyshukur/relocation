@@ -27,7 +27,7 @@ jobs:
           prompt: "Read .github/prompts/find-jobs.md and follow its instructions exactly."
           claude_args: >-
             --model sonnet
-            --max-turns 80
+            --max-turns 200
             --allowedTools WebSearch,WebFetch,Read,Write,Glob,Grep,Bash(curl:*),Bash(python3:*),Bash(jq:*)
 
       - name: Merge new jobs
