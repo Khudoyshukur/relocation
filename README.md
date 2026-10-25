@@ -2,6 +2,8 @@
 
 Android jobs that offer relocation and visa sponsorship, found automatically by Claude, with a small website to track each one.
 
+**Website: https://khudoyshukur.github.io/relocation/**
+
 ## How it works
 
 - **`data/jobs.json`**: jobs found so far. Every 8 hours `.github/workflows/find-jobs.yml` runs Claude Code (on a Claude subscription). Claude follows `.github/prompts/find-jobs.md` and `profile.md`, searches the web, confirms each posting is still open, and writes `data/new_jobs.json`. Then `scripts/merge_jobs.py` adds the new jobs and marks closed ones.
