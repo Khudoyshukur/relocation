@@ -1,0 +1,44 @@
+[
+  {
+    "id": "adjoe-hamburg-senior-android",
+    "title": "Senior Android Developer (Programmatic User Experience)",
+    "company": "adjoe",
+    "location": "Hamburg, Germany",
+    "url": "https://adjoe.io/careers/open-positions/eafc53f1-a5ef-421f-b554-a861e55c0bed/",
+    "relocation": "confirmed",
+    "fit": "high",
+    "summary": "Careers page promises \"extensive visa & relocation support\". Android SDK work; NDK/JNI and C++ listed as nice-to-haves, matching the Hayotbank security layer.",
+    "salary": null,
+    "postedAt": null,
+    "foundAt": "2026-10-23T12:00:00Z",
+    "closedAt": null
+  },
+  {
+    "id": "hfm-malaysia-senior-mobile-android",
+    "title": "Senior Mobile Developer (Android)",
+    "company": "hfm",
+    "location": "Malaysia",
+    "url": "https://gr.linkedin.com/jobs/view/senior-mobile-developer-android-at-hfm-4481187868",
+    "relocation": "confirmed",
+    "fit": "medium",
+    "summary": "Trading/broker company. Lists visa sponsorship and relocation assistance. Asks for 3+ years React Native alongside Kotlin/Compose, so partial fit.",
+    "salary": null,
+    "postedAt": "2026-10-22",
+    "foundAt": "2026-10-23T12:00:00Z",
+    "closedAt": null
+  },
+  {
+    "id": "monzo-barcelona-android",
+    "title": "Android Engineer",
+    "company": "Monzo",
+    "location": "Barcelona, Spain (hybrid)",
+    "url": "https://job-boards.greenhouse.io/monzo/jobs/7343996",
+    "relocation": "unknown",
+    "fit": "high",
+    "summary": "UK digital bank. Posting doesn't state whether this role sponsors visas; ask the recruiter early.",
+    "salary": null,
+    "postedAt": "2026-09-25",
+    "foundAt": "2026-10-23T12:00:00Z",
+    "closedAt": null
+  }
+]

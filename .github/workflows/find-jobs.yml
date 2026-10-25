@@ -1,0 +1,44 @@
+name: Find relocation jobs
+
+on:
+  schedule:
+    - cron: "17 */8 * * *" # every 8 hours
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: find-jobs
+  cancel-in-progress: false
+
+jobs:
+  search:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20 # caps Actions minutes: 90 runs/month x 20 min max = 1,800
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Search with Claude (uses your Claude subscription)
+        uses: anthropics/claude-code-action@v1
+        with:
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          prompt: "Read .github/prompts/find-jobs.md and follow its instructions exactly."
+          claude_args: >-
+            --model sonnet
+            --max-turns 80
+            --allowedTools WebSearch,WebFetch,Read,Write,Glob,Grep,Bash(curl:*),Bash(python3:*),Bash(jq:*)
+
+      - name: Merge new jobs
+        run: python3 scripts/merge_jobs.py
+
+      - name: Commit and push
+        run: |
+          git config user.name "relocation-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/jobs.json
+          if git diff --cached --quiet; then echo "no new jobs"; exit 0; fi
+          git commit -m "Add new relocation jobs"
+          git pull --rebase
+          git push
