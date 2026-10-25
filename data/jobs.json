@@ -40,5 +40,33 @@
     "postedAt": "2026-09-25",
     "foundAt": "2026-10-23T12:00:00Z",
     "closedAt": null
+  },
+  {
+    "id": "sumup-senior-android-engineer-hardware-ab898e",
+    "title": "Senior Android Engineer - Hardware",
+    "company": "SumUp",
+    "location": "Berlin, Germany",
+    "url": "https://sumup.com/careers/positions/8794602002?gh_jid=8794602002",
+    "relocation": "likely",
+    "fit": "high",
+    "summary": "Fintech payments company that hires internationally in Berlin; posting is open, English-only, and asks for Kotlin/Java, Android SDK maintenance and clean architecture, which matches the security/native and fintech background. The posting itself does not mention relocation or visa support.",
+    "salary": null,
+    "postedAt": null,
+    "foundAt": "2026-10-25T12:58:40Z",
+    "closedAt": null
+  },
+  {
+    "id": "sumup-senior-android-engineer-kmp-ef2551",
+    "title": "Senior Android Engineer - KMP",
+    "company": "SumUp",
+    "location": "Berlin, Germany",
+    "url": "https://sumup.com/careers/positions/8003469002?gh_jid=8003469002",
+    "relocation": "likely",
+    "fit": "medium",
+    "summary": "Open fintech role on-site in Berlin with no German required; needs Kotlin, Compose, Coroutines/Flow and interest in KMP. It asks for 8+ years, above the candidate's ~6, and the posting does not state relocation or visa support.",
+    "salary": null,
+    "postedAt": "2026-10-21",
+    "foundAt": "2026-10-25T12:58:40Z",
+    "closedAt": null
   }
 ]
