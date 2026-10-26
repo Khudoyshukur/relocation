@@ -1,5 +1,5 @@
 {
- "scannedAt": "2026-10-26T15:14:21Z",
+ "scannedAt": "2026-10-26T21:02:59Z",
  "companies": {
   "adjoe": {
    "jobs": [
@@ -496,13 +496,13 @@
     },
     {
      "title": "Engineering Director, Mobile (iOS/Android)",
-     "location": "Hong Kong, Hong Kong SAR",
-     "url": "https://job-boards.greenhouse.io/okx/jobs/7777138003"
+     "location": "Singapore, Singapore",
+     "url": "https://job-boards.greenhouse.io/okx/jobs/7777137003"
     },
     {
      "title": "Engineering Director, Mobile (iOS/Android)",
-     "location": "Singapore, Singapore",
-     "url": "https://job-boards.greenhouse.io/okx/jobs/7777137003"
+     "location": "Hong Kong, Hong Kong SAR",
+     "url": "https://job-boards.greenhouse.io/okx/jobs/7777138003"
     },
     {
      "title": "Engineering Director, Mobile, Web3",
@@ -730,14 +730,14 @@
      "url": "https://stripe.com/jobs/search?gh_jid=8239006"
     },
     {
+     "title": "Android Engineer, Identity Product",
+     "location": "San Francisco, CA; Seattle, WA; New York City, NY",
+     "url": "https://stripe.com/jobs/search?gh_jid=8311069"
+    },
+    {
      "title": "Android Engineer, Terminal - CA",
      "location": "Toronto, CA",
      "url": "https://stripe.com/jobs/search?gh_jid=8274893"
-    },
-    {
-     "title": "Android Engineer, Terminal OS Platform",
-     "location": "San Francisco, Seattle",
-     "url": "https://stripe.com/jobs/search?gh_jid=7557403"
     },
     {
      "title": "Engineering Manager, Mobile Development Productivity",
