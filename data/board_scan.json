@@ -1,13 +1,8 @@
 {
- "scannedAt": "2026-10-25T19:05:20Z",
+ "scannedAt": "2026-10-26T04:52:56Z",
  "companies": {
   "adjoe": {
    "jobs": [
-    {
-     "title": "Senior Android Developer (f/m/d)",
-     "location": "Hamburg",
-     "url": "https://jobs.ashbyhq.com/adjoe/eafc53f1-a5ef-421f-b554-a861e55c0bed"
-    },
     {
      "title": "Product Owner - Mobile Integrations (f/m/d)",
      "location": "Hamburg",
@@ -153,6 +148,11 @@
      "title": "[Coupang Pay Tech] Staff Mobile Engineer",
      "location": "Seoul, South Korea",
      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8194393"
+    },
+    {
+     "title": "[쿠팡] Rocket Mobile 상담 지원 (계약직/재택병행/전환가능)",
+     "location": "Seoul, South Korea",
+     "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8118772"
     },
     {
      "title": "Senior Android Engineer",
@@ -496,13 +496,13 @@
     },
     {
      "title": "Engineering Director, Mobile (iOS/Android)",
-     "location": "Hong Kong, Hong Kong SAR",
-     "url": "https://job-boards.greenhouse.io/okx/jobs/7777138003"
+     "location": "Singapore, Singapore",
+     "url": "https://job-boards.greenhouse.io/okx/jobs/7777137003"
     },
     {
      "title": "Engineering Director, Mobile (iOS/Android)",
-     "location": "Singapore, Singapore",
-     "url": "https://job-boards.greenhouse.io/okx/jobs/7777137003"
+     "location": "Hong Kong, Hong Kong SAR",
+     "url": "https://job-boards.greenhouse.io/okx/jobs/7777138003"
     },
     {
      "title": "Engineering Director, Mobile, Web3",
@@ -576,13 +576,13 @@
     },
     {
      "title": "Software Engineer, Mobile, Web3",
-     "location": "Hong Kong, Hong Kong SAR",
-     "url": "https://job-boards.greenhouse.io/okx/jobs/7777044003"
+     "location": "Singapore, Singapore",
+     "url": "https://job-boards.greenhouse.io/okx/jobs/7777043003"
     },
     {
      "title": "Software Engineer, Mobile, Web3",
-     "location": "Singapore, Singapore",
-     "url": "https://job-boards.greenhouse.io/okx/jobs/7777043003"
+     "location": "Hong Kong, Hong Kong SAR",
+     "url": "https://job-boards.greenhouse.io/okx/jobs/7777044003"
     },
     {
      "title": "Software / Senior Software Engineer, Mobile",
@@ -601,13 +601,13 @@
     },
     {
      "title": "Staff Software Engineer, Mobile Security",
-     "location": "Hong Kong, Hong Kong SAR",
-     "url": "https://job-boards.greenhouse.io/okx/jobs/7795766003"
+     "location": "Singapore, Singapore",
+     "url": "https://job-boards.greenhouse.io/okx/jobs/7795765003"
     },
     {
      "title": "Staff Software Engineer, Mobile Security",
-     "location": "Singapore, Singapore",
-     "url": "https://job-boards.greenhouse.io/okx/jobs/7795765003"
+     "location": "Hong Kong, Hong Kong SAR",
+     "url": "https://job-boards.greenhouse.io/okx/jobs/7795766003"
     }
    ],
    "errors": []
