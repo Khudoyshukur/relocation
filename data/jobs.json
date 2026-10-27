@@ -446,5 +446,61 @@
     "postedAt": "2026-04-03",
     "foundAt": "2026-10-26T04:55:40Z",
     "closedAt": null
+  },
+  {
+    "id": "backbase-senior-ai-applied-software-engineer-andro-6f15c0",
+    "title": "Senior AI Applied Software Engineer (Android)",
+    "company": "Backbase",
+    "location": "Kraków, Poland",
+    "url": "https://job-boards.greenhouse.io/workatbackbase/jobs/8158974",
+    "relocation": "likely",
+    "fit": "high",
+    "summary": "Senior native Android (Kotlin, Compose, Coroutines/Flow), 5–7+ years, building AI features into mobile banking apps. Banking-platform product team in Kraków, hybrid. The posting doesn't mention relocation; Backbase hires internationally for Kraków, so ask the recruiter.",
+    "salary": null,
+    "postedAt": "2026-10-26",
+    "foundAt": "2026-10-27T04:52:15Z",
+    "closedAt": null
+  },
+  {
+    "id": "backbase-senior-ai-applied-software-engineer-andro-c99c4a",
+    "title": "Senior AI Applied Software Engineer (Android)",
+    "company": "Backbase",
+    "location": "Kraków, Poland",
+    "url": "https://job-boards.greenhouse.io/workatbackbase/jobs/8207456",
+    "relocation": "likely",
+    "fit": "high",
+    "summary": "A second opening with the same senior Android AI title. Banking-platform product team in Kraków, hybrid. The posting doesn't mention relocation; Backbase hires internationally for Kraków, so ask the recruiter.",
+    "salary": null,
+    "postedAt": "2026-10-26",
+    "foundAt": "2026-10-27T04:52:15Z",
+    "closedAt": null
+  },
+  {
+    "id": "backbase-senior-ai-engineer-android-2d71d8",
+    "title": "Senior AI Engineer (Android)",
+    "company": "Backbase",
+    "location": "Kraków, Poland",
+    "url": "https://job-boards.greenhouse.io/workatbackbase/jobs/8210581",
+    "relocation": "likely",
+    "fit": "high",
+    "summary": "Senior Android role focused on AI features. Banking-platform product team in Kraków, hybrid. The posting doesn't mention relocation; Backbase hires internationally for Kraków, so ask the recruiter.",
+    "salary": null,
+    "postedAt": "2026-10-26",
+    "foundAt": "2026-10-27T04:52:15Z",
+    "closedAt": null
+  },
+  {
+    "id": "backbase-ai-applied-software-engineer-android-fa24b5",
+    "title": "AI Applied Software Engineer (Android)",
+    "company": "Backbase",
+    "location": "Kraków, Poland",
+    "url": "https://job-boards.greenhouse.io/workatbackbase/jobs/8207475",
+    "relocation": "likely",
+    "fit": "medium",
+    "summary": "Mid-level version of the Android AI role. Banking-platform product team in Kraków, hybrid. The posting doesn't mention relocation; Backbase hires internationally for Kraków, so ask the recruiter.",
+    "salary": null,
+    "postedAt": "2026-10-26",
+    "foundAt": "2026-10-27T04:52:15Z",
+    "closedAt": null
   }
 ]

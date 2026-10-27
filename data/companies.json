@@ -251,10 +251,15 @@
  {
   "name": "Backbase",
   "careersUrl": "https://www.backbase.com/careers",
-  "locations": "Amsterdam, Kraków",
+  "locations": "Amsterdam, Kraków, Hyderabad",
   "region": "Netherlands",
   "category": "Fintech",
-  "boards": [],
+  "boards": [
+   {
+    "ats": "greenhouse",
+    "slug": "workatbackbase"
+   }
+  ],
   "searchHint": "",
   "addedBy": "seed"
  },
