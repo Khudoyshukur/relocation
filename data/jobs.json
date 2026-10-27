@@ -445,7 +445,7 @@
     "salary": "SGD 200K-250K plus equity and bonus",
     "postedAt": "2026-04-03",
     "foundAt": "2026-10-26T04:55:40Z",
-    "closedAt": null
+    "closedAt": "2026-10-27T05:13:24Z"
   },
   {
     "id": "backbase-senior-ai-applied-software-engineer-andro-6f15c0",
@@ -501,6 +501,48 @@
     "salary": null,
     "postedAt": "2026-10-26",
     "foundAt": "2026-10-27T04:52:15Z",
+    "closedAt": null
+  },
+  {
+    "id": "metaquotes-android-applications-developer-412d10",
+    "title": "Android Applications Developer",
+    "company": "MetaQuotes",
+    "location": "Limassol, Cyprus",
+    "url": "https://www.metaquotes.net/en/company/vacancies/android",
+    "relocation": "confirmed",
+    "fit": "high",
+    "summary": "Android SDK, Java and C++/JNI on trading-platform apps, which matches the JNI and fintech background. The page offers \"Support for your relocation and a one-off compensation of EUR 5,000\" plus help with documents; it never says \"visa\" or \"work permit\". The page has no posting date, and a relocate.me copy is marked archived, so confirm it is still open.",
+    "salary": null,
+    "postedAt": null,
+    "foundAt": "2026-10-27T05:13:24Z",
+    "closedAt": null
+  },
+  {
+    "id": "truecaller-software-engineer-android-f83637",
+    "title": "Software Engineer, Android",
+    "company": "Truecaller",
+    "location": "Stockholm, Sweden",
+    "url": "https://job-boards.greenhouse.io/truecaller/jobs/8042990",
+    "relocation": "likely",
+    "fit": "medium",
+    "summary": "Mid-level Android role (3+ years) in Stockholm, so it is within reach of a senior candidate. The posting has no relocation wording; Truecaller is a known relocator.",
+    "salary": null,
+    "postedAt": "2026-09-17",
+    "foundAt": "2026-10-27T05:13:24Z",
+    "closedAt": null
+  },
+  {
+    "id": "deliveroo-software-engineer-ii-android-aa4bac",
+    "title": "Software Engineer II - Android",
+    "company": "Deliveroo",
+    "location": "London, United Kingdom",
+    "url": "https://job-boards.greenhouse.io/deliveroo/jobs/8202481",
+    "relocation": "likely",
+    "fit": "medium",
+    "summary": "Mid-level Android role (3+ years, Kotlin) in London. Benefits include \"relocation\", but the posting doesn't mention visa sponsorship.",
+    "salary": null,
+    "postedAt": "2026-10-26",
+    "foundAt": "2026-10-27T05:13:24Z",
     "closedAt": null
   }
 ]
