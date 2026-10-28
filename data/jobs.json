@@ -544,5 +544,33 @@
     "postedAt": "2026-10-26",
     "foundAt": "2026-10-27T05:13:24Z",
     "closedAt": null
+  },
+  {
+    "id": "freedom-holding-senior-mobile-app-engineer-android-cb8d2d",
+    "title": "Senior Mobile App Engineer (Android)",
+    "company": "Freedom Holding",
+    "location": "Limassol, Cyprus",
+    "url": "https://apply.workable.com/freedomfinanceeu/jobs/view/110D0F0106/",
+    "relocation": "likely",
+    "fit": "high",
+    "summary": "Freedom24 (Freedom Finance Technologies) brokerage and banking apps, native Kotlin, 4+ years required, matching the fintech background. The posting itself has no relocation wording, but the company is on the watch list and the role is based in Limassol (remote or relocate).",
+    "salary": null,
+    "postedAt": "2026-09-04",
+    "foundAt": "2026-10-28T15:12:56Z",
+    "closedAt": null
+  },
+  {
+    "id": "asos-android-engineer-7aa6a8",
+    "title": "Android Engineer",
+    "company": "ASOS",
+    "location": "London, United Kingdom",
+    "url": "https://jobs.smartrecruiters.com/asos/744000136154689",
+    "relocation": "likely",
+    "fit": "medium",
+    "summary": "Mid-level Android role (Kotlin and Jetpack Compose first, Hilt, Coroutines/Flow) on an app with 5M+ active users; hybrid in London. The posting has no visa wording, so sponsorship is assumed from ASOS being on the watch list; it is mid-level, so seniority is a slight stretch.",
+    "salary": null,
+    "postedAt": "2026-07-07",
+    "foundAt": "2026-10-28T15:12:56Z",
+    "closedAt": null
   }
 ]
