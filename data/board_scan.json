@@ -1,5 +1,5 @@
 {
- "scannedAt": "2026-10-28T15:09:45Z",
+ "scannedAt": "2026-10-28T21:08:37Z",
  "companies": {
   "adjoe": {
    "jobs": [
@@ -22,6 +22,11 @@
      "title": "Senior Software Engineer (Android - Kotlin Expert)",
      "location": "Bengaluru",
      "url": "https://job-boards.greenhouse.io/adyen/jobs/8098671"
+    },
+    {
+     "title": "Software Engineer II (Kotlin) - Core Experience",
+     "location": "Chicago",
+     "url": "https://job-boards.greenhouse.io/adyen/jobs/8210671"
     },
     {
      "title": "Staff Engineer - Payments (Mobile & Terminal Experiences)",
@@ -531,13 +536,13 @@
     },
     {
      "title": "Engineering Director, Mobile, Web3",
-     "location": "Hong Kong, Hong Kong SAR",
-     "url": "https://job-boards.greenhouse.io/okx/jobs/7778748003"
+     "location": "Singapore, Singapore",
+     "url": "https://job-boards.greenhouse.io/okx/jobs/7778747003"
     },
     {
      "title": "Engineering Director, Mobile, Web3",
-     "location": "Singapore, Singapore",
-     "url": "https://job-boards.greenhouse.io/okx/jobs/7778747003"
+     "location": "Hong Kong, Hong Kong SAR",
+     "url": "https://job-boards.greenhouse.io/okx/jobs/7778748003"
     },
     {
      "title": "Principal/Senior Mobile Engineer, Trading Strategies, CEX",
@@ -606,13 +611,13 @@
     },
     {
      "title": "Software Engineer, Mobile, Web3",
-     "location": "Singapore, Singapore",
-     "url": "https://job-boards.greenhouse.io/okx/jobs/7777043003"
+     "location": "Hong Kong, Hong Kong SAR",
+     "url": "https://job-boards.greenhouse.io/okx/jobs/7777044003"
     },
     {
      "title": "Software Engineer, Mobile, Web3",
-     "location": "Hong Kong, Hong Kong SAR",
-     "url": "https://job-boards.greenhouse.io/okx/jobs/7777044003"
+     "location": "Singapore, Singapore",
+     "url": "https://job-boards.greenhouse.io/okx/jobs/7777043003"
     },
     {
      "title": "Software / Senior Software Engineer, Mobile",
