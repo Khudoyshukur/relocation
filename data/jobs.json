@@ -333,7 +333,7 @@
     "salary": null,
     "postedAt": null,
     "foundAt": "2026-10-25T13:36:11Z",
-    "closedAt": null
+    "closedAt": "2026-10-29T15:18:26Z"
   },
   {
     "id": "hellofresh-senior-mobile-product-engineer-intellig-0be80b",
@@ -585,6 +585,20 @@
     "salary": null,
     "postedAt": "2026-08-14",
     "foundAt": "2026-10-29T05:55:03Z",
+    "closedAt": null
+  },
+  {
+    "id": "monzo-senior-android-engineer-20edab",
+    "title": "Senior Android Engineer",
+    "company": "Monzo",
+    "location": "Barcelona, Spain",
+    "url": "https://job-boards.greenhouse.io/monzo/jobs/6674282",
+    "relocation": "likely",
+    "fit": "medium",
+    "summary": "Senior native Android role, hybrid 3 days/week in Barcelona. Posting has no explicit relocation wording (only a note that some roles don't sponsor visas), but Monzo is a known relocator.",
+    "salary": null,
+    "postedAt": null,
+    "foundAt": "2026-10-29T15:18:26Z",
     "closedAt": null
   }
 ]

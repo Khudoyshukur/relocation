@@ -1,5 +1,5 @@
 {
- "scannedAt": "2026-10-29T05:53:19Z",
+ "scannedAt": "2026-10-29T15:15:46Z",
  "companies": {
   "adjoe": {
    "jobs": [
@@ -17,11 +17,6 @@
      "title": "Engineering Manager - Android",
      "location": "Amsterdam",
      "url": "https://job-boards.greenhouse.io/adyen/jobs/8167155"
-    },
-    {
-     "title": "Senior Software Engineer (Android - Kotlin Expert)",
-     "location": "Bengaluru",
-     "url": "https://job-boards.greenhouse.io/adyen/jobs/8098671"
     },
     {
      "title": "Software Engineer II (Kotlin) - Core Experience",
@@ -322,11 +317,6 @@
      "title": "Senior Software Engineer (Android) - Service Agreement",
      "location": "Warsaw",
      "url": "https://flix.careers/job/8873997002?gh_jid=8873997002"
-    },
-    {
-     "title": "Senior Software Engineer - Mobile/Android (m/f/d) ",
-     "location": "Berlin",
-     "url": "https://flix.careers/job/8522735002?gh_jid=8522735002"
     }
    ],
    "errors": []
@@ -500,6 +490,11 @@
      "title": "Android Engineer",
      "location": "Barcelona",
      "url": "https://job-boards.greenhouse.io/monzo/jobs/7343996"
+    },
+    {
+     "title": "Senior Android Engineer",
+     "location": "Barcelona",
+     "url": "https://job-boards.greenhouse.io/monzo/jobs/6674282"
     }
    ],
    "errors": []
@@ -551,13 +546,13 @@
     },
     {
      "title": "Principal/Senior Software Engineer, Mobile, CEX",
-     "location": "Singapore, Singapore",
-     "url": "https://job-boards.greenhouse.io/okx/jobs/7768121003"
+     "location": "Hong Kong, Hong Kong SAR",
+     "url": "https://job-boards.greenhouse.io/okx/jobs/7768122003"
     },
     {
      "title": "Principal/Senior Software Engineer, Mobile, CEX",
-     "location": "Hong Kong, Hong Kong SAR",
-     "url": "https://job-boards.greenhouse.io/okx/jobs/7768122003"
+     "location": "Singapore, Singapore",
+     "url": "https://job-boards.greenhouse.io/okx/jobs/7768121003"
     },
     {
      "title": "Senior Mobile Engineer (Card & Payment)",
@@ -611,13 +606,13 @@
     },
     {
      "title": "Software Engineer, Mobile, Web3",
-     "location": "Singapore, Singapore",
-     "url": "https://job-boards.greenhouse.io/okx/jobs/7777043003"
+     "location": "Hong Kong, Hong Kong SAR",
+     "url": "https://job-boards.greenhouse.io/okx/jobs/7777044003"
     },
     {
      "title": "Software Engineer, Mobile, Web3",
-     "location": "Hong Kong, Hong Kong SAR",
-     "url": "https://job-boards.greenhouse.io/okx/jobs/7777044003"
+     "location": "Singapore, Singapore",
+     "url": "https://job-boards.greenhouse.io/okx/jobs/7777043003"
     },
     {
      "title": "Software / Senior Software Engineer, Mobile",
