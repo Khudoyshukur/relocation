@@ -614,5 +614,33 @@
     "postedAt": "2026-08-26",
     "foundAt": "2026-10-30T15:07:36Z",
     "closedAt": null
+  },
+  {
+    "id": "queri-software-engineer-mobile-android-cd6f95",
+    "title": "Software Engineer (Mobile - Android)",
+    "company": "Queri",
+    "location": "Tokyo, Japan",
+    "url": "https://japan-dev.com/jobs/queri/queri-software-engineer-mobile---android-7h1j3e",
+    "relocation": "confirmed",
+    "fit": "high",
+    "summary": "Senior native Android role (5+ years) owning the flagship app; Japanese not required. Posting says \"We sponsor the work visa and support your relocation to Tokyo\".",
+    "salary": "6M+ JPY/yr",
+    "postedAt": "2026-08-19",
+    "foundAt": "2026-10-30T20:53:25Z",
+    "closedAt": null
+  },
+  {
+    "id": "metanomaly-android-engineer-e08b80",
+    "title": "Android Engineer",
+    "company": "Metanomaly",
+    "location": "Tokyo, Japan",
+    "url": "https://japan-dev.com/jobs/metanomaly/metanomaly-android-engineer-rjkuu3",
+    "relocation": "confirmed",
+    "fit": "medium",
+    "summary": "Mid-level+ consumer Android role (3-5+ years), Japanese not required. Listing states overseas visa sponsorship and relocation assistance.",
+    "salary": null,
+    "postedAt": "2026-07-27",
+    "foundAt": "2026-10-30T20:53:25Z",
+    "closedAt": null
   }
 ]

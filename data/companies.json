@@ -3188,5 +3188,25 @@
   ],
   "searchHint": "",
   "addedBy": "seed"
+ },
+ {
+  "name": "Queri",
+  "careersUrl": "https://japan-dev.com/companies/queri",
+  "locations": "Tokyo",
+  "region": "Found by search",
+  "category": "Entertainment",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "search"
+ },
+ {
+  "name": "Metanomaly",
+  "careersUrl": "https://japan-dev.com/companies/metanomaly",
+  "locations": "Tokyo",
+  "region": "Found by search",
+  "category": "Consumer",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "search"
  }
 ]
