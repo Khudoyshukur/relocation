@@ -431,7 +431,7 @@
     "salary": "PLN 14,600-20,825 gross/month",
     "postedAt": null,
     "foundAt": "2026-10-26T04:55:40Z",
-    "closedAt": null
+    "closedAt": "2026-10-30T15:07:36Z"
   },
   {
     "id": "airwallex-senior-android-engineer-b1e837",
@@ -599,6 +599,20 @@
     "salary": null,
     "postedAt": null,
     "foundAt": "2026-10-29T15:18:26Z",
+    "closedAt": null
+  },
+  {
+    "id": "dkb-code-factory-mid-android-developer-bd833c",
+    "title": "Mid Android Developer",
+    "company": "DKB Code Factory",
+    "location": "Valencia, Spain",
+    "url": "https://job-boards.greenhouse.io/dkbcodefactory/jobs/7819150003",
+    "relocation": "likely",
+    "fit": "medium",
+    "summary": "Native Kotlin/Jetpack Compose banking app (MVVM, Coroutines, CI/CD) for SME customers, matching the fintech background; English is enough (Spanish a plus). The posting has no explicit relocation wording; DKB is a known relocating employer, and the mid level may be slightly below the target seniority.",
+    "salary": null,
+    "postedAt": "2026-08-26",
+    "foundAt": "2026-10-30T15:07:36Z",
     "closedAt": null
   }
 ]
