@@ -656,5 +656,47 @@
     "postedAt": null,
     "foundAt": "2026-10-31T05:51:07Z",
     "closedAt": null
+  },
+  {
+    "id": "grab-senior-software-engineer-mobile-android-c316a4",
+    "title": "Senior Software Engineer, Mobile (Android)",
+    "company": "Grab",
+    "location": "Ho Chi Minh City, Vietnam",
+    "url": "https://jobs.smartrecruiters.com/grab/744000127795765",
+    "relocation": "likely",
+    "fit": "medium",
+    "summary": "Senior Android role on Grab's SmartRecruiters board (present in the latest scan). Grab is a known relocator in the region.",
+    "salary": null,
+    "postedAt": null,
+    "foundAt": "2026-11-01T15:17:10Z",
+    "closedAt": null
+  },
+  {
+    "id": "grab-senior-software-engineer-mobile-android-fulfi-e6a6f6",
+    "title": "Senior Software Engineer, Mobile (Android) - Fulfilment",
+    "company": "Grab",
+    "location": "Jakarta, Indonesia",
+    "url": "https://jobs.smartrecruiters.com/grab/744000105787405",
+    "relocation": "likely",
+    "fit": "medium",
+    "summary": "Senior Android role on Grab's SmartRecruiters board (present in the latest scan). Grab is a known relocator in the region.",
+    "salary": null,
+    "postedAt": null,
+    "foundAt": "2026-11-01T15:17:10Z",
+    "closedAt": null
+  },
+  {
+    "id": "money-forward-senior-android-engineer-sole-proprie-93f7db",
+    "title": "Senior Android Engineer, Sole Proprietor Development Department",
+    "company": "Money Forward",
+    "location": "Tokyo, Japan",
+    "url": "https://www.tokyodev.com/companies/moneyforward/jobs/senior-android-engineer-sole-proprietor-development-department-tokyo",
+    "relocation": "likely",
+    "fit": "medium",
+    "summary": "Couldn't open the posting (site blocks bots); check it's still open. Search shows an October 2026 listing, 3+ years Android, company moving to an English working environment; business English required.",
+    "salary": "¥7.0M-¥11.0M",
+    "postedAt": "2026-10-01",
+    "foundAt": "2026-11-01T15:17:10Z",
+    "closedAt": null
   }
 ]
