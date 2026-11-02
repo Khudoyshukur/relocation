@@ -712,5 +712,33 @@
     "postedAt": null,
     "foundAt": "2026-11-01T20:34:36Z",
     "closedAt": null
+  },
+  {
+    "id": "bol-com-android-developer-feature-teams-c09495",
+    "title": "Android Developer (Feature Teams)",
+    "company": "bol.com",
+    "location": "Utrecht, Netherlands",
+    "url": "https://relocate.me/the-netherlands/utrecht/bol-com/android-developer-9006",
+    "relocation": "confirmed",
+    "fit": "medium",
+    "summary": "Relocate.me lists an \"Advanced relocation package\" (flights, temporary housing, visa services, housing search) and asks for 3+ years of experience, with no language requirement stated. The posting has no date and I couldn't confirm it on bol.com's own site, so check it's still open.",
+    "salary": null,
+    "postedAt": null,
+    "foundAt": "2026-11-02T06:16:30Z",
+    "closedAt": null
+  },
+  {
+    "id": "catawiki-staff-engineer-senior-android-developer-i-01bbc2",
+    "title": "Staff Engineer - Senior Android Developer II",
+    "company": "Catawiki",
+    "location": "Amsterdam, Netherlands",
+    "url": "https://relocate.me/the-netherlands/amsterdam/catawiki/staff-engineer-senior-android-developer-ii-9302",
+    "relocation": "confirmed",
+    "fit": "low",
+    "summary": "\"For people living outside of NL we offer a great relocation package for you and your family.\" The level is Staff-like (Senior Engineer II), which is a stretch at about 6 years. The page has no date and no closed notice.",
+    "salary": null,
+    "postedAt": null,
+    "foundAt": "2026-11-02T06:16:30Z",
+    "closedAt": null
   }
 ]

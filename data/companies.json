@@ -3208,5 +3208,20 @@
   "boards": [],
   "searchHint": "",
   "addedBy": "search"
+ },
+ {
+  "name": "bol.com",
+  "careersUrl": "https://careers.bol.com",
+  "locations": "Utrecht",
+  "region": "Found by search",
+  "category": "E-commerce",
+  "boards": [
+   {
+    "ats": "greenhouse",
+    "slug": "bolcomen"
+   }
+  ],
+  "searchHint": "",
+  "addedBy": "search"
  }
 ]
