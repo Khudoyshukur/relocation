@@ -1,5 +1,5 @@
 {
- "scannedAt": "2026-11-02T06:13:49Z",
+ "scannedAt": "2026-11-02T18:26:27Z",
  "companies": {
   "adjoe": {
    "jobs": [
@@ -128,7 +128,13 @@
    "errors": []
   },
   "bol": {
-   "jobs": [],
+   "jobs": [
+    {
+     "title": "Marketing Automation & Messaging Specialist - Email & Mobile Messaging",
+     "location": "Utrecht",
+     "url": "https://banen.bol.com/vacature/8902352002/?gh_jid=8902352002"
+    }
+   ],
    "errors": []
   },
   "Brainly": {
@@ -199,6 +205,11 @@
   "Deliveroo": {
    "jobs": [
     {
+     "title": "IT Mobile Asset Management Analyst",
+     "location": "London, United Kingdom",
+     "url": "https://job-boards.greenhouse.io/deliveroo/jobs/8337684"
+    },
+    {
      "title": "Senior Software Engineer - Android",
      "location": "London, United Kingdom - Deliveroo",
      "url": "https://job-boards.greenhouse.io/deliveroo/jobs/8202417"
@@ -218,6 +229,11 @@
   },
   "Delivery Hero": {
    "jobs": [
+    {
+     "title": "Software Engineer Android",
+     "location": "Montevideo, UY",
+     "url": "https://jobs.smartrecruiters.com/deliveryhero/744000159136354"
+    },
     {
      "title": "Software Engineer Android ",
      "location": "Montevideo, UY",
@@ -251,24 +267,10 @@
    "errors": []
   },
   "Doctolib": {
-   "jobs": [
-    {
-     "title": "Senior Software Engineer FullStack Kotlin / React - Berlin (f/m/d)",
-     "location": "Berlin, Berlin, Germany",
-     "url": "https://job-boards.greenhouse.io/doctolib/jobs/7792246003"
-    },
-    {
-     "title": "Software Engineer Fullstack Kotlin / React (x/f/m)",
-     "location": "Paris, Paris, France",
-     "url": "https://job-boards.greenhouse.io/doctolib/jobs/7809464003"
-    },
-    {
-     "title": "Staff Mobile Engineer - React Native (x/f/m)",
-     "location": "Paris, Paris, France",
-     "url": "https://job-boards.greenhouse.io/doctolib/jobs/7512129003"
-    }
-   ],
-   "errors": []
+   "jobs": [],
+   "errors": [
+    "greenhouse:doctolib: HTTP Error 404: Not Found"
+   ]
   },
   "Dream Games": {
    "jobs": [],
@@ -521,13 +523,13 @@
     },
     {
      "title": "Engineering Director, Mobile (iOS/Android)",
-     "location": "Singapore, Singapore",
-     "url": "https://job-boards.greenhouse.io/okx/jobs/7777137003"
+     "location": "Hong Kong, Hong Kong SAR",
+     "url": "https://job-boards.greenhouse.io/okx/jobs/7777138003"
     },
     {
      "title": "Engineering Director, Mobile (iOS/Android)",
-     "location": "Hong Kong, Hong Kong SAR",
-     "url": "https://job-boards.greenhouse.io/okx/jobs/7777138003"
+     "location": "Singapore, Singapore",
+     "url": "https://job-boards.greenhouse.io/okx/jobs/7777137003"
     },
     {
      "title": "Engineering Director, Mobile, Web3",
@@ -546,13 +548,13 @@
     },
     {
      "title": "Principal/Senior Software Engineer, Mobile, CEX",
-     "location": "Singapore, Singapore",
-     "url": "https://job-boards.greenhouse.io/okx/jobs/7768121003"
+     "location": "Hong Kong, Hong Kong SAR",
+     "url": "https://job-boards.greenhouse.io/okx/jobs/7768122003"
     },
     {
      "title": "Principal/Senior Software Engineer, Mobile, CEX",
-     "location": "Hong Kong, Hong Kong SAR",
-     "url": "https://job-boards.greenhouse.io/okx/jobs/7768122003"
+     "location": "Singapore, Singapore",
+     "url": "https://job-boards.greenhouse.io/okx/jobs/7768121003"
     },
     {
      "title": "Senior Mobile Engineer (Card & Payment)",
@@ -576,13 +578,13 @@
     },
     {
      "title": "Senior Staff Software Engineer, Mobile Infrastructure",
-     "location": "Singapore, Singapore",
-     "url": "https://job-boards.greenhouse.io/okx/jobs/7777031003"
+     "location": "Hong Kong, Hong Kong SAR",
+     "url": "https://job-boards.greenhouse.io/okx/jobs/7777032003"
     },
     {
      "title": "Senior Staff Software Engineer, Mobile Infrastructure",
-     "location": "Hong Kong, Hong Kong SAR",
-     "url": "https://job-boards.greenhouse.io/okx/jobs/7777032003"
+     "location": "Singapore, Singapore",
+     "url": "https://job-boards.greenhouse.io/okx/jobs/7777031003"
     },
     {
      "title": "Senior/Staff Software Engineer, Mobile Trading",
@@ -606,13 +608,13 @@
     },
     {
      "title": "Software Engineer, Mobile, Web3",
-     "location": "Singapore, Singapore",
-     "url": "https://job-boards.greenhouse.io/okx/jobs/7777043003"
+     "location": "Hong Kong, Hong Kong SAR",
+     "url": "https://job-boards.greenhouse.io/okx/jobs/7777044003"
     },
     {
      "title": "Software Engineer, Mobile, Web3",
-     "location": "Hong Kong, Hong Kong SAR",
-     "url": "https://job-boards.greenhouse.io/okx/jobs/7777044003"
+     "location": "Singapore, Singapore",
+     "url": "https://job-boards.greenhouse.io/okx/jobs/7777043003"
     },
     {
      "title": "Software / Senior Software Engineer, Mobile",
@@ -631,13 +633,13 @@
     },
     {
      "title": "Staff Software Engineer, Mobile Security",
-     "location": "Singapore, Singapore",
-     "url": "https://job-boards.greenhouse.io/okx/jobs/7795765003"
+     "location": "Hong Kong, Hong Kong SAR",
+     "url": "https://job-boards.greenhouse.io/okx/jobs/7795766003"
     },
     {
      "title": "Staff Software Engineer, Mobile Security",
-     "location": "Hong Kong, Hong Kong SAR",
-     "url": "https://job-boards.greenhouse.io/okx/jobs/7795766003"
+     "location": "Singapore, Singapore",
+     "url": "https://job-boards.greenhouse.io/okx/jobs/7795765003"
     }
    ],
    "errors": []
@@ -998,6 +1000,10 @@
      "url": "https://jobs.lever.co/zopa/8ee00aac-59e0-49a4-afc5-2e8a33a0f665"
     }
    ],
+   "errors": []
+  },
+  "bol.com": {
+   "jobs": [],
    "errors": []
   }
  }
