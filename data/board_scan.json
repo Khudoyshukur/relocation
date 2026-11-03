@@ -1,5 +1,5 @@
 {
- "scannedAt": "2026-11-03T06:53:23Z",
+ "scannedAt": "2026-11-03T16:18:42Z",
  "companies": {
   "adjoe": {
    "jobs": [
@@ -68,11 +68,6 @@
   "Backbase": {
    "jobs": [
     {
-     "title": "AI Applied Software Engineer (Android)",
-     "location": "Krakow",
-     "url": "https://job-boards.greenhouse.io/workatbackbase/jobs/8207475"
-    },
-    {
      "title": "Senior AI Applied Software Engineer  (Android)",
      "location": "Krakow",
      "url": "https://job-boards.greenhouse.io/workatbackbase/jobs/8158974"
@@ -98,6 +93,11 @@
   "Binance": {
    "jobs": [
     {
+     "title": "Android Engineer, Futures",
+     "location": "Hong Kong; Taiwan",
+     "url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002677101"
+    },
+    {
      "title": "Android Engineer - Risk Control",
      "location": "Hong Kong; Singapore; Taiwan",
      "url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002705101"
@@ -106,11 +106,6 @@
      "title": "Senior Android Developer - Cryptographic",
      "location": "Hong Kong; Singapore; Taiwan",
      "url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002707101"
-    },
-    {
-     "title": "Senior Android Engineer, Futures",
-     "location": "Hong Kong; Taiwan",
-     "url": "https://job-boards.eu.greenhouse.io/binance/jobs/5002677101"
     }
    ],
    "errors": []
@@ -523,13 +518,13 @@
     },
     {
      "title": "Engineering Director, Mobile (iOS/Android)",
-     "location": "Singapore, Singapore",
-     "url": "https://job-boards.greenhouse.io/okx/jobs/7777137003"
+     "location": "Hong Kong, Hong Kong SAR",
+     "url": "https://job-boards.greenhouse.io/okx/jobs/7777138003"
     },
     {
      "title": "Engineering Director, Mobile (iOS/Android)",
-     "location": "Hong Kong, Hong Kong SAR",
-     "url": "https://job-boards.greenhouse.io/okx/jobs/7777138003"
+     "location": "Singapore, Singapore",
+     "url": "https://job-boards.greenhouse.io/okx/jobs/7777137003"
     },
     {
      "title": "Engineering Director, Mobile, Web3",
@@ -608,13 +603,13 @@
     },
     {
      "title": "Software Engineer, Mobile, Web3",
-     "location": "Hong Kong, Hong Kong SAR",
-     "url": "https://job-boards.greenhouse.io/okx/jobs/7777044003"
+     "location": "Singapore, Singapore",
+     "url": "https://job-boards.greenhouse.io/okx/jobs/7777043003"
     },
     {
      "title": "Software Engineer, Mobile, Web3",
-     "location": "Singapore, Singapore",
-     "url": "https://job-boards.greenhouse.io/okx/jobs/7777043003"
+     "location": "Hong Kong, Hong Kong SAR",
+     "url": "https://job-boards.greenhouse.io/okx/jobs/7777044003"
     },
     {
      "title": "Software / Senior Software Engineer, Mobile",
@@ -682,6 +677,11 @@
      "title": "Senior Android Engineer - AI Product",
      "location": "Paris, France",
      "url": "https://jobs.ashbyhq.com/qonto/f0e01524-39cd-4353-b26e-a7044f95dcdf"
+    },
+    {
+     "title": "Mobile Paid Acquisition Expert",
+     "location": "Paris, France",
+     "url": "https://jobs.ashbyhq.com/qonto/b62ed021-90e4-4d6d-8c1c-00f0bb324d80"
     }
    ],
    "errors": []
@@ -862,6 +862,11 @@
      "title": "Android Engineer (Paris)",
      "location": "Paris",
      "url": "https://traderepublic.com/en-de/about?jobId=7623536003&gh_jid=7623536003"
+    },
+    {
+     "title": "Senior Product Designer (Mobile)",
+     "location": "Headquarter",
+     "url": "https://traderepublic.com/en-de/about?jobId=5207557003&gh_jid=5207557003"
     }
    ],
    "errors": []

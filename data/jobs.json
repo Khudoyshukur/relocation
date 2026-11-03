@@ -740,5 +740,19 @@
     "postedAt": null,
     "foundAt": "2026-11-02T06:16:30Z",
     "closedAt": null
+  },
+  {
+    "id": "metanomaly-senior-android-engineer-8178f9",
+    "title": "Senior Android Engineer",
+    "company": "Metanomaly",
+    "location": "Tokyo, Japan",
+    "url": "https://japan-dev.com/jobs/metanomaly/metanomaly-senior-android-engineer-atwrf6",
+    "relocation": "confirmed",
+    "fit": "high",
+    "summary": "Senior Android role at the PixAI generative-AI team; no Japanese required. Posting says: \"This job offers visa support and relocation assistance for overseas applicants.\" Open, valid through 2026-12-11.",
+    "salary": null,
+    "postedAt": "2026-06-11",
+    "foundAt": "2026-11-03T16:21:06Z",
+    "closedAt": null
   }
 ]
