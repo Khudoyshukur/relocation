@@ -501,7 +501,7 @@
     "salary": null,
     "postedAt": "2026-10-26",
     "foundAt": "2026-10-27T04:52:15Z",
-    "closedAt": null
+    "closedAt": "2026-11-04T06:33:16Z"
   },
   {
     "id": "metaquotes-android-applications-developer-412d10",
@@ -753,6 +753,20 @@
     "salary": null,
     "postedAt": "2026-06-11",
     "foundAt": "2026-11-03T16:21:06Z",
+    "closedAt": null
+  },
+  {
+    "id": "rakuten-android-engineer-kotlin-and-java-9c0760",
+    "title": "Android Engineer (Kotlin and Java)",
+    "company": "Rakuten",
+    "location": "Tokyo, Japan",
+    "url": "https://japan-dev.com/jobs/rakuten/rakuten-android-engineerkotlin-and-java-oc2uvz",
+    "relocation": "confirmed",
+    "fit": "medium",
+    "summary": "Couldn't confirm it's still open: the page still shows Apply, but its structured data says valid through 2025-08-27. Senior-level (5+ years), Japanese not required; listing says \"Overseas visa sponsorship supported\" and \"offers visa support and relocation assistance for overseas applicants\".",
+    "salary": "¥6M-¥9M",
+    "postedAt": null,
+    "foundAt": "2026-11-04T06:33:16Z",
     "closedAt": null
   }
 ]
