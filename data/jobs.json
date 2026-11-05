@@ -207,7 +207,7 @@
     "salary": null,
     "postedAt": "2026-10-06",
     "foundAt": "2026-10-25T13:36:11Z",
-    "closedAt": null
+    "closedAt": "2026-11-05T06:56:30Z"
   },
   {
     "id": "wise-senior-android-engineer-design-systems-54aa88",
@@ -767,6 +767,20 @@
     "salary": "¥6M-¥9M",
     "postedAt": null,
     "foundAt": "2026-11-04T06:33:16Z",
+    "closedAt": null
+  },
+  {
+    "id": "bandlab-android-developer-audio-creation-tools-11faff",
+    "title": "Android Developer (Audio Creation Tools)",
+    "company": "BandLab",
+    "location": "Singapore, Singapore",
+    "url": "https://relocate.me/singapore/singapore/bandlab/android-developer-9253",
+    "relocation": "confirmed",
+    "fit": "medium",
+    "summary": "Posting seeks a \"strong middle/senior level Android developer\" and offers \"Remote working options or relocation sponsorship to sunny and cosmopolitan Singapore\", with visa services, housing help and a signing bonus. Page shows no closed notice but also no posting date.",
+    "salary": null,
+    "postedAt": null,
+    "foundAt": "2026-11-05T06:56:30Z",
     "closedAt": null
   }
 ]
