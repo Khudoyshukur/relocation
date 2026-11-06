@@ -179,7 +179,7 @@
     "salary": null,
     "postedAt": "2026-10-20",
     "foundAt": "2026-10-25T13:36:11Z",
-    "closedAt": null
+    "closedAt": "2026-11-06T06:56:20Z"
   },
   {
     "id": "deliveroo-senior-software-engineer-android-dafff4",
@@ -781,6 +781,20 @@
     "salary": null,
     "postedAt": null,
     "foundAt": "2026-11-05T06:56:30Z",
+    "closedAt": null
+  },
+  {
+    "id": "lunar-android-engineer-227657",
+    "title": "Android Engineer",
+    "company": "Lunar",
+    "location": "Aarhus, Denmark",
+    "url": "https://relocate.me/denmark/aarhus/lunar/android-engineer-8003",
+    "relocation": "confirmed",
+    "fit": "medium",
+    "summary": "Native Android role at a Nordic digital bank (fintech fits the candidate's banking background); asks for 3+ years of Android experience. Relocate.me lists an \"Advanced relocation package\" with \"visa services\". Couldn't confirm the posting date; the page shows no closed notice.",
+    "salary": null,
+    "postedAt": null,
+    "foundAt": "2026-11-06T06:56:20Z",
     "closedAt": null
   }
 ]
