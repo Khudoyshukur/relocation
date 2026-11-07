@@ -3223,5 +3223,35 @@
   ],
   "searchHint": "",
   "addedBy": "search"
+ },
+ {
+  "name": "Welltech",
+  "careersUrl": "https://welltech.com/careers/",
+  "locations": "Limassol",
+  "region": "Found by search",
+  "category": "Health & Fitness",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "search"
+ },
+ {
+  "name": "M-Tribes",
+  "careersUrl": "https://m-tribes.com/careers/",
+  "locations": "Hamburg",
+  "region": "Found by search",
+  "category": "Mobile agency",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "search"
+ },
+ {
+  "name": "Qardio",
+  "careersUrl": "https://www.qardio.com/careers/",
+  "locations": "Amsterdam",
+  "region": "Found by search",
+  "category": "Health tech",
+  "boards": [],
+  "searchHint": "",
+  "addedBy": "search"
  }
 ]

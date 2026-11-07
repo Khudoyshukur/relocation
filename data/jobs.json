@@ -824,5 +824,61 @@
     "postedAt": null,
     "foundAt": "2026-11-06T21:33:56Z",
     "closedAt": null
+  },
+  {
+    "id": "welltech-senior-android-engineer-yoga-go-e0ce68",
+    "title": "Senior Android Engineer (Yoga Go)",
+    "company": "Welltech",
+    "location": "Limassol, Cyprus",
+    "url": "https://relocate.me/cyprus/limassol/welltech/senior-android-engineer-yoga-go-10213",
+    "relocation": "confirmed",
+    "fit": "high",
+    "summary": "Listing advertises an \"Advanced relocation package\": flight ticket, moving money, temporary housing, housing search help and visa services. Kotlin, Compose, coroutines, CI/CD with Fastlane, OWASP mobile security as a plus.",
+    "salary": null,
+    "postedAt": null,
+    "foundAt": "2026-11-07T20:17:53Z",
+    "closedAt": null
+  },
+  {
+    "id": "m-tribes-senior-android-engineer-m-f-d-f67763",
+    "title": "Senior Android Engineer (m/f/d)",
+    "company": "M-Tribes",
+    "location": "Hamburg, Germany",
+    "url": "https://relocate.me/germany/hamburg/m-tribes/senior-android-engineer-6317",
+    "relocation": "confirmed",
+    "fit": "medium",
+    "summary": "Offer section says \"Visa sponsorship and relocation support\" (relocate.me tags the package as unverified). Kotlin, Android architecture components, English is enough; the stack mentions RxJava2/Dagger2, so it may be an older codebase.",
+    "salary": null,
+    "postedAt": null,
+    "foundAt": "2026-11-07T20:17:53Z",
+    "closedAt": null
+  },
+  {
+    "id": "qardio-senior-android-developer-e1cc87",
+    "title": "Senior Android Developer",
+    "company": "Qardio",
+    "location": "Amsterdam, Netherlands",
+    "url": "https://relocate.me/the-netherlands/amsterdam/qardio/senior-android-developer-6239",
+    "relocation": "confirmed",
+    "fit": "medium",
+    "summary": "Benefits list visa sponsorship (relocate.me tags the relocation package as unverified). Asks for 5+ years Android SDK, Kotlin/Java, performance and security practices; BLE is a plus, which is a different domain from banking.",
+    "salary": null,
+    "postedAt": null,
+    "foundAt": "2026-11-07T20:17:53Z",
+    "closedAt": null
+  },
+  {
+    "id": "delivery-hero-software-engineer-ii-android-vendor-27c577",
+    "title": "Software Engineer II, Android (Vendor)",
+    "company": "Delivery Hero",
+    "location": "Berlin, Germany",
+    "url": "https://jobs.smartrecruiters.com/deliveryhero/744000160238611",
+    "relocation": "likely",
+    "fit": "medium",
+    "summary": "Mid-level Kotlin/Android role, full-time, hybrid in Berlin. The posting links a Berlin relocation guide and relocation hub but doesn't mention visa sponsorship; Delivery Hero is a known relocation employer.",
+    "salary": null,
+    "postedAt": null,
+    "foundAt": "2026-11-07T20:17:53Z",
+    "closedAt": null
   }
 ]
