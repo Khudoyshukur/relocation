@@ -908,5 +908,47 @@
     "postedAt": "2026-10-09",
     "foundAt": "2026-11-08T15:19:03Z",
     "closedAt": null
+  },
+  {
+    "id": "smartnews-software-engineer-android-9486fc",
+    "title": "Software Engineer, Android",
+    "company": "SmartNews",
+    "location": "Tokyo, Japan",
+    "url": "https://relocate.me/japan/tokyo/smartnews/software-engineer-android-9230",
+    "relocation": "confirmed",
+    "fit": "high",
+    "summary": "Business-level English only (no Japanese stated), 3-5+ years Android. \"For candidates who meet eligibility requirements, SmartNews can sponsor visas\", plus an advanced relocation package (visa services, flight, temporary housing).",
+    "salary": null,
+    "postedAt": null,
+    "foundAt": "2026-11-08T20:32:46Z",
+    "closedAt": null
+  },
+  {
+    "id": "welltech-senior-android-engineer-platform-660911",
+    "title": "Senior Android Engineer (Platform)",
+    "company": "Welltech",
+    "location": "Limassol, Cyprus",
+    "url": "https://relocate.me/cyprus/limassol/welltech/android-engineer-platform-10172",
+    "relocation": "confirmed",
+    "fit": "high",
+    "summary": "Senior Android platform role. Advanced relocation package listed: visa services, flight tickets, temporary housing, moving-expense money.",
+    "salary": null,
+    "postedAt": null,
+    "foundAt": "2026-11-08T20:32:46Z",
+    "closedAt": null
+  },
+  {
+    "id": "exness-android-developer-bf25b6",
+    "title": "Android Developer",
+    "company": "Exness",
+    "location": "Limassol, Cyprus",
+    "url": "https://relocate.me/cyprus/limassol/exness/android-developer-9277",
+    "relocation": "confirmed",
+    "fit": "medium",
+    "summary": "Needs 3+ years Java/Kotlin on Android. \"If you decide to relocate to Cyprus, we offer\" flights, first-month accommodation and migration support.",
+    "salary": null,
+    "postedAt": null,
+    "foundAt": "2026-11-08T20:32:46Z",
+    "closedAt": null
   }
 ]
