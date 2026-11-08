@@ -880,5 +880,19 @@
     "postedAt": null,
     "foundAt": "2026-11-07T20:17:53Z",
     "closedAt": null
+  },
+  {
+    "id": "flixbus-flix-senior-software-engineer-android-serv-ea4872",
+    "title": "Senior Software Engineer (Android) - Service Agreement",
+    "company": "FlixBus (Flix)",
+    "location": "Warsaw, Poland",
+    "url": "https://flix.careers/job/8873997002",
+    "relocation": "likely",
+    "fit": "medium",
+    "summary": "Senior Android role (6+ years, Kotlin, Compose, Coroutines) matching the profile. The application form asks \"Do you require visa/residence sponsorship to be employed in Poland?\", which suggests sponsorship is possible, but the role is a B2B service agreement, so confirm terms.",
+    "salary": null,
+    "postedAt": null,
+    "foundAt": "2026-11-08T06:10:05Z",
+    "closedAt": null
   }
 ]
