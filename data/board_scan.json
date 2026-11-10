@@ -1,5 +1,5 @@
 {
- "scannedAt": "2026-11-10T07:24:22Z",
+ "scannedAt": "2026-11-10T16:26:36Z",
  "companies": {
   "adjoe": {
    "jobs": [
@@ -395,16 +395,6 @@
      "title": "Senior Mobile Engineer (React Native), Shopping AI & Search",
      "location": "Warszawa, Masovian Voivodeship, Poland",
      "url": "https://careers.hellofresh.com/global/en/job/8280995?gh_jid=8280995"
-    },
-    {
-     "title": "Senior Mobile Product Engineer, Intelligent Platforms (all genders)",
-     "location": "Warszawa, Masovian Voivodeship, Poland",
-     "url": "https://careers.hellofresh.com/global/en/job/8173865?gh_jid=8173865"
-    },
-    {
-     "title": "Senior Mobile Product Engineer, Menu Discovery",
-     "location": "Warszawa, Masovian Voivodeship, Poland",
-     "url": "https://careers.hellofresh.com/global/en/job/8278820?gh_jid=8278820"
     }
    ],
    "errors": []
@@ -553,13 +543,13 @@
     },
     {
      "title": "Principal/Senior Software Engineer, Mobile, CEX",
-     "location": "Singapore, Singapore",
-     "url": "https://job-boards.greenhouse.io/okx/jobs/7768121003"
+     "location": "Hong Kong, Hong Kong SAR",
+     "url": "https://job-boards.greenhouse.io/okx/jobs/7768122003"
     },
     {
      "title": "Principal/Senior Software Engineer, Mobile, CEX",
-     "location": "Hong Kong, Hong Kong SAR",
-     "url": "https://job-boards.greenhouse.io/okx/jobs/7768122003"
+     "location": "Singapore, Singapore",
+     "url": "https://job-boards.greenhouse.io/okx/jobs/7768121003"
     },
     {
      "title": "Senior Mobile Engineer (Card & Payment)",
@@ -613,13 +603,13 @@
     },
     {
      "title": "Software Engineer, Mobile, Web3",
-     "location": "Hong Kong, Hong Kong SAR",
-     "url": "https://job-boards.greenhouse.io/okx/jobs/7777044003"
+     "location": "Singapore, Singapore",
+     "url": "https://job-boards.greenhouse.io/okx/jobs/7777043003"
     },
     {
      "title": "Software Engineer, Mobile, Web3",
-     "location": "Singapore, Singapore",
-     "url": "https://job-boards.greenhouse.io/okx/jobs/7777043003"
+     "location": "Hong Kong, Hong Kong SAR",
+     "url": "https://job-boards.greenhouse.io/okx/jobs/7777044003"
     },
     {
      "title": "Software / Senior Software Engineer, Mobile",
@@ -638,13 +628,13 @@
     },
     {
      "title": "Staff Software Engineer, Mobile Security",
-     "location": "Singapore, Singapore",
-     "url": "https://job-boards.greenhouse.io/okx/jobs/7795765003"
+     "location": "Hong Kong, Hong Kong SAR",
+     "url": "https://job-boards.greenhouse.io/okx/jobs/7795766003"
     },
     {
      "title": "Staff Software Engineer, Mobile Security",
-     "location": "Hong Kong, Hong Kong SAR",
-     "url": "https://job-boards.greenhouse.io/okx/jobs/7795766003"
+     "location": "Singapore, Singapore",
+     "url": "https://job-boards.greenhouse.io/okx/jobs/7795765003"
     }
    ],
    "errors": []
@@ -683,6 +673,11 @@
   },
   "Qonto": {
    "jobs": [
+    {
+     "title": "Senior Android Engineer - AI Agents",
+     "location": "Paris, France",
+     "url": "https://jobs.ashbyhq.com/qonto/f0e01524-39cd-4353-b26e-a7044f95dcdf"
+    },
     {
      "title": "Mobile Paid Acquisition Expert",
      "location": "Paris, France",
@@ -998,11 +993,6 @@
      "title": "Java/Kotlin Software Engineer - Manchester",
      "location": "Manchester",
      "url": "https://jobs.lever.co/zopa/fd815001-859f-447f-96e1-6f38026636e5"
-    },
-    {
-     "title": "Mobile Engineering Manager",
-     "location": "London",
-     "url": "https://jobs.lever.co/zopa/1f3c8eea-7402-4a10-aa32-82ea400a4131"
     },
     {
      "title": "Senior Java/Kotlin Software Engineer - London",
