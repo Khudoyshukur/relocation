@@ -978,5 +978,19 @@
     "postedAt": "2026-08-19",
     "foundAt": "2026-11-10T16:28:18Z",
     "closedAt": null
+  },
+  {
+    "id": "trainline-android-engineer-101a22",
+    "title": "Android Engineer",
+    "company": "Trainline",
+    "location": "Barcelona, Spain",
+    "url": "https://jobs.ashbyhq.com/trainline/659ea489-5875-4e39-912e-936c44188cfa",
+    "relocation": "likely",
+    "fit": "high",
+    "summary": "Posted 2026-11-11 and open on Trainline's Ashby board. Stack is Kotlin, Coroutines, Jetpack Compose and Dagger, with a focus on app quality metrics. The posting has no relocation wording; Trainline is a known relocator.",
+    "salary": null,
+    "postedAt": "2026-11-11",
+    "foundAt": "2026-11-11T22:46:27Z",
+    "closedAt": null
   }
 ]
