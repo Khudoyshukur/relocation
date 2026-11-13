@@ -1020,5 +1020,47 @@
     "postedAt": null,
     "foundAt": "2026-11-13T06:53:29Z",
     "closedAt": null
+  },
+  {
+    "id": "uber-amsterdam-senior-software-engineer-android-pa-dd9511",
+    "title": "Senior Software Engineer, Android, Payments Experience",
+    "company": "Uber (Amsterdam)",
+    "location": "Amsterdam, Netherlands",
+    "url": "https://www.themuse.com/jobs/uber/senior-software-engineer-android-payments-experience",
+    "relocation": "likely",
+    "fit": "high",
+    "summary": "Couldn't open the posting (site blocks bots); check it's still open. Senior native Android role on Uber's payments team in Amsterdam (6+ years Android); Uber hires internationally for Amsterdam, but no relocation wording was seen.",
+    "salary": null,
+    "postedAt": null,
+    "foundAt": "2026-11-13T16:33:06Z",
+    "closedAt": null
+  },
+  {
+    "id": "uber-amsterdam-senior-software-engineer-android-ch-03f369",
+    "title": "Senior Software Engineer, Android, Checkout Platform",
+    "company": "Uber (Amsterdam)",
+    "location": "Amsterdam, Netherlands",
+    "url": "https://www.themuse.com/jobs/uber/senior-software-engineer-android-checkout-platform",
+    "relocation": "likely",
+    "fit": "medium",
+    "summary": "Couldn't open the posting (site blocks bots); check it's still open. Android checkout platform code used across Uber apps; fintech-adjacent and a good fit for the payments background, but no relocation wording was seen.",
+    "salary": null,
+    "postedAt": null,
+    "foundAt": "2026-11-13T16:33:06Z",
+    "closedAt": null
+  },
+  {
+    "id": "tabby-senior-android-engineer-fb0479",
+    "title": "Senior Android Engineer",
+    "company": "Tabby",
+    "location": "Dubai, UAE",
+    "url": "https://www.gulftalent.com/uae/jobs/senior-android-engineer-511271",
+    "relocation": "likely",
+    "fit": "high",
+    "summary": "Couldn't open the posting (site blocks bots); check it's still open. Senior Android role on Tabby's core products in Dubai; Tabby is a fintech with an international team across 20+ countries.",
+    "salary": null,
+    "postedAt": null,
+    "foundAt": "2026-11-13T16:33:06Z",
+    "closedAt": null
   }
 ]
