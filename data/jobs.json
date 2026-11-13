@@ -347,7 +347,7 @@
     "salary": null,
     "postedAt": "2026-10-15",
     "foundAt": "2026-10-25T13:36:11Z",
-    "closedAt": null
+    "closedAt": "2026-11-13T06:53:29Z"
   },
   {
     "id": "grab-senior-software-engineer-mobile-android-consu-2a7f6b",
@@ -991,6 +991,34 @@
     "salary": null,
     "postedAt": "2026-11-11",
     "foundAt": "2026-11-11T22:46:27Z",
+    "closedAt": null
+  },
+  {
+    "id": "binance-mobile-security-engineer-android-web-e98204",
+    "title": "Mobile Security Engineer (Android / Web)",
+    "company": "Binance",
+    "location": "Singapore; Thailand; Australia; Hong Kong; Taiwan",
+    "url": "https://job-boards.eu.greenhouse.io/binance/jobs/5029666101",
+    "relocation": "likely",
+    "fit": "high",
+    "summary": "Risk SDK on Android (Java/Kotlin, NDK): root/hook/reverse-engineering detection, closely matching the candidate's native C++/JNI integrity-detection work. 3+ years required; no explicit visa wording in the posting. Posted 2026-11-12.",
+    "salary": null,
+    "postedAt": "2026-11-12",
+    "foundAt": "2026-11-13T06:53:29Z",
+    "closedAt": null
+  },
+  {
+    "id": "grab-software-engineer-mobile-android-c75404",
+    "title": "Software Engineer, Mobile (Android)",
+    "company": "Grab",
+    "location": "Petaling Jaya, Malaysia",
+    "url": "https://jobs.smartrecruiters.com/grab/744000160564912",
+    "relocation": "likely",
+    "fit": "medium",
+    "summary": "On-site Android role in the Integrity/safety team (Kotlin, 2+ years); Grab is known for regional hiring with visa support, but the posting has no explicit relocation wording. Mid-level, so slightly below target seniority.",
+    "salary": null,
+    "postedAt": null,
+    "foundAt": "2026-11-13T06:53:29Z",
     "closedAt": null
   }
 ]
