@@ -1,5 +1,5 @@
 {
- "scannedAt": "2026-11-16T06:37:01Z",
+ "scannedAt": "2026-11-16T18:37:31Z",
  "companies": {
   "adjoe": {
    "jobs": [
@@ -159,12 +159,12 @@
     {
      "title": "Mobile Development Engineer Intern",
      "location": "Hong Kong SAR; Kuala Lumpur, Malaysia",
-     "url": "https://job-boards.eu.greenhouse.io/bybit/jobs/5005977101"
+     "url": "https://job-boards.eu.greenhouse.io/bybit/jobs/5016935101"
     },
     {
      "title": "Mobile Development Engineer Intern",
      "location": "Hong Kong SAR; Kuala Lumpur, Malaysia",
-     "url": "https://job-boards.eu.greenhouse.io/bybit/jobs/5016935101"
+     "url": "https://job-boards.eu.greenhouse.io/bybit/jobs/5005977101"
     }
    ],
    "errors": []
@@ -214,6 +214,11 @@
      "title": "Senior, Android Engineer (Coupang Eats)  ",
      "location": "Seoul, South Korea",
      "url": "https://www.coupang.jobs/en/jobs/?gh_jid=6482283"
+    },
+    {
+     "title": "[쿠팡이츠] Senior, Android Engineer (Customer Android)  ",
+     "location": "Seoul, South Korea",
+     "url": "https://www.coupang.jobs/en/jobs/?gh_jid=8392212"
     },
     {
      "title": "Senior Staff Security Engineer, Mobile Security (Digital Trust)",
@@ -314,14 +319,14 @@
   "Duolingo": {
    "jobs": [
     {
+     "title": "Senior Software Engineer, Android",
+     "location": "New York, NY; Pittsburgh, PA",
+     "url": "https://careers.duolingo.com/jobs/8628658002?gh_jid=8628658002"
+    },
+    {
      "title": "Senior Software Engineer, Android, Monetization",
      "location": "Beijing, China",
      "url": "https://careers.duolingo.com/jobs/8702391002?gh_jid=8702391002"
-    },
-    {
-     "title": "Senior/Software Engineer II, Android",
-     "location": "New York, NY; Pittsburgh, PA",
-     "url": "https://careers.duolingo.com/jobs/8628658002?gh_jid=8628658002"
     }
    ],
    "errors": []
@@ -416,16 +421,6 @@
   },
   "HelloFresh": {
    "jobs": [
-    {
-     "title": "Mobile Staff Product Engineer, Platform/Infrastructure (all genders)",
-     "location": "Warszawa, Masovian Voivodeship, Poland",
-     "url": "https://careers.hellofresh.com/global/en/job/8028117?gh_jid=8028117"
-    },
-    {
-     "title": "Senior Mobile Engineer - React Native, Platform/Infrastructure (all genders)",
-     "location": "Warszawa, Masovian Voivodeship, Poland",
-     "url": "https://careers.hellofresh.com/global/en/job/8164248?gh_jid=8164248"
-    },
     {
      "title": "Senior Mobile Engineer (React Native), Shopping AI & Search",
      "location": "Warszawa, Masovian Voivodeship, Poland",
@@ -553,23 +548,23 @@
     },
     {
      "title": "Engineering Director, Mobile (iOS/Android)",
-     "location": "Singapore, Singapore",
-     "url": "https://job-boards.greenhouse.io/okx/jobs/7777137003"
-    },
-    {
-     "title": "Engineering Director, Mobile (iOS/Android)",
      "location": "Hong Kong, Hong Kong SAR",
      "url": "https://job-boards.greenhouse.io/okx/jobs/7777138003"
     },
     {
-     "title": "Engineering Director, Mobile, Web3",
-     "location": "Hong Kong, Hong Kong SAR",
-     "url": "https://job-boards.greenhouse.io/okx/jobs/7778748003"
+     "title": "Engineering Director, Mobile (iOS/Android)",
+     "location": "Singapore, Singapore",
+     "url": "https://job-boards.greenhouse.io/okx/jobs/7777137003"
     },
     {
      "title": "Engineering Director, Mobile, Web3",
      "location": "Singapore, Singapore",
      "url": "https://job-boards.greenhouse.io/okx/jobs/7778747003"
+    },
+    {
+     "title": "Engineering Director, Mobile, Web3",
+     "location": "Hong Kong, Hong Kong SAR",
+     "url": "https://job-boards.greenhouse.io/okx/jobs/7778748003"
     },
     {
      "title": "Principal/Senior Mobile Engineer, Trading Strategies, CEX",
@@ -578,13 +573,13 @@
     },
     {
      "title": "Principal/Senior Software Engineer, Mobile, CEX",
-     "location": "Hong Kong, Hong Kong SAR",
-     "url": "https://job-boards.greenhouse.io/okx/jobs/7768122003"
+     "location": "Singapore, Singapore",
+     "url": "https://job-boards.greenhouse.io/okx/jobs/7768121003"
     },
     {
      "title": "Principal/Senior Software Engineer, Mobile, CEX",
-     "location": "Singapore, Singapore",
-     "url": "https://job-boards.greenhouse.io/okx/jobs/7768121003"
+     "location": "Hong Kong, Hong Kong SAR",
+     "url": "https://job-boards.greenhouse.io/okx/jobs/7768122003"
     },
     {
      "title": "Senior Mobile Engineer (Card & Payment)",
@@ -608,13 +603,13 @@
     },
     {
      "title": "Senior Staff Software Engineer, Mobile Infrastructure",
-     "location": "Hong Kong, Hong Kong SAR",
-     "url": "https://job-boards.greenhouse.io/okx/jobs/7777032003"
+     "location": "Singapore, Singapore",
+     "url": "https://job-boards.greenhouse.io/okx/jobs/7777031003"
     },
     {
      "title": "Senior Staff Software Engineer, Mobile Infrastructure",
-     "location": "Singapore, Singapore",
-     "url": "https://job-boards.greenhouse.io/okx/jobs/7777031003"
+     "location": "Hong Kong, Hong Kong SAR",
+     "url": "https://job-boards.greenhouse.io/okx/jobs/7777032003"
     },
     {
      "title": "Senior/Staff Software Engineer, Mobile Trading",
@@ -805,11 +800,6 @@
      "title": "Android Engineer, Terminal - CA",
      "location": "Toronto, CA",
      "url": "https://stripe.com/jobs/search?gh_jid=8274893"
-    },
-    {
-     "title": "Engineering Manager, Mobile Development Productivity",
-     "location": "US-Remote",
-     "url": "https://stripe.com/jobs/search?gh_jid=8229361"
     },
     {
      "title": "Mobile Engineer, Treasury",
