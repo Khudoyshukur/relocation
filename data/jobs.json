@@ -53,7 +53,7 @@
     "salary": null,
     "postedAt": null,
     "foundAt": "2026-10-25T12:58:40Z",
-    "closedAt": null
+    "closedAt": "2026-11-18T17:20:22Z"
   },
   {
     "id": "sumup-senior-android-engineer-kmp-ef2551",
@@ -1103,6 +1103,20 @@
     "salary": null,
     "postedAt": null,
     "foundAt": "2026-11-17T08:01:09Z",
+    "closedAt": null
+  },
+  {
+    "id": "kama-capital-mobile-application-developer-kotlin-j-57a65f",
+    "title": "Mobile Application Developer (Kotlin/Jetpack Compose)",
+    "company": "Kama Capital",
+    "location": "Dubai, United Arab Emirates",
+    "url": "https://jaabz.com/jobs/302346-mobile-application-developer",
+    "relocation": "confirmed",
+    "fit": "medium",
+    "summary": "Kotlin/Jetpack Compose Android role in a Dubai finance company, 2-5 years required (junior side of the target range). Tagged visa sponsorship; benefits list \"Residence visa coverage including qualified dependents\".",
+    "salary": null,
+    "postedAt": "2026-11-11",
+    "foundAt": "2026-11-18T17:20:22Z",
     "closedAt": null
   }
 ]
