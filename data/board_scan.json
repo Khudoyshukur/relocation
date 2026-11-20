@@ -1,5 +1,5 @@
 {
- "scannedAt": "2026-11-19T17:24:41Z",
+ "scannedAt": "2026-11-20T07:22:12Z",
  "companies": {
   "adjoe": {
    "jobs": [
@@ -154,12 +154,12 @@
     {
      "title": "Mobile Development Engineer Intern",
      "location": "Hong Kong SAR; Kuala Lumpur, Malaysia",
-     "url": "https://job-boards.eu.greenhouse.io/bybit/jobs/5005977101"
+     "url": "https://job-boards.eu.greenhouse.io/bybit/jobs/5016935101"
     },
     {
      "title": "Mobile Development Engineer Intern",
      "location": "Hong Kong SAR; Kuala Lumpur, Malaysia",
-     "url": "https://job-boards.eu.greenhouse.io/bybit/jobs/5016935101"
+     "url": "https://job-boards.eu.greenhouse.io/bybit/jobs/5005977101"
     }
    ],
    "errors": []
@@ -547,13 +547,13 @@
     },
     {
      "title": "Engineering Director, Mobile, Web3",
-     "location": "Hong Kong, Hong Kong SAR",
-     "url": "https://job-boards.greenhouse.io/okx/jobs/7778748003"
+     "location": "Singapore, Singapore",
+     "url": "https://job-boards.greenhouse.io/okx/jobs/7778747003"
     },
     {
      "title": "Engineering Director, Mobile, Web3",
-     "location": "Singapore, Singapore",
-     "url": "https://job-boards.greenhouse.io/okx/jobs/7778747003"
+     "location": "Hong Kong, Hong Kong SAR",
+     "url": "https://job-boards.greenhouse.io/okx/jobs/7778748003"
     },
     {
      "title": "Principal/Senior Mobile Engineer, Trading Strategies, CEX",
@@ -562,13 +562,13 @@
     },
     {
      "title": "Principal/Senior Software Engineer, Mobile, CEX",
-     "location": "Singapore, Singapore",
-     "url": "https://job-boards.greenhouse.io/okx/jobs/7768121003"
+     "location": "Hong Kong, Hong Kong SAR",
+     "url": "https://job-boards.greenhouse.io/okx/jobs/7768122003"
     },
     {
      "title": "Principal/Senior Software Engineer, Mobile, CEX",
-     "location": "Hong Kong, Hong Kong SAR",
-     "url": "https://job-boards.greenhouse.io/okx/jobs/7768122003"
+     "location": "Singapore, Singapore",
+     "url": "https://job-boards.greenhouse.io/okx/jobs/7768121003"
     },
     {
      "title": "Senior Mobile Engineer (Card & Payment)",
@@ -622,13 +622,13 @@
     },
     {
      "title": "Software Engineer, Mobile, Web3",
-     "location": "Singapore, Singapore",
-     "url": "https://job-boards.greenhouse.io/okx/jobs/7777043003"
+     "location": "Hong Kong, Hong Kong SAR",
+     "url": "https://job-boards.greenhouse.io/okx/jobs/7777044003"
     },
     {
      "title": "Software Engineer, Mobile, Web3",
-     "location": "Hong Kong, Hong Kong SAR",
-     "url": "https://job-boards.greenhouse.io/okx/jobs/7777044003"
+     "location": "Singapore, Singapore",
+     "url": "https://job-boards.greenhouse.io/okx/jobs/7777043003"
     },
     {
      "title": "Software / Senior Software Engineer, Mobile",
@@ -647,13 +647,13 @@
     },
     {
      "title": "Staff Software Engineer, Mobile Security",
-     "location": "Singapore, Singapore",
-     "url": "https://job-boards.greenhouse.io/okx/jobs/7795765003"
+     "location": "Hong Kong, Hong Kong SAR",
+     "url": "https://job-boards.greenhouse.io/okx/jobs/7795766003"
     },
     {
      "title": "Staff Software Engineer, Mobile Security",
-     "location": "Hong Kong, Hong Kong SAR",
-     "url": "https://job-boards.greenhouse.io/okx/jobs/7795766003"
+     "location": "Singapore, Singapore",
+     "url": "https://job-boards.greenhouse.io/okx/jobs/7795765003"
     }
    ],
    "errors": []
@@ -799,6 +799,11 @@
      "title": "Staff Product Manager, Mobile",
      "location": "New York City, Toronto, Chicago, EMEA, or Remote",
      "url": "https://stripe.com/jobs/search?gh_jid=8140438"
+    },
+    {
+     "title": "Staff Software Engineer, Mobile Development Productivity",
+     "location": "na",
+     "url": "https://stripe.com/jobs/search?gh_jid=8404115"
     }
    ],
    "errors": []
@@ -987,10 +992,29 @@
    "errors": []
   },
   "Zopa": {
-   "jobs": [],
-   "errors": [
-    "lever:zopa: The read operation timed out"
-   ]
+   "jobs": [
+    {
+     "title": "Android Engineer",
+     "location": "London",
+     "url": "https://jobs.lever.co/zopa/b7c4f329-9bbc-4bfc-b90d-d0fee58d30fb"
+    },
+    {
+     "title": "Java/Kotlin Software Engineer - London",
+     "location": "London",
+     "url": "https://jobs.lever.co/zopa/37193ff4-2050-407e-ae17-79aa956d444c"
+    },
+    {
+     "title": "Java/Kotlin Software Engineer - Manchester",
+     "location": "Manchester",
+     "url": "https://jobs.lever.co/zopa/fd815001-859f-447f-96e1-6f38026636e5"
+    },
+    {
+     "title": "Senior Java/Kotlin Software Engineer - London",
+     "location": "London",
+     "url": "https://jobs.lever.co/zopa/8ee00aac-59e0-49a4-afc5-2e8a33a0f665"
+    }
+   ],
+   "errors": []
   },
   "bol.com": {
    "jobs": [],
